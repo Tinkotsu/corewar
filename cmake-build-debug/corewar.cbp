@@ -44,6 +44,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/cygdrive/c/Users/Roman/Desktop/corewar/includes"/>
+					<Add directory="/cygdrive/c/Users/Roman/Desktop/corewar/libft/includes"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
@@ -62,6 +64,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/cygdrive/c/Users/Roman/Desktop/corewar/includes"/>
+					<Add directory="/cygdrive/c/Users/Roman/Desktop/corewar/libft/includes"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
@@ -74,7 +78,253 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/main.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/includes/corewar.h">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/includes/op.h">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/includes/get_next_line.h">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/includes/libft.h">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_atoi.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_bzero.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_clearing.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_freep.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isalnum.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isalpha.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isascii.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isdigit.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_islower.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isnumber.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isprint.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isspace.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isupper.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_itoa.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstadd.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstdel.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstdelone.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstfree.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstiter.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstmap.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstnew.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstpushback.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memalloc.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memccpy.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memchr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memcmp.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memcpy.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memdel.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memmove.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memset.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putchar.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putchar_fd.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putendl.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putendl_fd.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putnbr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putnbr_fd.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putstr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putstr_fd.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_realloc.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_sort_params.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_sqrt.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strcat.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strchr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strclr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strcmp.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strcpy.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strdel.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strdup.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strequ.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_striter.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_striteri.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strjoin.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strlcat.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strlen.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strmap.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strmapi.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strncat.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strncmp.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strncpy.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strnequ.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strnew.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strnstr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strrchr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strsplit.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strsplit_full.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strstr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strsub.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strtrim.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_swap.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_tolower.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_toupper.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_ull_pow.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/get_next_line.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/gnl_free_fd.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar_init.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/error.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/main.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/parse_players.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/players_init.c">
 			<Option target="corewar"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/CMakeLists.txt">

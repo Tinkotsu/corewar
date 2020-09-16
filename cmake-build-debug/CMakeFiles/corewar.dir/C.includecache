@@ -6,7 +6,45 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Roman/Desktop/corewar/main.c
-stdio.h
+../includes/corewar.h
+stdlib.h
 -
+op.h
+../includes/op.h
+libft.h
+../includes/libft.h
+
+../includes/op.h
+
+../libft/includes/get_next_line.h
+
+../libft/includes/libft.h
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+get_next_line.h
+-
+
+/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar_init.c
+corewar.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
+
+/cygdrive/c/Users/Roman/Desktop/corewar/src/error.c
+corewar.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
+
+/cygdrive/c/Users/Roman/Desktop/corewar/src/main.c
+corewar.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
+
+/cygdrive/c/Users/Roman/Desktop/corewar/src/parse_players.c
+corewar.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
+
+/cygdrive/c/Users/Roman/Desktop/corewar/src/players_init.c
+corewar.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
 
