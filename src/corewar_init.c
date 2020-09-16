@@ -73,5 +73,6 @@ void        corewar_init(int argc, char **argv, t_cw *cw)
     cw->game_cycles = 0;
     cw->live_operations = 0;
     cw->checks_performed = 0;
+    cw->arena = NULL;
     mem_players(cw);
 }

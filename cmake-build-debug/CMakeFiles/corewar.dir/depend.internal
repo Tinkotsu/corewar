@@ -305,6 +305,12 @@ CMakeFiles/corewar.dir/src/error.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
  /cygdrive/c/Users/Roman/Desktop/corewar/src/error.c
+CMakeFiles/corewar.dir/src/game_init.c.o
+ ../includes/corewar.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/game_init.c
 CMakeFiles/corewar.dir/src/main.c.o
  ../includes/corewar.h
  ../includes/op.h

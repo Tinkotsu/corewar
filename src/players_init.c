@@ -8,6 +8,7 @@ static void player_init(int id, char *filename, t_player *player)
     ft_bzero(player->comment, COMMENT_LENGTH + 1);
     player->exec_size = 0;
     player->exec_code = NULL;
+    player->starting_point = 0;
 }
 
 static int  is_duplicate(int id, t_cw *cw)

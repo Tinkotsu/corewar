@@ -9,6 +9,7 @@ int main(int argc, char **argv)
     corewar_init(argc, argv, &cw);
     players_init(argc, argv, &cw);
     parse_players(&cw);
+    game_init(&cw);
     ft_putendl("Success!");
     return (0);
 }

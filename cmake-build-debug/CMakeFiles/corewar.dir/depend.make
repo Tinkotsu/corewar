@@ -305,6 +305,12 @@ CMakeFiles/corewar.dir/src/error.c.o: ../libft/includes/get_next_line.h
 CMakeFiles/corewar.dir/src/error.c.o: ../libft/includes/libft.h
 CMakeFiles/corewar.dir/src/error.c.o: ../src/error.c
 
+CMakeFiles/corewar.dir/src/game_init.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/game_init.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/game_init.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/game_init.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/game_init.c.o: ../src/game_init.c
+
 CMakeFiles/corewar.dir/src/main.c.o: ../includes/corewar.h
 CMakeFiles/corewar.dir/src/main.c.o: ../includes/op.h
 CMakeFiles/corewar.dir/src/main.c.o: ../libft/includes/get_next_line.h

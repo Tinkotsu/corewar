@@ -86,4 +86,4 @@ add_executable(corewar
         libft/srcs/get_next_line.c
         libft/srcs/gnl_free_fd.c
         src/corewar_init.c
-        src/main.c src/error.c src/players_init.c src/parse_players.c)
+        src/main.c src/error.c src/players_init.c src/parse_players.c src/game_init.c)

@@ -318,6 +318,9 @@
 		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/error.c">
 			<Option target="corewar"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/game_init.c">
+			<Option target="corewar"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/main.c">
 			<Option target="corewar"/>
 		</Unit>

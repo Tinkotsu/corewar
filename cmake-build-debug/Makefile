@@ -2195,6 +2195,33 @@ src/error.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/error.c.s
 .PHONY : src/error.c.s
 
+src/game_init.o: src/game_init.c.o
+
+.PHONY : src/game_init.o
+
+# target to build an object file
+src/game_init.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/game_init.c.o
+.PHONY : src/game_init.c.o
+
+src/game_init.i: src/game_init.c.i
+
+.PHONY : src/game_init.i
+
+# target to preprocess a source file
+src/game_init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/game_init.c.i
+.PHONY : src/game_init.c.i
+
+src/game_init.s: src/game_init.c.s
+
+.PHONY : src/game_init.s
+
+# target to generate assembly for a file
+src/game_init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/game_init.c.s
+.PHONY : src/game_init.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -2513,6 +2540,9 @@ help:
 	@echo "... src/error.o"
 	@echo "... src/error.i"
 	@echo "... src/error.s"
+	@echo "... src/game_init.o"
+	@echo "... src/game_init.i"
+	@echo "... src/game_init.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

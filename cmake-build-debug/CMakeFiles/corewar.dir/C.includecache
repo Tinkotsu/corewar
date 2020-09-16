@@ -7,12 +7,14 @@
 #IncludeRegexTransform: 
 
 ../includes/corewar.h
-stdlib.h
+fcntl.h
 -
 op.h
 ../includes/op.h
 libft.h
 ../includes/libft.h
+stdio.h
+-
 
 ../includes/op.h
 
@@ -28,23 +30,7 @@ string.h
 get_next_line.h
 -
 
-/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar_init.c
-corewar.h
-/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
-
-/cygdrive/c/Users/Roman/Desktop/corewar/src/error.c
-corewar.h
-/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
-
-/cygdrive/c/Users/Roman/Desktop/corewar/src/main.c
-corewar.h
-/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
-
-/cygdrive/c/Users/Roman/Desktop/corewar/src/parse_players.c
-corewar.h
-/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
-
-/cygdrive/c/Users/Roman/Desktop/corewar/src/players_init.c
+/cygdrive/c/Users/Roman/Desktop/corewar/src/game_init.c
 corewar.h
 /cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
 

@@ -80,6 +80,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/gnl_free_fd.c" "/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.o"
   "/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar_init.c" "/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/corewar.dir/src/corewar_init.c.o"
   "/cygdrive/c/Users/Roman/Desktop/corewar/src/error.c" "/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/corewar.dir/src/error.c.o"
+  "/cygdrive/c/Users/Roman/Desktop/corewar/src/game_init.c" "/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/corewar.dir/src/game_init.c.o"
   "/cygdrive/c/Users/Roman/Desktop/corewar/src/main.c" "/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/corewar.dir/src/main.c.o"
   "/cygdrive/c/Users/Roman/Desktop/corewar/src/parse_players.c" "/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/corewar.dir/src/parse_players.c.o"
   "/cygdrive/c/Users/Roman/Desktop/corewar/src/players_init.c" "/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/corewar.dir/src/players_init.c.o"
