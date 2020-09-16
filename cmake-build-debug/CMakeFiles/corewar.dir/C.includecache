@@ -24,11 +24,19 @@ string.h
 get_next_line.h
 -
 
-/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/long_mult.c
+/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/ft_printf.c
 ft_printf.h
 /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/ft_printf.h
 
-/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_width.c
+/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_dtoa.c
+ft_printf.h
+/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/ft_printf.h
+
+/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_type.c
+ft_printf.h
+/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/ft_printf.h
+
+/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/print_precision.c
 ft_printf.h
 /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/ft_printf.h
 

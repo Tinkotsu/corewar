@@ -19,7 +19,7 @@ static void		check_str(t_pf *s, const char **start)
 
 	while (*(s->str) == '%' || *(s->str) == '{')
 	{
-		n = ft_strlen(*start) - ft_strlen(s->str);
+		n = ft_strlen(*start) - (s->str ? ft_strlen(s->str) : 0);
 		s->len += n;
 		write(1, *start, n);
 		if (*(s->str) == '%' && *(++s->str))

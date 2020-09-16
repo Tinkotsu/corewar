@@ -14,16 +14,19 @@
 
 int	print_precision(t_pf *s)
 {
-	if (s->t != 's' && s->t != 'c' && s->t != 'C' && *s->value == '-')
+	if (s->t != 's' && s->t != 'c' && s->t != 'C' && *s->value == '-' && s->p)
 	{
 		ft_putchar(*s->value);
 		write(1, s->p, ft_strlen(s->p));
 		return (1);
 	}
-	if (s->ox == 1)
-		write(1, s->p, ft_strlen(s->p) - s->ox);
-	else if (s->p)
-		write(1, s->p, ft_strlen(s->p));
+	if(s->p)
+	{
+        if (s->ox == 1)
+            write(1, s->p, ft_strlen(s->p) - s->ox);
+        else
+            write(1, s->p, ft_strlen(s->p));
+    }
 	if (!s->p || s->ox != 1)
 		s->ox = 0;
 	return (0);

@@ -102,7 +102,7 @@ void		pf_type(t_pf *s)
 	size_t	i;
 
 	i = 0;
-	while (i < ft_strlen(s->types))
+	while (i < (s->types ? ft_strlen(s->types) : 0))
 	{
 		if (s->types[i] == *s->str && (s->t = *s->str))
 			break ;

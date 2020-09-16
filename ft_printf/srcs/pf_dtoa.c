@@ -80,7 +80,8 @@ static void	def_dec_part(t_pf *s, char *mantisa, int exp)
 		s->count_of_0 = find_last(mantisa, 64, '1') - s->b++;
 		gain_str(gain_array(exp, 5, 27), s);
 		if (s->first_len == -1)
-			s->first_len = abs(exp) - (int)ft_strlen(s->cur) + s->count_of_0;
+			s->first_len = abs(exp) - (s->cur ? (int)ft_strlen(s->cur) : 0)
+			        + s->count_of_0;
 		s->exp = exp--;
 	}
 }
