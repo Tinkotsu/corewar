@@ -1,4 +1,5 @@
 #include "corewar.h"
+#include <stdio.h> //to delete
 
 static void create_arena(t_cw *cw)
 {
@@ -29,7 +30,7 @@ static void champs_introduction(t_cw *cw)
     ft_putendl("Introducing contestants...");
     while (i < cw->players_amount)
     {
-        ft_printf("* Player %d, weighing %d bytes, \"%s\" (\"%s\") !\n",
+        printf("* Player %d, weighing %d bytes, \"%s\" (\"%s\") !\n",
                   cw->players[i]->id, cw->players[i]->exec_size,
                   cw->players[i]->name, cw->players[i]->comment);
         ++i;
@@ -44,15 +45,15 @@ void	display_memory(char *arena) //не мое
     counter = 0;
     while (counter < MEM_SIZE)
     {
-        ft_printf("0x%04x : ", counter);
+        printf("0x%04x : ", counter);
         i = 0;
         while (i < 32)
         {
-            ft_printf("%02x ", (unsigned char)*arena);
+            printf("%02x ", (unsigned char)*arena);
             arena++;
             i++;
         }
-        ft_printf("\n");
+        printf("\n");
         counter += 32;
     }
 }

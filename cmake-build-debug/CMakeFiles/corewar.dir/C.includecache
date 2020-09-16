@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../ft_printf/includes/ft_printf.h
-stdarg.h
--
-libft.h
-../ft_printf/includes/libft.h
-
 ../includes/corewar.h
 fcntl.h
 -
@@ -19,8 +13,6 @@ op.h
 ../includes/op.h
 libft.h
 ../includes/libft.h
-ft_printf.h
-../includes/ft_printf.h
 
 ../includes/op.h
 
@@ -36,7 +28,9 @@ string.h
 get_next_line.h
 -
 
-/cygdrive/c/Users/Roman/Desktop/corewar/src/game_init.c
+/Users/tinkotsu/Desktop/corewar/src/game_init.c
 corewar.h
-/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
+/Users/tinkotsu/Desktop/corewar/src/corewar.h
+stdio.h
+-
 
