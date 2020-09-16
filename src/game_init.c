@@ -30,30 +30,59 @@ static void champs_introduction(t_cw *cw)
     ft_putendl("Introducing contestants...");
     while (i < cw->players_amount)
     {
-        printf("* Player %d, weighing %d bytes, \"%s\" (\"%s\") !\n",
-                  cw->players[i]->id, cw->players[i]->exec_size,
-                  cw->players[i]->name, cw->players[i]->comment);
+        ft_putstr(" * Player ");
+        ft_putnbr(cw->players[i]->id);
+        ft_putstr(", weighing ");
+        ft_putnbr((int)cw->players[i]->exec_size);
+        ft_putstr(" bytes, \"");
+        ft_putstr(cw->players[i]->name);
+        ft_putstr("\" (\"");
+        ft_putstr(cw->players[i]->comment);
+        ft_putstr("\") ! \n");
         ++i;
     }
 }
 
-void	display_memory(char *arena) //не мое
+static void	ft_printhex(int n)
+{
+    int c;
+
+    if (n >= 16)
+        ft_printhex(n / 16);
+    c = n % 16 + (n % 16 < 10 ? '0' : 'a' - 10);
+    ft_putchar(c);
+}
+
+void	display_memory(char *arena)
 {
     int		counter;
     int		i;
+    unsigned char c;
 
     counter = 0;
     while (counter < MEM_SIZE)
     {
-        printf("0x%04x : ", counter);
+        ft_putstr("0x");
+        i = 0x1000;
+        while (i > counter + 1)
+        {
+            ft_putchar('0');
+            i /= 16;
+        }
+        ft_printhex(counter);
+        ft_putstr(" : ");
         i = 0;
         while (i < 32)
         {
-            printf("%02x ", (unsigned char)*arena);
+            c = (unsigned char)*arena;
+            if (c < 16)
+                ft_putchar('0');
+            ft_printhex(c);
+            ft_putchar(' ');
             arena++;
             i++;
         }
-        printf("\n");
+        ft_putchar('\n');
         counter += 32;
     }
 }
