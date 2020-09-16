@@ -18,7 +18,7 @@ static void	do_width(t_pf *s, int w_len, int width)
 	if (*s->value == '0' && s->p_size == 0 && s->p_len)
 		w_len = 0;
 	else
-		w_len = s->strlen + ft_strlen(s->p);
+		w_len = s->strlen + (s->p ? ft_strlen(s->p) : 0);
 	if (width > w_len)
 	{
 		s->width_len = width - w_len;

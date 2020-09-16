@@ -22,7 +22,7 @@ int	print_precision(t_pf *s)
 	}
 	if (s->ox == 1)
 		write(1, s->p, ft_strlen(s->p) - s->ox);
-	else
+	else if (s->p)
 		write(1, s->p, ft_strlen(s->p));
 	if (!s->p || s->ox != 1)
 		s->ox = 0;

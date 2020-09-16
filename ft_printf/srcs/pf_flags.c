@@ -75,7 +75,8 @@ static void	do_flags(t_pf *s)
 	else
 		pf_no_flags(s);
 	if (s->t != 'f')
-		s->len += s->strlen + s->width_len + ft_strlen(s->p) - s->ox;
+		s->len += s->strlen + s->width_len + - s->ox +
+		        (s->p ? ft_strlen(s->p) : 0);
 	else
 		s->len += s->strlen + s->width_len - s->ox;
 	s->str += s->ret_value;

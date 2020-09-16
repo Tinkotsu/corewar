@@ -45,8 +45,8 @@ char			*long_mult(char *num1, char *num2)
 	char	*t;
 	t_l_ar	d;
 
-	d.len1 = ft_strlen(num1);
-	d.len2 = ft_strlen(num2);
+	d.len1 = num1 ? ft_strlen(num1) : 0;
+	d.len2 = num2 ? ft_strlen(num2) : 0;
 	d.len = d.len1 + d.len2;
 	if (!(res = ft_strnew(d.len)))
 		case_of_error();

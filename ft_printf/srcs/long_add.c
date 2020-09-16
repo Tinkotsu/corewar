@@ -48,8 +48,8 @@ char			*long_add(char *pre, char *cur, int *oversize)
 	t_l_ar	s;
 	char	*t;
 
-	s.len1 = ft_strlen(pre);
-	s.len2 = ft_strlen(cur);
+	s.len1 = pre ? ft_strlen(pre) : 0;
+	s.len2 = cur ? ft_strlen(cur) : 0;
 	s.len = def_max_len(s.len1, s.len2) + 1;
 	if (!(arr = (char*)malloc(sizeof(char) * (s.len + 1))))
 		case_of_error();
