@@ -3,10 +3,49 @@ project(corewar C)
 
 set(CMAKE_C_STANDARD 11)
 
+include_directories(ft_printf/includes)
 include_directories(includes)
 include_directories(libft/includes)
 
 add_executable(corewar
+        ft_printf/includes/ft_printf.h
+        ft_printf/srcs/case_of_error.c
+        ft_printf/srcs/ft_printf.c
+        ft_printf/srcs/ft_recursive_power.c
+        ft_printf/srcs/func_arr.c
+        ft_printf/srcs/get_array_of_parts_of_long_nbr.c
+        ft_printf/srcs/get_res_of_long_arithmetic.c
+        ft_printf/srcs/initialize.c
+        ft_printf/srcs/long_add.c
+        ft_printf/srcs/long_mult.c
+        ft_printf/srcs/morse.c
+        ft_printf/srcs/pf_b.c
+        ft_printf/srcs/pf_bhex.c
+        ft_printf/srcs/pf_colours.c
+        ft_printf/srcs/pf_dtoa.c
+        ft_printf/srcs/pf_find_last_symbol_in_string.c
+        ft_printf/srcs/pf_flag_diez.c
+        ft_printf/srcs/pf_flag_minus.c
+        ft_printf/srcs/pf_flag_zero.c
+        ft_printf/srcs/pf_flags.c
+        ft_printf/srcs/pf_flags_plus_and_space.c
+        ft_printf/srcs/pf_float.c
+        ft_printf/srcs/pf_hex.c
+        ft_printf/srcs/pf_itoa.c
+        ft_printf/srcs/pf_modifier.c
+        ft_printf/srcs/pf_n.c
+        ft_printf/srcs/pf_no_flags.c
+        ft_printf/srcs/pf_oct.c
+        ft_printf/srcs/pf_precision.c
+        ft_printf/srcs/pf_putvalue.c
+        ft_printf/srcs/pf_to_binary.c
+        ft_printf/srcs/pf_type.c
+        ft_printf/srcs/pf_u.c
+        ft_printf/srcs/pf_width.c
+        ft_printf/srcs/print_precision.c
+        ft_printf/srcs/re_initialize.c
+        ft_printf/srcs/rounding_nbr_of_chars.c
+        ft_printf/srcs/str_of_chars.c
         includes/corewar.h
         includes/op.h
         libft/includes/get_next_line.h
@@ -86,4 +125,8 @@ add_executable(corewar
         libft/srcs/get_next_line.c
         libft/srcs/gnl_free_fd.c
         src/corewar_init.c
-        src/main.c src/error.c src/players_init.c src/parse_players.c src/game_init.c)
+        src/error.c
+        src/game_init.c
+        src/main.c
+        src/parse_players.c
+        src/players_init.c)

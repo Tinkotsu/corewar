@@ -4,7 +4,7 @@
 # include <fcntl.h>
 # include "op.h"
 # include "libft.h"
-# include <stdio.h> // to remove
+# include "ft_printf.h"
 
 
 typedef struct      s_player

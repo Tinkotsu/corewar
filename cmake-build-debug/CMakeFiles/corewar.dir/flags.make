@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I/cygdrive/c/Users/Roman/Desktop/corewar/includes -I/cygdrive/c/Users/Roman/Desktop/corewar/libft/includes 
+C_INCLUDES = -I/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/includes -I/cygdrive/c/Users/Roman/Desktop/corewar/includes -I/cygdrive/c/Users/Roman/Desktop/corewar/libft/includes 
 

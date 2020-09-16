@@ -14,7 +14,8 @@ static void create_arena(t_cw *cw)
     while (i < cw->players_amount)
     {
         cw->players[i]->starting_point = s_point * i;
-        ft_memcpy(cw->arena + s_point * i, cw->players[i]->exec_code,
+        ft_memcpy(cw->arena + s_point * i,
+                  cw->players[i]->exec_code,
                   cw->players[i]->exec_size);
         ++i;
     }
@@ -25,18 +26,12 @@ static void champs_introduction(t_cw *cw)
     int i;
 
     i = 0;
-    ft_putendl("Introducing contestants...\n");
+    ft_putendl("Introducing contestants...");
     while (i < cw->players_amount)
     {
-        ft_putstr("* Player ");
-        ft_putnbr(cw->players[i]->id);
-        ft_putstr(", weighing ");
-        ft_putnbr((int)cw->players[i]->exec_size);
-        ft_putstr(" bytes, \"");
-        ft_putstr(cw->players[i]->name);
-        ft_putstr("\" (\"");
-        ft_putstr(cw->players[i]->comment);
-        ft_putstr("\") !\n");
+        ft_printf("* Player %d, weighing %d bytes, \"%s\" (\"%s\") !\n",
+                  cw->players[i]->id, cw->players[i]->exec_size,
+                  cw->players[i]->name, cw->players[i]->comment);
         ++i;
     }
 }
@@ -49,22 +44,22 @@ void	display_memory(char *arena) //не мое
     counter = 0;
     while (counter < MEM_SIZE)
     {
-        printf("0x%04x : ", counter);
+        ft_printf("0x%04x : ", counter);
         i = 0;
         while (i < 32)
         {
-            printf("%02x ", (unsigned char)*arena);
+            ft_printf("%02x ", (unsigned char)*arena);
             arena++;
             i++;
         }
-        printf("\n");
+        ft_printf("\n");
         counter += 32;
     }
 }
 
 void        game_init(t_cw *cw)
 {
-    champs_introduction(cw);
     create_arena(cw);
-    //display_memory(cw->arena);
+    champs_introduction(cw);
+    display_memory(cw->arena);
 }

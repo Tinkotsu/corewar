@@ -77,9 +77,490 @@ include CMakeFiles/corewar.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/corewar.dir/flags.make
 
+CMakeFiles/corewar.dir/ft_printf/srcs/case_of_error.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/case_of_error.c.o: ../ft_printf/srcs/case_of_error.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/case_of_error.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/case_of_error.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/case_of_error.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/case_of_error.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/case_of_error.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/case_of_error.c > CMakeFiles/corewar.dir/ft_printf/srcs/case_of_error.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/case_of_error.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/case_of_error.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/case_of_error.c -o CMakeFiles/corewar.dir/ft_printf/srcs/case_of_error.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/ft_printf.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/ft_printf.c.o: ../ft_printf/srcs/ft_printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/ft_printf.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/ft_printf.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/ft_printf.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/ft_printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/ft_printf.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/ft_printf.c > CMakeFiles/corewar.dir/ft_printf/srcs/ft_printf.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/ft_printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/ft_printf.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/ft_printf.c -o CMakeFiles/corewar.dir/ft_printf/srcs/ft_printf.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/ft_recursive_power.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/ft_recursive_power.c.o: ../ft_printf/srcs/ft_recursive_power.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/ft_recursive_power.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/ft_recursive_power.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/ft_recursive_power.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/ft_recursive_power.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/ft_recursive_power.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/ft_recursive_power.c > CMakeFiles/corewar.dir/ft_printf/srcs/ft_recursive_power.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/ft_recursive_power.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/ft_recursive_power.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/ft_recursive_power.c -o CMakeFiles/corewar.dir/ft_printf/srcs/ft_recursive_power.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/func_arr.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/func_arr.c.o: ../ft_printf/srcs/func_arr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/func_arr.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/func_arr.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/func_arr.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/func_arr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/func_arr.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/func_arr.c > CMakeFiles/corewar.dir/ft_printf/srcs/func_arr.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/func_arr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/func_arr.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/func_arr.c -o CMakeFiles/corewar.dir/ft_printf/srcs/func_arr.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/get_array_of_parts_of_long_nbr.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/get_array_of_parts_of_long_nbr.c.o: ../ft_printf/srcs/get_array_of_parts_of_long_nbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/get_array_of_parts_of_long_nbr.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/get_array_of_parts_of_long_nbr.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/get_array_of_parts_of_long_nbr.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/get_array_of_parts_of_long_nbr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/get_array_of_parts_of_long_nbr.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/get_array_of_parts_of_long_nbr.c > CMakeFiles/corewar.dir/ft_printf/srcs/get_array_of_parts_of_long_nbr.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/get_array_of_parts_of_long_nbr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/get_array_of_parts_of_long_nbr.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/get_array_of_parts_of_long_nbr.c -o CMakeFiles/corewar.dir/ft_printf/srcs/get_array_of_parts_of_long_nbr.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/get_res_of_long_arithmetic.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/get_res_of_long_arithmetic.c.o: ../ft_printf/srcs/get_res_of_long_arithmetic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/get_res_of_long_arithmetic.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/get_res_of_long_arithmetic.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/get_res_of_long_arithmetic.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/get_res_of_long_arithmetic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/get_res_of_long_arithmetic.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/get_res_of_long_arithmetic.c > CMakeFiles/corewar.dir/ft_printf/srcs/get_res_of_long_arithmetic.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/get_res_of_long_arithmetic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/get_res_of_long_arithmetic.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/get_res_of_long_arithmetic.c -o CMakeFiles/corewar.dir/ft_printf/srcs/get_res_of_long_arithmetic.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/initialize.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/initialize.c.o: ../ft_printf/srcs/initialize.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/initialize.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/initialize.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/initialize.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/initialize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/initialize.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/initialize.c > CMakeFiles/corewar.dir/ft_printf/srcs/initialize.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/initialize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/initialize.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/initialize.c -o CMakeFiles/corewar.dir/ft_printf/srcs/initialize.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/long_add.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/long_add.c.o: ../ft_printf/srcs/long_add.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/long_add.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/long_add.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/long_add.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/long_add.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/long_add.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/long_add.c > CMakeFiles/corewar.dir/ft_printf/srcs/long_add.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/long_add.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/long_add.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/long_add.c -o CMakeFiles/corewar.dir/ft_printf/srcs/long_add.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/long_mult.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/long_mult.c.o: ../ft_printf/srcs/long_mult.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/long_mult.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/long_mult.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/long_mult.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/long_mult.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/long_mult.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/long_mult.c > CMakeFiles/corewar.dir/ft_printf/srcs/long_mult.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/long_mult.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/long_mult.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/long_mult.c -o CMakeFiles/corewar.dir/ft_printf/srcs/long_mult.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/morse.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/morse.c.o: ../ft_printf/srcs/morse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/morse.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/morse.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/morse.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/morse.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/morse.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/morse.c > CMakeFiles/corewar.dir/ft_printf/srcs/morse.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/morse.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/morse.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/morse.c -o CMakeFiles/corewar.dir/ft_printf/srcs/morse.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_b.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_b.c.o: ../ft_printf/srcs/pf_b.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_b.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_b.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_b.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_b.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_b.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_b.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_b.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_b.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_b.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_b.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_b.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_bhex.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_bhex.c.o: ../ft_printf/srcs/pf_bhex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_bhex.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_bhex.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_bhex.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_bhex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_bhex.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_bhex.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_bhex.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_bhex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_bhex.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_bhex.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_bhex.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_colours.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_colours.c.o: ../ft_printf/srcs/pf_colours.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_colours.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_colours.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_colours.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_colours.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_colours.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_colours.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_colours.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_colours.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_colours.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_colours.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_colours.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_dtoa.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_dtoa.c.o: ../ft_printf/srcs/pf_dtoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_dtoa.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_dtoa.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_dtoa.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_dtoa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_dtoa.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_dtoa.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_dtoa.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_dtoa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_dtoa.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_dtoa.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_dtoa.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_find_last_symbol_in_string.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_find_last_symbol_in_string.c.o: ../ft_printf/srcs/pf_find_last_symbol_in_string.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_find_last_symbol_in_string.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_find_last_symbol_in_string.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_find_last_symbol_in_string.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_find_last_symbol_in_string.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_find_last_symbol_in_string.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_find_last_symbol_in_string.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_find_last_symbol_in_string.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_find_last_symbol_in_string.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_find_last_symbol_in_string.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_find_last_symbol_in_string.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_find_last_symbol_in_string.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_diez.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_diez.c.o: ../ft_printf/srcs/pf_flag_diez.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_diez.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_diez.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_flag_diez.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_diez.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_diez.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_flag_diez.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_diez.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_diez.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_diez.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_flag_diez.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_diez.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_minus.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_minus.c.o: ../ft_printf/srcs/pf_flag_minus.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_minus.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_minus.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_flag_minus.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_minus.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_minus.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_flag_minus.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_minus.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_minus.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_minus.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_flag_minus.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_minus.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_zero.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_zero.c.o: ../ft_printf/srcs/pf_flag_zero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_zero.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_zero.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_flag_zero.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_zero.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_zero.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_flag_zero.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_zero.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_zero.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_zero.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_flag_zero.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_zero.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags.c.o: ../ft_printf/srcs/pf_flags.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_flags.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_flags.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_flags.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags_plus_and_space.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags_plus_and_space.c.o: ../ft_printf/srcs/pf_flags_plus_and_space.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags_plus_and_space.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags_plus_and_space.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_flags_plus_and_space.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags_plus_and_space.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags_plus_and_space.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_flags_plus_and_space.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags_plus_and_space.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags_plus_and_space.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags_plus_and_space.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_flags_plus_and_space.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags_plus_and_space.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_float.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_float.c.o: ../ft_printf/srcs/pf_float.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_float.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_float.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_float.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_float.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_float.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_float.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_float.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_float.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_float.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_float.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_float.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_hex.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_hex.c.o: ../ft_printf/srcs/pf_hex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_hex.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_hex.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_hex.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_hex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_hex.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_hex.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_hex.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_hex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_hex.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_hex.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_hex.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_itoa.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_itoa.c.o: ../ft_printf/srcs/pf_itoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_itoa.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_itoa.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_itoa.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_itoa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_itoa.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_itoa.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_itoa.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_itoa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_itoa.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_itoa.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_itoa.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_modifier.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_modifier.c.o: ../ft_printf/srcs/pf_modifier.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_modifier.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_modifier.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_modifier.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_modifier.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_modifier.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_modifier.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_modifier.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_modifier.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_modifier.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_modifier.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_modifier.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_n.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_n.c.o: ../ft_printf/srcs/pf_n.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_n.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_n.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_n.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_n.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_n.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_n.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_n.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_n.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_n.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_n.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_n.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_no_flags.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_no_flags.c.o: ../ft_printf/srcs/pf_no_flags.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_no_flags.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_no_flags.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_no_flags.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_no_flags.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_no_flags.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_no_flags.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_no_flags.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_no_flags.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_no_flags.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_no_flags.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_no_flags.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_oct.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_oct.c.o: ../ft_printf/srcs/pf_oct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_oct.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_oct.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_oct.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_oct.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_oct.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_oct.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_oct.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_oct.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_oct.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_oct.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_oct.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_precision.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_precision.c.o: ../ft_printf/srcs/pf_precision.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_precision.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_precision.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_precision.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_precision.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_precision.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_precision.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_precision.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_precision.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_precision.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_precision.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_precision.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_putvalue.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_putvalue.c.o: ../ft_printf/srcs/pf_putvalue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_putvalue.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_putvalue.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_putvalue.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_putvalue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_putvalue.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_putvalue.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_putvalue.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_putvalue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_putvalue.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_putvalue.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_putvalue.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_to_binary.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_to_binary.c.o: ../ft_printf/srcs/pf_to_binary.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_to_binary.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_to_binary.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_to_binary.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_to_binary.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_to_binary.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_to_binary.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_to_binary.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_to_binary.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_to_binary.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_to_binary.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_to_binary.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_type.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_type.c.o: ../ft_printf/srcs/pf_type.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_type.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_type.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_type.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_type.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_type.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_type.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_type.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_type.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_type.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_type.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_type.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_u.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_u.c.o: ../ft_printf/srcs/pf_u.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_u.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_u.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_u.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_u.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_u.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_u.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_u.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_u.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_u.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_u.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_u.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_width.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_width.c.o: ../ft_printf/srcs/pf_width.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/pf_width.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_width.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_width.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_width.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/pf_width.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_width.c > CMakeFiles/corewar.dir/ft_printf/srcs/pf_width.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/pf_width.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/pf_width.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_width.c -o CMakeFiles/corewar.dir/ft_printf/srcs/pf_width.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/print_precision.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/print_precision.c.o: ../ft_printf/srcs/print_precision.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/print_precision.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/print_precision.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/print_precision.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/print_precision.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/print_precision.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/print_precision.c > CMakeFiles/corewar.dir/ft_printf/srcs/print_precision.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/print_precision.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/print_precision.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/print_precision.c -o CMakeFiles/corewar.dir/ft_printf/srcs/print_precision.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/re_initialize.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/re_initialize.c.o: ../ft_printf/srcs/re_initialize.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/re_initialize.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/re_initialize.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/re_initialize.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/re_initialize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/re_initialize.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/re_initialize.c > CMakeFiles/corewar.dir/ft_printf/srcs/re_initialize.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/re_initialize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/re_initialize.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/re_initialize.c -o CMakeFiles/corewar.dir/ft_printf/srcs/re_initialize.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/rounding_nbr_of_chars.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/rounding_nbr_of_chars.c.o: ../ft_printf/srcs/rounding_nbr_of_chars.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/rounding_nbr_of_chars.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/rounding_nbr_of_chars.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/rounding_nbr_of_chars.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/rounding_nbr_of_chars.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/rounding_nbr_of_chars.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/rounding_nbr_of_chars.c > CMakeFiles/corewar.dir/ft_printf/srcs/rounding_nbr_of_chars.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/rounding_nbr_of_chars.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/rounding_nbr_of_chars.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/rounding_nbr_of_chars.c -o CMakeFiles/corewar.dir/ft_printf/srcs/rounding_nbr_of_chars.c.s
+
+CMakeFiles/corewar.dir/ft_printf/srcs/str_of_chars.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/ft_printf/srcs/str_of_chars.c.o: ../ft_printf/srcs/str_of_chars.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/corewar.dir/ft_printf/srcs/str_of_chars.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/ft_printf/srcs/str_of_chars.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/str_of_chars.c
+
+CMakeFiles/corewar.dir/ft_printf/srcs/str_of_chars.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/ft_printf/srcs/str_of_chars.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/str_of_chars.c > CMakeFiles/corewar.dir/ft_printf/srcs/str_of_chars.c.i
+
+CMakeFiles/corewar.dir/ft_printf/srcs/str_of_chars.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/ft_printf/srcs/str_of_chars.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/str_of_chars.c -o CMakeFiles/corewar.dir/ft_printf/srcs/str_of_chars.c.s
+
 CMakeFiles/corewar.dir/libft/srcs/ft_atoi.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_atoi.c.o: ../libft/srcs/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_atoi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_atoi.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_atoi.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_atoi.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_atoi.c.i: cmake_force
@@ -92,7 +573,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_atoi.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_bzero.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_bzero.c.o: ../libft/srcs/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_bzero.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_bzero.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_bzero.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_bzero.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_bzero.c.i: cmake_force
@@ -105,7 +586,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_bzero.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_clearing.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_clearing.c.o: ../libft/srcs/ft_clearing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_clearing.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_clearing.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_clearing.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_clearing.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_clearing.c.i: cmake_force
@@ -118,7 +599,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_clearing.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_freep.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_freep.c.o: ../libft/srcs/ft_freep.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_freep.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_freep.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_freep.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_freep.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_freep.c.i: cmake_force
@@ -131,7 +612,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_freep.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_isalnum.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_isalnum.c.o: ../libft/srcs/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_isalnum.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_isalnum.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_isalnum.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isalnum.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_isalnum.c.i: cmake_force
@@ -144,7 +625,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_isalnum.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_isalpha.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_isalpha.c.o: ../libft/srcs/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_isalpha.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_isalpha.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_isalpha.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isalpha.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_isalpha.c.i: cmake_force
@@ -157,7 +638,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_isalpha.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_isascii.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_isascii.c.o: ../libft/srcs/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_isascii.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_isascii.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_isascii.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isascii.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_isascii.c.i: cmake_force
@@ -170,7 +651,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_isascii.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_isdigit.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_isdigit.c.o: ../libft/srcs/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_isdigit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_isdigit.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_isdigit.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isdigit.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_isdigit.c.i: cmake_force
@@ -183,7 +664,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_isdigit.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_islower.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_islower.c.o: ../libft/srcs/ft_islower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_islower.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_islower.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_islower.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_islower.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_islower.c.i: cmake_force
@@ -196,7 +677,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_islower.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_isnumber.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_isnumber.c.o: ../libft/srcs/ft_isnumber.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_isnumber.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_isnumber.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_isnumber.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isnumber.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_isnumber.c.i: cmake_force
@@ -209,7 +690,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_isnumber.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_isprint.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_isprint.c.o: ../libft/srcs/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_isprint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_isprint.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_isprint.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isprint.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_isprint.c.i: cmake_force
@@ -222,7 +703,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_isprint.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_isspace.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_isspace.c.o: ../libft/srcs/ft_isspace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_isspace.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_isspace.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_isspace.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isspace.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_isspace.c.i: cmake_force
@@ -235,7 +716,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_isspace.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_isupper.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_isupper.c.o: ../libft/srcs/ft_isupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_isupper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_isupper.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_isupper.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isupper.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_isupper.c.i: cmake_force
@@ -248,7 +729,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_isupper.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_itoa.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_itoa.c.o: ../libft/srcs/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_itoa.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_itoa.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_itoa.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_itoa.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_itoa.c.i: cmake_force
@@ -261,7 +742,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_itoa.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_lstadd.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_lstadd.c.o: ../libft/srcs/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_lstadd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_lstadd.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_lstadd.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstadd.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_lstadd.c.i: cmake_force
@@ -274,7 +755,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_lstadd.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_lstdel.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_lstdel.c.o: ../libft/srcs/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_lstdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_lstdel.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_lstdel.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstdel.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_lstdel.c.i: cmake_force
@@ -287,7 +768,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_lstdel.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_lstdelone.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_lstdelone.c.o: ../libft/srcs/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_lstdelone.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_lstdelone.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_lstdelone.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstdelone.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_lstdelone.c.i: cmake_force
@@ -300,7 +781,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_lstdelone.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_lstfree.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_lstfree.c.o: ../libft/srcs/ft_lstfree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_lstfree.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_lstfree.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_lstfree.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstfree.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_lstfree.c.i: cmake_force
@@ -313,7 +794,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_lstfree.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_lstiter.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_lstiter.c.o: ../libft/srcs/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_lstiter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_lstiter.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_lstiter.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstiter.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_lstiter.c.i: cmake_force
@@ -326,7 +807,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_lstiter.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_lstmap.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_lstmap.c.o: ../libft/srcs/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_lstmap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_lstmap.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_lstmap.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstmap.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_lstmap.c.i: cmake_force
@@ -339,7 +820,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_lstmap.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_lstnew.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_lstnew.c.o: ../libft/srcs/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_lstnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_lstnew.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_lstnew.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstnew.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_lstnew.c.i: cmake_force
@@ -352,7 +833,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_lstnew.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_lstpushback.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_lstpushback.c.o: ../libft/srcs/ft_lstpushback.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_lstpushback.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_lstpushback.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_lstpushback.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstpushback.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_lstpushback.c.i: cmake_force
@@ -365,7 +846,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_lstpushback.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_memalloc.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_memalloc.c.o: ../libft/srcs/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_memalloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_memalloc.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_memalloc.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memalloc.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_memalloc.c.i: cmake_force
@@ -378,7 +859,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_memalloc.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_memccpy.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_memccpy.c.o: ../libft/srcs/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_memccpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_memccpy.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_memccpy.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memccpy.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_memccpy.c.i: cmake_force
@@ -391,7 +872,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_memccpy.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_memchr.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_memchr.c.o: ../libft/srcs/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_memchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_memchr.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_memchr.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memchr.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_memchr.c.i: cmake_force
@@ -404,7 +885,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_memchr.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_memcmp.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_memcmp.c.o: ../libft/srcs/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_memcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_memcmp.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_memcmp.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memcmp.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_memcmp.c.i: cmake_force
@@ -417,7 +898,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_memcmp.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_memcpy.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_memcpy.c.o: ../libft/srcs/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_memcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_memcpy.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_memcpy.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memcpy.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_memcpy.c.i: cmake_force
@@ -430,7 +911,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_memcpy.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_memdel.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_memdel.c.o: ../libft/srcs/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_memdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_memdel.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_memdel.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memdel.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_memdel.c.i: cmake_force
@@ -443,7 +924,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_memdel.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_memmove.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_memmove.c.o: ../libft/srcs/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_memmove.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_memmove.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_memmove.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memmove.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_memmove.c.i: cmake_force
@@ -456,7 +937,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_memmove.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_memset.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_memset.c.o: ../libft/srcs/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_memset.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_memset.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_memset.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memset.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_memset.c.i: cmake_force
@@ -469,7 +950,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_memset.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_putchar.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_putchar.c.o: ../libft/srcs/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_putchar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_putchar.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_putchar.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putchar.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_putchar.c.i: cmake_force
@@ -482,7 +963,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_putchar.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_putchar_fd.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_putchar_fd.c.o: ../libft/srcs/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_putchar_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_putchar_fd.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_putchar_fd.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putchar_fd.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_putchar_fd.c.i: cmake_force
@@ -495,7 +976,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_putchar_fd.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_putendl.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_putendl.c.o: ../libft/srcs/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_putendl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_putendl.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_putendl.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putendl.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_putendl.c.i: cmake_force
@@ -508,7 +989,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_putendl.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_putendl_fd.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_putendl_fd.c.o: ../libft/srcs/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_putendl_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_putendl_fd.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_putendl_fd.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putendl_fd.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_putendl_fd.c.i: cmake_force
@@ -521,7 +1002,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_putendl_fd.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_putnbr.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_putnbr.c.o: ../libft/srcs/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_putnbr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_putnbr.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_putnbr.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putnbr.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_putnbr.c.i: cmake_force
@@ -534,7 +1015,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_putnbr.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_putnbr_fd.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_putnbr_fd.c.o: ../libft/srcs/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_putnbr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_putnbr_fd.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_putnbr_fd.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putnbr_fd.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_putnbr_fd.c.i: cmake_force
@@ -547,7 +1028,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_putnbr_fd.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_putstr.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_putstr.c.o: ../libft/srcs/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_putstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_putstr.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_putstr.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putstr.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_putstr.c.i: cmake_force
@@ -560,7 +1041,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_putstr.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_putstr_fd.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_putstr_fd.c.o: ../libft/srcs/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_putstr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_putstr_fd.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_putstr_fd.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putstr_fd.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_putstr_fd.c.i: cmake_force
@@ -573,7 +1054,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_putstr_fd.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_realloc.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_realloc.c.o: ../libft/srcs/ft_realloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_realloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_realloc.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_realloc.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_realloc.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_realloc.c.i: cmake_force
@@ -586,7 +1067,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_realloc.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_sort_params.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_sort_params.c.o: ../libft/srcs/ft_sort_params.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_sort_params.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_sort_params.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_sort_params.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_sort_params.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_sort_params.c.i: cmake_force
@@ -599,7 +1080,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_sort_params.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_sqrt.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_sqrt.c.o: ../libft/srcs/ft_sqrt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_sqrt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_sqrt.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_sqrt.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_sqrt.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_sqrt.c.i: cmake_force
@@ -612,7 +1093,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_sqrt.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strcat.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strcat.c.o: ../libft/srcs/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strcat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strcat.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strcat.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strcat.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strcat.c.i: cmake_force
@@ -625,7 +1106,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strcat.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strchr.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strchr.c.o: ../libft/srcs/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strchr.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strchr.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strchr.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strchr.c.i: cmake_force
@@ -638,7 +1119,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strchr.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strclr.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strclr.c.o: ../libft/srcs/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strclr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strclr.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strclr.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strclr.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strclr.c.i: cmake_force
@@ -651,7 +1132,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strclr.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strcmp.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strcmp.c.o: ../libft/srcs/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strcmp.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strcmp.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strcmp.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strcmp.c.i: cmake_force
@@ -664,7 +1145,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strcmp.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strcpy.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strcpy.c.o: ../libft/srcs/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strcpy.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strcpy.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strcpy.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strcpy.c.i: cmake_force
@@ -677,7 +1158,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strcpy.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strdel.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strdel.c.o: ../libft/srcs/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strdel.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strdel.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strdel.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strdel.c.i: cmake_force
@@ -690,7 +1171,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strdel.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strdup.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strdup.c.o: ../libft/srcs/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strdup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strdup.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strdup.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strdup.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strdup.c.i: cmake_force
@@ -703,7 +1184,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strdup.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strequ.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strequ.c.o: ../libft/srcs/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strequ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strequ.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strequ.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strequ.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strequ.c.i: cmake_force
@@ -716,7 +1197,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strequ.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_striter.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_striter.c.o: ../libft/srcs/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_striter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_striter.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_striter.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_striter.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_striter.c.i: cmake_force
@@ -729,7 +1210,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_striter.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_striteri.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_striteri.c.o: ../libft/srcs/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_striteri.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_striteri.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_striteri.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_striteri.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_striteri.c.i: cmake_force
@@ -742,7 +1223,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_striteri.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strjoin.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strjoin.c.o: ../libft/srcs/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strjoin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strjoin.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strjoin.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strjoin.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strjoin.c.i: cmake_force
@@ -755,7 +1236,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strjoin.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strlcat.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strlcat.c.o: ../libft/srcs/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strlcat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strlcat.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strlcat.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strlcat.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strlcat.c.i: cmake_force
@@ -768,7 +1249,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strlcat.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strlen.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strlen.c.o: ../libft/srcs/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strlen.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strlen.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strlen.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strlen.c.i: cmake_force
@@ -781,7 +1262,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strlen.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strmap.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strmap.c.o: ../libft/srcs/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strmap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strmap.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strmap.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strmap.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strmap.c.i: cmake_force
@@ -794,7 +1275,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strmap.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strmapi.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strmapi.c.o: ../libft/srcs/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strmapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strmapi.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strmapi.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strmapi.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strmapi.c.i: cmake_force
@@ -807,7 +1288,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strmapi.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strncat.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strncat.c.o: ../libft/srcs/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strncat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strncat.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strncat.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strncat.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strncat.c.i: cmake_force
@@ -820,7 +1301,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strncat.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strncmp.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strncmp.c.o: ../libft/srcs/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strncmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strncmp.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strncmp.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strncmp.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strncmp.c.i: cmake_force
@@ -833,7 +1314,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strncmp.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strncpy.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strncpy.c.o: ../libft/srcs/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strncpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strncpy.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strncpy.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strncpy.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strncpy.c.i: cmake_force
@@ -846,7 +1327,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strncpy.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strnequ.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strnequ.c.o: ../libft/srcs/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strnequ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strnequ.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strnequ.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strnequ.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strnequ.c.i: cmake_force
@@ -859,7 +1340,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strnequ.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strnew.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strnew.c.o: ../libft/srcs/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strnew.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strnew.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strnew.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strnew.c.i: cmake_force
@@ -872,7 +1353,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strnew.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strnstr.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strnstr.c.o: ../libft/srcs/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strnstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strnstr.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strnstr.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strnstr.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strnstr.c.i: cmake_force
@@ -885,7 +1366,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strnstr.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strrchr.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strrchr.c.o: ../libft/srcs/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strrchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strrchr.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strrchr.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strrchr.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strrchr.c.i: cmake_force
@@ -898,7 +1379,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strrchr.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strsplit.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strsplit.c.o: ../libft/srcs/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strsplit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strsplit.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strsplit.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strsplit.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strsplit.c.i: cmake_force
@@ -911,7 +1392,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strsplit.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strsplit_full.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strsplit_full.c.o: ../libft/srcs/ft_strsplit_full.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strsplit_full.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strsplit_full.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strsplit_full.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strsplit_full.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strsplit_full.c.i: cmake_force
@@ -924,7 +1405,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strsplit_full.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strstr.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strstr.c.o: ../libft/srcs/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strstr.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strstr.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strstr.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strstr.c.i: cmake_force
@@ -937,7 +1418,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strstr.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strsub.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strsub.c.o: ../libft/srcs/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strsub.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strsub.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strsub.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strsub.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strsub.c.i: cmake_force
@@ -950,7 +1431,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strsub.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strtrim.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_strtrim.c.o: ../libft/srcs/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strtrim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_strtrim.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_strtrim.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strtrim.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_strtrim.c.i: cmake_force
@@ -963,7 +1444,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_strtrim.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_swap.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_swap.c.o: ../libft/srcs/ft_swap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_swap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_swap.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_swap.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_swap.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_swap.c.i: cmake_force
@@ -976,7 +1457,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_swap.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_tolower.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_tolower.c.o: ../libft/srcs/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_tolower.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_tolower.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_tolower.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_tolower.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_tolower.c.i: cmake_force
@@ -989,7 +1470,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_tolower.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_toupper.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_toupper.c.o: ../libft/srcs/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_toupper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_toupper.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_toupper.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_toupper.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_toupper.c.i: cmake_force
@@ -1002,7 +1483,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_toupper.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/ft_ull_pow.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/ft_ull_pow.c.o: ../libft/srcs/ft_ull_pow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_ull_pow.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/corewar.dir/libft/srcs/ft_ull_pow.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/ft_ull_pow.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_ull_pow.c
 
 CMakeFiles/corewar.dir/libft/srcs/ft_ull_pow.c.i: cmake_force
@@ -1015,7 +1496,7 @@ CMakeFiles/corewar.dir/libft/srcs/ft_ull_pow.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/get_next_line.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/get_next_line.c.o: ../libft/srcs/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/corewar.dir/libft/srcs/get_next_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/corewar.dir/libft/srcs/get_next_line.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/get_next_line.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/get_next_line.c
 
 CMakeFiles/corewar.dir/libft/srcs/get_next_line.c.i: cmake_force
@@ -1028,7 +1509,7 @@ CMakeFiles/corewar.dir/libft/srcs/get_next_line.c.s: cmake_force
 
 CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.o: ../libft/srcs/gnl_free_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/gnl_free_fd.c
 
 CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.i: cmake_force
@@ -1041,7 +1522,7 @@ CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.s: cmake_force
 
 CMakeFiles/corewar.dir/src/corewar_init.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/src/corewar_init.c.o: ../src/corewar_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/corewar.dir/src/corewar_init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/corewar.dir/src/corewar_init.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/corewar_init.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/corewar_init.c
 
 CMakeFiles/corewar.dir/src/corewar_init.c.i: cmake_force
@@ -1052,22 +1533,9 @@ CMakeFiles/corewar.dir/src/corewar_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/corewar_init.c.s"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/corewar_init.c -o CMakeFiles/corewar.dir/src/corewar_init.c.s
 
-CMakeFiles/corewar.dir/src/main.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/corewar.dir/src/main.c.o"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/main.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/main.c
-
-CMakeFiles/corewar.dir/src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/main.c.i"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/main.c > CMakeFiles/corewar.dir/src/main.c.i
-
-CMakeFiles/corewar.dir/src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/main.c.s"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/main.c -o CMakeFiles/corewar.dir/src/main.c.s
-
 CMakeFiles/corewar.dir/src/error.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/src/error.c.o: ../src/error.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/corewar.dir/src/error.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/corewar.dir/src/error.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/error.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/error.c
 
 CMakeFiles/corewar.dir/src/error.c.i: cmake_force
@@ -1078,35 +1546,9 @@ CMakeFiles/corewar.dir/src/error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/error.c.s"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/error.c -o CMakeFiles/corewar.dir/src/error.c.s
 
-CMakeFiles/corewar.dir/src/players_init.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/src/players_init.c.o: ../src/players_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/corewar.dir/src/players_init.c.o"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/players_init.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/players_init.c
-
-CMakeFiles/corewar.dir/src/players_init.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/players_init.c.i"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/players_init.c > CMakeFiles/corewar.dir/src/players_init.c.i
-
-CMakeFiles/corewar.dir/src/players_init.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/players_init.c.s"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/players_init.c -o CMakeFiles/corewar.dir/src/players_init.c.s
-
-CMakeFiles/corewar.dir/src/parse_players.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/src/parse_players.c.o: ../src/parse_players.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/corewar.dir/src/parse_players.c.o"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/parse_players.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/parse_players.c
-
-CMakeFiles/corewar.dir/src/parse_players.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/parse_players.c.i"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/parse_players.c > CMakeFiles/corewar.dir/src/parse_players.c.i
-
-CMakeFiles/corewar.dir/src/parse_players.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/parse_players.c.s"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/parse_players.c -o CMakeFiles/corewar.dir/src/parse_players.c.s
-
 CMakeFiles/corewar.dir/src/game_init.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/src/game_init.c.o: ../src/game_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/corewar.dir/src/game_init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/corewar.dir/src/game_init.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/game_init.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/game_init.c
 
 CMakeFiles/corewar.dir/src/game_init.c.i: cmake_force
@@ -1117,8 +1559,84 @@ CMakeFiles/corewar.dir/src/game_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/game_init.c.s"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/game_init.c -o CMakeFiles/corewar.dir/src/game_init.c.s
 
+CMakeFiles/corewar.dir/src/main.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/main.c.o: ../src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/corewar.dir/src/main.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/main.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/main.c
+
+CMakeFiles/corewar.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/main.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/main.c > CMakeFiles/corewar.dir/src/main.c.i
+
+CMakeFiles/corewar.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/main.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/main.c -o CMakeFiles/corewar.dir/src/main.c.s
+
+CMakeFiles/corewar.dir/src/parse_players.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/parse_players.c.o: ../src/parse_players.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/corewar.dir/src/parse_players.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/parse_players.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/parse_players.c
+
+CMakeFiles/corewar.dir/src/parse_players.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/parse_players.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/parse_players.c > CMakeFiles/corewar.dir/src/parse_players.c.i
+
+CMakeFiles/corewar.dir/src/parse_players.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/parse_players.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/parse_players.c -o CMakeFiles/corewar.dir/src/parse_players.c.s
+
+CMakeFiles/corewar.dir/src/players_init.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/players_init.c.o: ../src/players_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/corewar.dir/src/players_init.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/players_init.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/players_init.c
+
+CMakeFiles/corewar.dir/src/players_init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/players_init.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/players_init.c > CMakeFiles/corewar.dir/src/players_init.c.i
+
+CMakeFiles/corewar.dir/src/players_init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/players_init.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/players_init.c -o CMakeFiles/corewar.dir/src/players_init.c.s
+
 # Object files for target corewar
 corewar_OBJECTS = \
+"CMakeFiles/corewar.dir/ft_printf/srcs/case_of_error.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/ft_printf.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/ft_recursive_power.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/func_arr.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/get_array_of_parts_of_long_nbr.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/get_res_of_long_arithmetic.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/initialize.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/long_add.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/long_mult.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/morse.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_b.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_bhex.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_colours.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_dtoa.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_find_last_symbol_in_string.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_diez.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_minus.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_zero.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags_plus_and_space.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_float.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_hex.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_itoa.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_modifier.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_n.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_no_flags.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_oct.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_precision.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_putvalue.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_to_binary.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_type.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_u.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/pf_width.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/print_precision.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/re_initialize.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/rounding_nbr_of_chars.c.o" \
+"CMakeFiles/corewar.dir/ft_printf/srcs/str_of_chars.c.o" \
 "CMakeFiles/corewar.dir/libft/srcs/ft_atoi.c.o" \
 "CMakeFiles/corewar.dir/libft/srcs/ft_bzero.c.o" \
 "CMakeFiles/corewar.dir/libft/srcs/ft_clearing.c.o" \
@@ -1194,15 +1712,52 @@ corewar_OBJECTS = \
 "CMakeFiles/corewar.dir/libft/srcs/get_next_line.c.o" \
 "CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.o" \
 "CMakeFiles/corewar.dir/src/corewar_init.c.o" \
-"CMakeFiles/corewar.dir/src/main.c.o" \
 "CMakeFiles/corewar.dir/src/error.c.o" \
-"CMakeFiles/corewar.dir/src/players_init.c.o" \
+"CMakeFiles/corewar.dir/src/game_init.c.o" \
+"CMakeFiles/corewar.dir/src/main.c.o" \
 "CMakeFiles/corewar.dir/src/parse_players.c.o" \
-"CMakeFiles/corewar.dir/src/game_init.c.o"
+"CMakeFiles/corewar.dir/src/players_init.c.o"
 
 # External object files for target corewar
 corewar_EXTERNAL_OBJECTS =
 
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/case_of_error.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/ft_printf.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/ft_recursive_power.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/func_arr.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/get_array_of_parts_of_long_nbr.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/get_res_of_long_arithmetic.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/initialize.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/long_add.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/long_mult.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/morse.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_b.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_bhex.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_colours.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_dtoa.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_find_last_symbol_in_string.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_diez.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_minus.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_flag_zero.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_flags_plus_and_space.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_float.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_hex.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_itoa.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_modifier.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_n.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_no_flags.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_oct.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_precision.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_putvalue.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_to_binary.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_type.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_u.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/pf_width.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/print_precision.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/re_initialize.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/rounding_nbr_of_chars.c.o
+corewar.exe: CMakeFiles/corewar.dir/ft_printf/srcs/str_of_chars.c.o
 corewar.exe: CMakeFiles/corewar.dir/libft/srcs/ft_atoi.c.o
 corewar.exe: CMakeFiles/corewar.dir/libft/srcs/ft_bzero.c.o
 corewar.exe: CMakeFiles/corewar.dir/libft/srcs/ft_clearing.c.o
@@ -1278,14 +1833,14 @@ corewar.exe: CMakeFiles/corewar.dir/libft/srcs/ft_ull_pow.c.o
 corewar.exe: CMakeFiles/corewar.dir/libft/srcs/get_next_line.c.o
 corewar.exe: CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.o
 corewar.exe: CMakeFiles/corewar.dir/src/corewar_init.c.o
-corewar.exe: CMakeFiles/corewar.dir/src/main.c.o
 corewar.exe: CMakeFiles/corewar.dir/src/error.c.o
-corewar.exe: CMakeFiles/corewar.dir/src/players_init.c.o
-corewar.exe: CMakeFiles/corewar.dir/src/parse_players.c.o
 corewar.exe: CMakeFiles/corewar.dir/src/game_init.c.o
+corewar.exe: CMakeFiles/corewar.dir/src/main.c.o
+corewar.exe: CMakeFiles/corewar.dir/src/parse_players.c.o
+corewar.exe: CMakeFiles/corewar.dir/src/players_init.c.o
 corewar.exe: CMakeFiles/corewar.dir/build.make
 corewar.exe: CMakeFiles/corewar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Linking C executable corewar.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Linking C executable corewar.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/corewar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

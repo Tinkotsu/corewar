@@ -44,6 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/includes"/>
 					<Add directory="/cygdrive/c/Users/Roman/Desktop/corewar/includes"/>
 					<Add directory="/cygdrive/c/Users/Roman/Desktop/corewar/libft/includes"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
@@ -64,6 +65,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/includes"/>
 					<Add directory="/cygdrive/c/Users/Roman/Desktop/corewar/includes"/>
 					<Add directory="/cygdrive/c/Users/Roman/Desktop/corewar/libft/includes"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
@@ -78,6 +80,120 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/includes/ft_printf.h">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/case_of_error.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/ft_printf.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/ft_recursive_power.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/func_arr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/get_array_of_parts_of_long_nbr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/get_res_of_long_arithmetic.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/initialize.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/long_add.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/long_mult.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/morse.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_b.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_bhex.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_colours.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_dtoa.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_find_last_symbol_in_string.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_flag_diez.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_flag_minus.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_flag_zero.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_flags.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_flags_plus_and_space.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_float.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_hex.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_itoa.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_modifier.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_n.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_no_flags.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_oct.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_precision.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_putvalue.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_to_binary.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_type.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_u.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_width.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/print_precision.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/re_initialize.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/rounding_nbr_of_chars.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/str_of_chars.c">
+			<Option target="corewar"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/includes/corewar.h">
 			<Option target="corewar"/>
 		</Unit>
