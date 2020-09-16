@@ -12,6 +12,18 @@ stdarg.h
 libft.h
 ../ft_printf/includes/libft.h
 
+../includes/corewar.h
+fcntl.h
+-
+op.h
+../includes/op.h
+libft.h
+../includes/libft.h
+ft_printf.h
+../includes/ft_printf.h
+
+../includes/op.h
+
 ../libft/includes/get_next_line.h
 
 ../libft/includes/libft.h
@@ -24,19 +36,7 @@ string.h
 get_next_line.h
 -
 
-/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/ft_printf.c
-ft_printf.h
-/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/ft_printf.h
-
-/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_dtoa.c
-ft_printf.h
-/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/ft_printf.h
-
-/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/pf_type.c
-ft_printf.h
-/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/ft_printf.h
-
-/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/print_precision.c
-ft_printf.h
-/cygdrive/c/Users/Roman/Desktop/corewar/ft_printf/srcs/ft_printf.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/game_init.c
+corewar.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
 

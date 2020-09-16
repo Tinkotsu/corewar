@@ -12,7 +12,7 @@
 
 #include "ft_printf.h"
 
-static char		*toupper(char *str)
+static char		*mz_toupper(char *str)
 {
 	char *start;
 
@@ -70,7 +70,7 @@ char			*morse(char *str)
 
 	space = ft_strdup(" ");
 	res = NULL;
-	str = toupper(str);
+	str = mz_toupper(str);
 	start = str;
 	while (*start)
 	{
