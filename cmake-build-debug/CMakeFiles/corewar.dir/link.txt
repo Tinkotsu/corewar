@@ -1,0 +1,1 @@
+/usr/bin/gcc.exe -g  -Wl,--enable-auto-import CMakeFiles/corewar.dir/main.c.o  -o corewar.exe -Wl,--out-implib,libcorewar.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
