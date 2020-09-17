@@ -293,6 +293,12 @@ CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.o: ../libft/includes/get_next_li
 CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.o: ../libft/includes/libft.h
 CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.o: ../libft/srcs/gnl_free_fd.c
 
+CMakeFiles/corewar.dir/src/carriage.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/carriage.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/carriage.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/carriage.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/carriage.c.o: ../src/carriage.c
+
 CMakeFiles/corewar.dir/src/corewar_init.c.o: ../includes/corewar.h
 CMakeFiles/corewar.dir/src/corewar_init.c.o: ../includes/op.h
 CMakeFiles/corewar.dir/src/corewar_init.c.o: ../libft/includes/get_next_line.h
@@ -310,6 +316,12 @@ CMakeFiles/corewar.dir/src/error.c.o: ../includes/op.h
 CMakeFiles/corewar.dir/src/error.c.o: ../libft/includes/get_next_line.h
 CMakeFiles/corewar.dir/src/error.c.o: ../libft/includes/libft.h
 CMakeFiles/corewar.dir/src/error.c.o: ../src/error.c
+
+CMakeFiles/corewar.dir/src/game.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/game.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/game.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/game.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/game.c.o: ../src/game.c
 
 CMakeFiles/corewar.dir/src/game_init.c.o: ../includes/corewar.h
 CMakeFiles/corewar.dir/src/game_init.c.o: ../includes/op.h

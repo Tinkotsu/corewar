@@ -2,6 +2,8 @@
 
 static void player_init(int id, char *filename, t_player *player)
 {
+    if (!filename)
+        error("Wrong input");
     player->id = id;
     player->filename = filename;
     ft_bzero(player->name, PROG_NAME_LENGTH + 1);
@@ -35,13 +37,14 @@ static void manage_n_flags(char **argv, t_cw *cw)
     {
         while (!ft_strequ(*argv, "-n"))
             ++argv;
-        if (!ft_isnumber(*(++argv)))
-            error("Wrong usage!");  //print usage (n flag)
+        ++argv;
+        if (!(*argv) || !(ft_isnumber(*argv)))
+            error("Wrong usage of '-n'");
         id = ft_atoi(*argv);
         if (id <= 0 || id > cw->players_amount)
-            error("Wrong id"); //print usage (n flag)
+            error("Wrong id used with '-n'");
         if (is_duplicate(id, cw))
-            error("Duplicated id!");
+            error("Duplicate id used with '-n'");
         ++argv;
         player_init(id, *argv, cw->players[id - 1]);
     }

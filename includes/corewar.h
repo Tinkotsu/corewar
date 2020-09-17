@@ -26,7 +26,7 @@ typedef struct          s_carriage
     int                 cycles_till_op;
     char                *position;
     int                 step;
-    int                 reg[16];
+    int                 reg[REG_NUMBER];
     struct s_carriage   *next;
 }                       t_carriage;
 
@@ -39,6 +39,7 @@ typedef struct          s_cw
 	int                 game_cycles;
 	int                 live_operations;
 	int                 checks_performed;
+	int                 carriage_id;
 	char                *arena;
 	t_player            **players; //to free
 	t_carriage          *carriage_list; // to free
@@ -50,7 +51,8 @@ void                    players_init(int argc, char **argv, t_cw *cw);
 void                    parse_players(t_cw *cw);
 void                    game_init(t_cw *cw);
 void	                display_arena(char *arena, int octets_num);
-
+t_carriage              *create_carriage(int id, char *pos, int player_id);
+void                    play_game(t_cw *cw);
 
 
 void                    error(char *message);

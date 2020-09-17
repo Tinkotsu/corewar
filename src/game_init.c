@@ -1,7 +1,6 @@
 #include "corewar.h"
-#include <stdio.h> //to delete
 
-static void create_arena(t_cw *cw)
+static void         create_arena(t_cw *cw)
 {
     int i;
     int s_point;
@@ -22,7 +21,7 @@ static void create_arena(t_cw *cw)
     }
 }
 
-static void champs_introduction(t_cw *cw)
+static void         champs_introduction(t_cw *cw)
 {
     int i;
 
@@ -43,14 +42,26 @@ static void champs_introduction(t_cw *cw)
     }
 }
 
-static void carriage_init(t_cw *cw)
+static void         carriages_init(t_cw *cw)
 {
-    ;
+    int i;
+    t_carriage *new;
+
+    i = 0;
+    while (i < cw->players_amount)
+    {
+        new = create_carriage(cw->carriage_id++,
+                              cw->arena + cw->players[i]->starting_point,
+                              cw->players[i]->id);
+        new->next = cw->carriage_list;
+        cw->carriage_list = new;
+        ++i;
+    }
 }
 
-void        game_init(t_cw *cw)
+void                game_init(t_cw *cw)
 {
     create_arena(cw);
+    carriages_init(cw);
     champs_introduction(cw);
-    carriage_init(cw);
 }

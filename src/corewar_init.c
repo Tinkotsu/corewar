@@ -29,7 +29,8 @@ static void get_players_amount(int argc, char **argv, t_cw *cw)
 
     i = 1;
     amount = 0;
-    while (i < argc) {
+    while (i < argc)
+    {
         if (ft_strequ(argv[i], "-n"))
         {
             ++i;
@@ -42,8 +43,8 @@ static void get_players_amount(int argc, char **argv, t_cw *cw)
         }
         ++i;
     }
-    if (amount > MAX_PLAYERS)
-        error("Too many players!");
+    if (amount > MAX_PLAYERS || !amount)
+        error("Wrong players amount");
     cw->players_amount = amount;
     cw->last_player_alive = amount;
 }
@@ -73,6 +74,8 @@ void        corewar_init(int argc, char **argv, t_cw *cw)
     cw->game_cycles = 0;
     cw->live_operations = 0;
     cw->checks_performed = 0;
+    cw->carriage_id = 0;
     cw->arena = NULL;
+    cw->carriage_list = NULL;
     mem_players(cw);
 }

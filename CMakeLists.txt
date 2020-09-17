@@ -90,4 +90,4 @@ add_executable(corewar
         src/game_init.c
         src/main.c
         src/parse_players.c
-        src/players_init.c src/display_arena.c)
+        src/players_init.c src/display_arena.c src/carriage.c src/game.c)
