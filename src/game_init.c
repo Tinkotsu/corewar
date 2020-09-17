@@ -43,53 +43,14 @@ static void champs_introduction(t_cw *cw)
     }
 }
 
-static void	ft_printhex(int n)
+static void carriage_init(t_cw *cw)
 {
-    int c;
-
-    if (n >= 16)
-        ft_printhex(n / 16);
-    c = n % 16 + (n % 16 < 10 ? '0' : 'a' - 10);
-    ft_putchar(c);
-}
-
-void	display_memory(char *arena)
-{
-    int		counter;
-    int		i;
-    unsigned char c;
-
-    counter = 0;
-    while (counter < MEM_SIZE)
-    {
-        ft_putstr("0x");
-        i = 0x1000;
-        while (i > counter + 1)
-        {
-            ft_putchar('0');
-            i /= 16;
-        }
-        ft_printhex(counter);
-        ft_putstr(" : ");
-        i = 0;
-        while (i < 32)
-        {
-            c = (unsigned char)*arena;
-            if (c < 16)
-                ft_putchar('0');
-            ft_printhex(c);
-            ft_putchar(' ');
-            arena++;
-            i++;
-        }
-        ft_putchar('\n');
-        counter += 32;
-    }
+    ;
 }
 
 void        game_init(t_cw *cw)
 {
     create_arena(cw);
     champs_introduction(cw);
-    display_memory(cw->arena);
+    carriage_init(cw);
 }

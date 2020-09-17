@@ -79,6 +79,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/get_next_line.c" "/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/corewar.dir/libft/srcs/get_next_line.c.o"
   "/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/gnl_free_fd.c" "/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.o"
   "/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar_init.c" "/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/corewar.dir/src/corewar_init.c.o"
+  "/cygdrive/c/Users/Roman/Desktop/corewar/src/display_arena.c" "/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/corewar.dir/src/display_arena.c.o"
   "/cygdrive/c/Users/Roman/Desktop/corewar/src/error.c" "/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/corewar.dir/src/error.c.o"
   "/cygdrive/c/Users/Roman/Desktop/corewar/src/game_init.c" "/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/corewar.dir/src/game_init.c.o"
   "/cygdrive/c/Users/Roman/Desktop/corewar/src/main.c" "/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/corewar.dir/src/main.c.o"

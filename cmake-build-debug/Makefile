@@ -2168,6 +2168,33 @@ src/corewar_init.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/corewar_init.c.s
 .PHONY : src/corewar_init.c.s
 
+src/display_arena.o: src/display_arena.c.o
+
+.PHONY : src/display_arena.o
+
+# target to build an object file
+src/display_arena.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/display_arena.c.o
+.PHONY : src/display_arena.c.o
+
+src/display_arena.i: src/display_arena.c.i
+
+.PHONY : src/display_arena.i
+
+# target to preprocess a source file
+src/display_arena.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/display_arena.c.i
+.PHONY : src/display_arena.c.i
+
+src/display_arena.s: src/display_arena.c.s
+
+.PHONY : src/display_arena.s
+
+# target to generate assembly for a file
+src/display_arena.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/display_arena.c.s
+.PHONY : src/display_arena.c.s
+
 src/error.o: src/error.c.o
 
 .PHONY : src/error.o
@@ -2537,6 +2564,9 @@ help:
 	@echo "... src/corewar_init.o"
 	@echo "... src/corewar_init.i"
 	@echo "... src/corewar_init.s"
+	@echo "... src/display_arena.o"
+	@echo "... src/display_arena.i"
+	@echo "... src/display_arena.s"
 	@echo "... src/error.o"
 	@echo "... src/error.i"
 	@echo "... src/error.s"

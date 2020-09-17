@@ -299,6 +299,12 @@ CMakeFiles/corewar.dir/src/corewar_init.c.o: ../libft/includes/get_next_line.h
 CMakeFiles/corewar.dir/src/corewar_init.c.o: ../libft/includes/libft.h
 CMakeFiles/corewar.dir/src/corewar_init.c.o: ../src/corewar_init.c
 
+CMakeFiles/corewar.dir/src/display_arena.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/display_arena.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/display_arena.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/display_arena.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/display_arena.c.o: ../src/display_arena.c
+
 CMakeFiles/corewar.dir/src/error.c.o: ../includes/corewar.h
 CMakeFiles/corewar.dir/src/error.c.o: ../includes/op.h
 CMakeFiles/corewar.dir/src/error.c.o: ../libft/includes/get_next_line.h
