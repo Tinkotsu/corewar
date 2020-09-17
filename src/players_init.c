@@ -33,7 +33,7 @@ static void manage_n_flags(char **argv, t_cw *cw)
     int id;
 
     players_left = cw->n_flags;
-    while (players_left--)
+    while (players_left)
     {
         while (!ft_strequ(*argv, "-n"))
             ++argv;
@@ -47,6 +47,7 @@ static void manage_n_flags(char **argv, t_cw *cw)
             error("Duplicate id used with '-n'");
         ++argv;
         player_init(id, *argv, cw->players[id - 1]);
+        --players_left;
     }
 }
 
@@ -55,19 +56,17 @@ void    manage_remaining(int players_left, char **argv, t_cw *cw)
     int id;
 
     id = 1;
-    while (players_left--)
+    while (players_left)
     {
         if (*argv[0] == '-')
-        {
-            if (*argv[1] == 'n')
-                argv += 2;
-            ++argv;
-        }
+            argv += 2;
         else
         {
             while (is_duplicate(id, cw))
                 ++id;
             player_init(id, *argv, cw->players[id - 1]);
+            --players_left;
+            ++argv;
         }
     }
 }

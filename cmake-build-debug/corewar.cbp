@@ -8,342 +8,341 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/tinkotsu/Desktop/corewar/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/tinkotsu/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tinkotsu/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tinkotsu/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tinkotsu/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/tinkotsu/Desktop/corewar/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/tinkotsu/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tinkotsu/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tinkotsu/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tinkotsu/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/tinkotsu/Desktop/corewar/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/tinkotsu/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tinkotsu/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tinkotsu/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tinkotsu/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="corewar">
-				<Option output="/Users/tinkotsu/Desktop/corewar/cmake-build-debug/corewar" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/tinkotsu/Desktop/corewar/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/corewar.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/tinkotsu/Desktop/corewar/includes"/>
-					<Add directory="/Users/tinkotsu/Desktop/corewar/libft/includes"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/cygdrive/c/Users/Roman/Desktop/corewar/includes"/>
+					<Add directory="/cygdrive/c/Users/Roman/Desktop/corewar/libft/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/tinkotsu/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 corewar"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tinkotsu/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tinkotsu/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tinkotsu/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 corewar"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="corewar/fast">
-				<Option output="/Users/tinkotsu/Desktop/corewar/cmake-build-debug/corewar" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/tinkotsu/Desktop/corewar/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/corewar.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/tinkotsu/Desktop/corewar/includes"/>
-					<Add directory="/Users/tinkotsu/Desktop/corewar/libft/includes"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/cygdrive/c/Users/Roman/Desktop/corewar/includes"/>
+					<Add directory="/cygdrive/c/Users/Roman/Desktop/corewar/libft/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/tinkotsu/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 corewar/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tinkotsu/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tinkotsu/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tinkotsu/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 corewar/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/includes/corewar.h">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/includes/corewar.h">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/includes/op.h">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/includes/op.h">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/includes/get_next_line.h">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/includes/get_next_line.h">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/includes/libft.h">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/includes/libft.h">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_atoi.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_atoi.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_bzero.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_bzero.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_clearing.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_clearing.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_freep.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_freep.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_isalnum.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isalnum.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_isalpha.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isalpha.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_isascii.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isascii.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_isdigit.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isdigit.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_islower.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_islower.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_isnumber.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isnumber.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_isprint.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isprint.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_isspace.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isspace.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_isupper.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isupper.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_itoa.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_itoa.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_lstadd.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstadd.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_lstdel.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstdel.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_lstdelone.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstdelone.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_lstfree.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstfree.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_lstiter.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstiter.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_lstmap.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstmap.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_lstnew.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstnew.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_lstpushback.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstpushback.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_memalloc.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memalloc.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_memccpy.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memccpy.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_memchr.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memchr.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_memcmp.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memcmp.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_memcpy.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memcpy.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_memdel.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memdel.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_memmove.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memmove.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_memset.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memset.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_putchar.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putchar.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_putchar_fd.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putchar_fd.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_putendl.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putendl.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_putendl_fd.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putendl_fd.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_putnbr.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putnbr.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_putnbr_fd.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putnbr_fd.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_putstr.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putstr.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_putstr_fd.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putstr_fd.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_realloc.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_realloc.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_sort_params.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_sort_params.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_sqrt.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_sqrt.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strcat.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strcat.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strchr.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strchr.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strclr.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strclr.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strcmp.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strcmp.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strcpy.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strcpy.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strdel.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strdel.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strdup.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strdup.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strequ.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strequ.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_striter.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_striter.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_striteri.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_striteri.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strjoin.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strjoin.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strlcat.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strlcat.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strlen.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strlen.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strmap.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strmap.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strmapi.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strmapi.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strncat.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strncat.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strncmp.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strncmp.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strncpy.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strncpy.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strnequ.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strnequ.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strnew.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strnew.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strnstr.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strnstr.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strrchr.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strrchr.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strsplit.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strsplit.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strsplit_full.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strsplit_full.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strstr.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strstr.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strsub.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strsub.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strtrim.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strtrim.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_swap.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_swap.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_tolower.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_tolower.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_toupper.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_toupper.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/ft_ull_pow.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_ull_pow.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/get_next_line.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/get_next_line.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/libft/srcs/gnl_free_fd.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/gnl_free_fd.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/src/carriage.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/carriage.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/src/corewar_init.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar_init.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/src/display_arena.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/display_arena.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/src/error.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/endgame.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/src/game.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/error.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/src/game_init.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/game.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/src/main.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/game_init.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/src/parse_players.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/main.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/src/players_init.c">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/parse_players.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/players_init.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

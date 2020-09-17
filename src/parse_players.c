@@ -78,7 +78,8 @@ void            parse_players(t_cw *cw)
     i = 0;
     while (i < cw->players_amount)
     {
-        fd = open(cw->players[i]->filename, O_RDONLY);
+        char *name = cw->players[i]->filename;
+        fd = open(name, O_RDONLY);
         if (fd < 0)
             error("Unable to open a file");
         read_player(fd, cw->players[i]);

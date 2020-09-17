@@ -311,6 +311,12 @@ CMakeFiles/corewar.dir/src/display_arena.c.o: ../libft/includes/get_next_line.h
 CMakeFiles/corewar.dir/src/display_arena.c.o: ../libft/includes/libft.h
 CMakeFiles/corewar.dir/src/display_arena.c.o: ../src/display_arena.c
 
+CMakeFiles/corewar.dir/src/endgame.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/endgame.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/endgame.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/endgame.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/endgame.c.o: ../src/endgame.c
+
 CMakeFiles/corewar.dir/src/error.c.o: ../includes/corewar.h
 CMakeFiles/corewar.dir/src/error.c.o: ../includes/op.h
 CMakeFiles/corewar.dir/src/error.c.o: ../libft/includes/get_next_line.h

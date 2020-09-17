@@ -28,11 +28,43 @@ string.h
 get_next_line.h
 -
 
-/Users/tinkotsu/Desktop/corewar/src/game.c
+/cygdrive/c/Users/Roman/Desktop/corewar/src/carriage.c
 corewar.h
-/Users/tinkotsu/Desktop/corewar/src/corewar.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
 
-/Users/tinkotsu/Desktop/corewar/src/main.c
+/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar_init.c
 corewar.h
-/Users/tinkotsu/Desktop/corewar/src/corewar.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
+
+/cygdrive/c/Users/Roman/Desktop/corewar/src/display_arena.c
+corewar.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
+
+/cygdrive/c/Users/Roman/Desktop/corewar/src/endgame.c
+corewar.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
+
+/cygdrive/c/Users/Roman/Desktop/corewar/src/error.c
+corewar.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
+
+/cygdrive/c/Users/Roman/Desktop/corewar/src/game.c
+corewar.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
+
+/cygdrive/c/Users/Roman/Desktop/corewar/src/game_init.c
+corewar.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
+
+/cygdrive/c/Users/Roman/Desktop/corewar/src/main.c
+corewar.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
+
+/cygdrive/c/Users/Roman/Desktop/corewar/src/parse_players.c
+corewar.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
+
+/cygdrive/c/Users/Roman/Desktop/corewar/src/players_init.c
+corewar.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
 

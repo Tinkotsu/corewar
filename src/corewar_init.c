@@ -1,52 +1,50 @@
 #include "corewar.h"
 
-
-static int  check_if_flag(char *argv)
+static int  check_if_flag(char *argv, t_cw *cw)
 {
     if (argv[0] == '-')
     {
-        return (
-                ft_strequ(&argv[1], "d") ||
-                ft_strequ(&argv[1], "dump")
-                );
+        if (!cw->d_flag && ft_strequ(&argv[1], "d"))
+            cw->d_flag = 2;
+        else if (!cw->d_flag && ft_strequ(&argv[1], "dump"))
+            cw->d_flag = 1;
+        else if (ft_strequ(&argv[1], "n"))
+            ++cw->n_flags;
+        else
+            error("Flag error"); //usage (type flag)
     }
-    return (0);
+    else
+        return (0);
+    return (1);
 }
 
-static void validate_filename(char *filename)
-{
-    int len;
-
-    len = ft_strlen(filename);
-    if (len < 5 || !ft_strequ(&filename[len - 4], ".cor"))
-        error("Wrong filename!");
-}
-
-static void get_players_amount(int argc, char **argv, t_cw *cw)
+static int  get_players_amount(int argc, char **argv, t_cw *cw)
 {
     int amount;
-    int i;
+    int len;
 
-    i = 1;
     amount = 0;
-    while (i < argc)
+    while (argc)
     {
-        if (ft_strequ(argv[i], "-n"))
+        if (!check_if_flag(*argv, cw))
         {
-            ++i;
-            ++cw->n_flags;
-        }
-        else if (!check_if_flag(argv[i]))
-        {
-            validate_filename(argv[i]);
+            len = ft_strlen(*argv);
+            if (len < 5 || !ft_strequ(&((*argv)[len - 4]), ".cor"))
+                error("Wrong filename!");
             ++amount;
         }
-        ++i;
+        else
+        {
+            if (!--argc)
+                error("Wrong input"); //usage
+            ++argv;
+        }
+        --argc;
+        ++argv;
     }
     if (amount > MAX_PLAYERS || !amount)
         error("Wrong players amount");
-    cw->players_amount = amount;
-    cw->last_player_alive = amount;
+    return (amount);
 }
 
 static void mem_players(t_cw *cw)
@@ -66,15 +64,25 @@ static void mem_players(t_cw *cw)
     }
 }
 
+static int  manage_d_flag(char **argv)
+{
+    while (!ft_strnequ(*argv, "-d", 2))
+        ++argv;
+    ++argv;
+    return (ft_atoi(*argv));
+}
+
 void        corewar_init(int argc, char **argv, t_cw *cw)
 {
     cw->n_flags = 0;
-    get_players_amount(argc, argv, cw);
+    cw->d_flag = 0;
+    cw->players_amount = get_players_amount(argc - 1, argv + 1, cw);
+    cw->last_player_alive = cw->players_amount;
+    cw->d_cycles = cw->d_flag ? manage_d_flag(argv) : 0;
     cw->cycles_to_die = CYCLE_TO_DIE;
     cw->game_cycles = 0;
-    cw->live_operations = 0;
+    cw->live_ops = 0;
     cw->checks_performed = 0;
-    cw->carriage_id = 0;
     cw->arena = NULL;
     cw->carriage_list = NULL;
     mem_players(cw);
