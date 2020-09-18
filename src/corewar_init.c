@@ -18,7 +18,7 @@ static int  check_if_flag(char *argv, t_cw *cw)
     return (1);
 }
 
-static int  get_players_amount(int argc, char **argv, t_cw *cw)
+static void  parse_input(int argc, char **argv, t_cw *cw)
 {
     int amount;
     int len;
@@ -44,7 +44,7 @@ static int  get_players_amount(int argc, char **argv, t_cw *cw)
     }
     if (amount > MAX_PLAYERS || !amount)
         error("Wrong players amount");
-    return (amount);
+    cw->players_amount = amount;
 }
 
 static void mem_players(t_cw *cw)
@@ -74,9 +74,9 @@ static int  manage_d_flag(char **argv)
 
 void        corewar_init(int argc, char **argv, t_cw *cw)
 {
-    cw->n_flags = 0;
     cw->d_flag = 0;
-    cw->players_amount = get_players_amount(argc - 1, argv + 1, cw);
+    cw->n_flags = 0;
+    parse_input(argc - 1, argv + 1, cw);
     cw->last_player_alive = cw->players_amount;
     cw->d_cycles = cw->d_flag ? manage_d_flag(argv) : 0;
     cw->cycles_to_die = CYCLE_TO_DIE;

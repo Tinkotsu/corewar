@@ -21,7 +21,7 @@ typedef struct          s_carriage
 {
     int                 id;
     int                 carry;
-    int                 op;
+    unsigned char       op;
     int                 last_cycle_live;
     int                 cycles_till_op;
     char                *position;

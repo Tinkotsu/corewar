@@ -29,8 +29,7 @@ int main(int argc, char **argv)
     players_init(argc, argv, &cw);
     parse_players(&cw);
     game_init(&cw);
-    //game(&cw);
-    //check_arena(&cw);
+    game(&cw);
     //display_arena(cw.arena, 32);
     endgame(&cw);
     ft_putendl("Success!");
