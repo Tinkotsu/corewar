@@ -32,7 +32,7 @@ static void     reduce_carriages_cycles_till_op(t_carriage *car)
 {
     while (car)
     {
-        if (car->cycles_till_op  > 0)
+        if (car->cycles_till_op > 0)
             --car->cycles_till_op;
         car = car->next;
     }
@@ -43,8 +43,9 @@ static void     get_op_code(t_carriage *car)
     while (car)
     {
         car->op = *car->position;
-        if (*(car->position) >= 0x01 && *(car->position) <= 0x10) //не уверен насчет условия
+        if (*(car->position) >= 0x01 && *(car->position) <= 0x10)
         {
+            ;
             //взять кол-во циклов до операции (op.c)
         }
         car = car->next;
@@ -65,7 +66,7 @@ void            game(t_cw *cw)
                 display_arena(cw->arena, 32 * cw->d_flag);
                 return ;
             }
-            get_op_code(cw->carriage_list); //установить код операции
+            get_op_code(cw->carriage_list);
             reduce_carriages_cycles_till_op(cw->carriage_list);
             //выполнить операцию();
             --loop_iter;
