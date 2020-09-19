@@ -96,6 +96,7 @@ add_executable(corewar
         src/error.c
         src/game.c
         src/game_init.c
+        src/get_int.c
         src/main.c
         src/op.c
         src/parse_players.c

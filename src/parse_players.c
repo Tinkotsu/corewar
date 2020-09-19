@@ -1,24 +1,15 @@
 #include "corewar.h"
 
-static unsigned int get_int_part(int fd, size_t size)
+static int          read_ints(int fd, size_t size)
 {
-    int             i;
     unsigned char   buf[size];
-    unsigned int    number;
 
-    i = 0;
-    number = 0;
     if (read(fd, buf, size) != size)
         error("Failed reading");
-    while (i != size)
-    {
-        number |= buf[i] << ((size - 1) * 8 - 8 * i);
-        ++i;
-    }
-    return (number);
+    return (get_int(buf, size));
 }
 
-static void         get_char_part(int fd, unsigned int size, char *dest, int last)
+static void         read_chars(int fd, unsigned int size, char *dest, int last)
 {
     char        buf[size + 1];
     int         i;
@@ -54,20 +45,20 @@ static void         check_nulls(int fd, size_t size)
 
 static void         read_player(int fd, t_player *player)
 {
-    if (get_int_part(fd, sizeof(int)) != COREWAR_EXEC_MAGIC)
+    if (read_ints(fd, sizeof(int)) != COREWAR_EXEC_MAGIC)
         error("Wrong magic header");
-    get_char_part(fd, PROG_NAME_LENGTH, player->name, 0);
+    read_chars(fd, PROG_NAME_LENGTH, player->name, 0);
     check_nulls(fd, sizeof(int));
-    player->exec_size = get_int_part(fd, sizeof(int));
+    player->exec_size = read_ints(fd, sizeof(int));
     if (player->exec_size < 0 || player->exec_size > CHAMP_MAX_SIZE)
         error("Wrong champion size");
-    get_char_part(fd, COMMENT_LENGTH, player->comment, 0);
+    read_chars(fd, COMMENT_LENGTH, player->comment, 0);
     check_nulls(fd, sizeof(int));
     player->exec_code = (char *)malloc(player->exec_size);
     if (!player->exec_code)
         error("Memory error");
     ft_bzero(player->exec_code, player->exec_size);
-    get_char_part(fd, player->exec_size, player->exec_code, 1);
+    read_chars(fd, player->exec_size, player->exec_code, 1);
 }
 
 void            parse_players(t_cw *cw)

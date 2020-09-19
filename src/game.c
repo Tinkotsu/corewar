@@ -79,7 +79,7 @@ void            game(t_cw *cw)
 
     while (cw->carriage_list)
     {
-        loop_iter = cw->cycles_to_die > 0 ? cw->cycles_to_die : 0;
+        loop_iter = cw->cycles_to_die > 0 ? cw->cycles_to_die : 1;
         while (loop_iter)
         {
             if (cw->d_flag && cw->game_cycles == cw->d_cycles)

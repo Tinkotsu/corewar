@@ -15,7 +15,6 @@ void                    delete_carriages(int to_delete, t_cw *cw)
                 prev->next = cur->next;
             else
                 cw->carriage_list = cur->next;
-            cw->last_player_alive = cur->id;
             free(cur);
             cur = prev ? prev->next : cw->carriage_list;
             --to_delete;

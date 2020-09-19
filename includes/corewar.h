@@ -62,6 +62,7 @@ typedef struct          s_cw
 extern  t_op            op_tab[17];
 
 int                     main(int argc, char **argv);
+int                     get_int(unsigned char *bytes, size_t size);
 void                    corewar_init(int argc, char **argv, t_cw *cw);
 void                    players_init(int argc, char **argv, t_cw *cw);
 void                    parse_players(t_cw *cw);

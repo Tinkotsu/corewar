@@ -2,6 +2,7 @@
 
 void    ch_live(t_carriage *car, t_cw *cw)
 {
-    if (car)
-        return ;
+    car->last_cycle_live = cw->game_cycles;
+
+    ++cw->live_ops;
 }

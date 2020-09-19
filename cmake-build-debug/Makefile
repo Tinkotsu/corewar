@@ -2141,33 +2141,6 @@ libft/srcs/gnl_free_fd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.s
 .PHONY : libft/srcs/gnl_free_fd.c.s
 
-src/args_arr.o: src/args_arr.c.o
-
-.PHONY : src/args_arr.o
-
-# target to build an object file
-src/args_arr.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/args_arr.c.o
-.PHONY : src/args_arr.c.o
-
-src/args_arr.i: src/args_arr.c.i
-
-.PHONY : src/args_arr.i
-
-# target to preprocess a source file
-src/args_arr.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/args_arr.c.i
-.PHONY : src/args_arr.c.i
-
-src/args_arr.s: src/args_arr.c.s
-
-.PHONY : src/args_arr.s
-
-# target to generate assembly for a file
-src/args_arr.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/args_arr.c.s
-.PHONY : src/args_arr.c.s
-
 src/carriage.o: src/carriage.c.o
 
 .PHONY : src/carriage.o
@@ -2437,6 +2410,33 @@ src/game_init.s: src/game_init.c.s
 src/game_init.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/game_init.c.s
 .PHONY : src/game_init.c.s
+
+src/get_int.o: src/get_int.c.o
+
+.PHONY : src/get_int.o
+
+# target to build an object file
+src/get_int.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/get_int.c.o
+.PHONY : src/get_int.c.o
+
+src/get_int.i: src/get_int.c.i
+
+.PHONY : src/get_int.i
+
+# target to preprocess a source file
+src/get_int.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/get_int.c.i
+.PHONY : src/get_int.c.i
+
+src/get_int.s: src/get_int.c.s
+
+.PHONY : src/get_int.s
+
+# target to generate assembly for a file
+src/get_int.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/get_int.c.s
+.PHONY : src/get_int.c.s
 
 src/main.o: src/main.c.o
 
@@ -2777,9 +2777,6 @@ help:
 	@echo "... libft/srcs/gnl_free_fd.o"
 	@echo "... libft/srcs/gnl_free_fd.i"
 	@echo "... libft/srcs/gnl_free_fd.s"
-	@echo "... src/args_arr.o"
-	@echo "... src/args_arr.i"
-	@echo "... src/args_arr.s"
 	@echo "... src/carriage.o"
 	@echo "... src/carriage.i"
 	@echo "... src/carriage.s"
@@ -2810,6 +2807,9 @@ help:
 	@echo "... src/game_init.o"
 	@echo "... src/game_init.i"
 	@echo "... src/game_init.s"
+	@echo "... src/get_int.o"
+	@echo "... src/get_int.i"
+	@echo "... src/get_int.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

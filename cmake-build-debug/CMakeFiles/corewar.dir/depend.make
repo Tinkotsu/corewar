@@ -357,6 +357,12 @@ CMakeFiles/corewar.dir/src/game_init.c.o: ../libft/includes/get_next_line.h
 CMakeFiles/corewar.dir/src/game_init.c.o: ../libft/includes/libft.h
 CMakeFiles/corewar.dir/src/game_init.c.o: ../src/game_init.c
 
+CMakeFiles/corewar.dir/src/get_int.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/get_int.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/get_int.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/get_int.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/get_int.c.o: ../src/get_int.c
+
 CMakeFiles/corewar.dir/src/main.c.o: ../includes/corewar.h
 CMakeFiles/corewar.dir/src/main.c.o: ../includes/op.h
 CMakeFiles/corewar.dir/src/main.c.o: ../libft/includes/get_next_line.h
