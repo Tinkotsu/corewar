@@ -1,8 +1,7 @@
 #include "game.h"
 
 void (*champ_ops[16])(t_carriage *car, t_cw *cw) = {
-        &ch_live
-        /*
+        &ch_live,
         &ch_ld,
         &ch_st,
         &ch_add,
@@ -17,5 +16,5 @@ void (*champ_ops[16])(t_carriage *car, t_cw *cw) = {
         &ch_lld,
         &ch_lldi,
         &ch_lfork,
-        &ch_aff*/
+        &ch_aff
 };

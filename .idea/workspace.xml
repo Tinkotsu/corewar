@@ -30,11 +30,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ce6c016-7128-4a4f-b426-f138cdae9480" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/champ_ops/add.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/champ_ops/aff.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/champ_ops/and.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/champ_ops/fork.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/champ_ops/ldi.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/champ_ops/lfork.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/champ_ops/lld.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/champ_ops/lldi.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/champ_ops/or.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/champ_ops/st.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/champ_ops/sti.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/champ_ops/sub.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/champ_ops/xor.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/champ_ops/zjmp.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/corewar.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/corewar.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/champ_ops/live.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/champ_ops/live.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/get_int.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/get_int.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parse_players.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_players.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/corewar.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/corewar.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/corewar.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/corewar.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/corewar.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/corewar.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/corewar.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/corewar.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/corewar.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/corewar.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/corewar.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/corewar.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/game.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/champ_ops/ld.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/champ_ops/ld.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/champ_ops/ops_array.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/champ_ops/ops_array.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +115,7 @@
       <workItem from="1600535017683" duration="9000" />
       <workItem from="1600535028869" duration="3059000" />
       <workItem from="1600538355251" duration="12500000" />
-      <workItem from="1600553264972" duration="505000" />
+      <workItem from="1600553264972" duration="1319000" />
     </task>
     <servers />
   </component>

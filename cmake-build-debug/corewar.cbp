@@ -321,13 +321,55 @@
 		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_op.c">
 			<Option target="corewar"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/add.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/aff.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/and.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/fork.c">
+			<Option target="corewar"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ld.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ldi.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/lfork.c">
 			<Option target="corewar"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/live.c">
 			<Option target="corewar"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/lld.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/lldi.c">
+			<Option target="corewar"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ops_array.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/or.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/st.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/sti.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/sub.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/xor.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/zjmp.c">
 			<Option target="corewar"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar_init.c">
