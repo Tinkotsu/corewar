@@ -51,7 +51,7 @@ static void         carriages_init(t_cw *cw)
     while (i < cw->players_amount)
     {
         new = create_carriage(cw->players[i]->id,
-                              cw->arena + cw->players[i]->starting_point);
+                              cw->players[i]->starting_point);
         new->next = cw->carriage_list;
         cw->carriage_list = new;
         ++i;

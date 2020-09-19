@@ -81,6 +81,9 @@
 		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/includes/corewar.h">
 			<Option target="corewar"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/includes/game.h">
+			<Option target="corewar"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/includes/op.h">
 			<Option target="corewar"/>
 		</Unit>
@@ -312,7 +315,19 @@
 		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/gnl_free_fd.c">
 			<Option target="corewar"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/args_arr.c">
+			<Option target="corewar"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/carriage.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_op.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/live.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ops_array.c">
 			<Option target="corewar"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar_init.c">
@@ -334,6 +349,9 @@
 			<Option target="corewar"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/main.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/op.c">
 			<Option target="corewar"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/parse_players.c">

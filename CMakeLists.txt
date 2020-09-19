@@ -8,6 +8,7 @@ include_directories(libft/includes)
 
 add_executable(corewar
         includes/corewar.h
+        includes/game.h
         includes/op.h
         libft/includes/get_next_line.h
         libft/includes/libft.h
@@ -85,9 +86,17 @@ add_executable(corewar
         libft/srcs/ft_ull_pow.c
         libft/srcs/get_next_line.c
         libft/srcs/gnl_free_fd.c
+        src/champ_ops/live.c
+        src/champ_ops/ops_array.c
+        src/carriage.c
+        src/champ_op.c
         src/corewar_init.c
+        src/display_arena.c
+        src/endgame.c
         src/error.c
+        src/game.c
         src/game_init.c
         src/main.c
+        src/op.c
         src/parse_players.c
-        src/players_init.c src/display_arena.c src/carriage.c src/game.c src/endgame.c)
+        src/players_init.c)

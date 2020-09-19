@@ -28,7 +28,7 @@ void                    delete_carriages(int to_delete, t_cw *cw)
     }
 }
 
-t_carriage  *create_carriage(int id, char *pos)
+t_carriage              *create_carriage(int id, int pos)
 {
     t_carriage  *car;
     int         i;
@@ -38,10 +38,11 @@ t_carriage  *create_carriage(int id, char *pos)
         error("Memory error");
     car->id = id;
     car->carry = 0;
-    car->op = -1;
-    car->cycles_till_op = -1;
+    car->op_i = -1;
+    car->op = NULL;
+    car->cycles_till_op = 0;
     car->last_cycle_live = -1;
-    car->step = -1;
+    car->step = 0;
     car->position = pos;
     car->reg[0] = -id;
     car->to_delete = 0;

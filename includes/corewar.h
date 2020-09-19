@@ -5,6 +5,17 @@
 # include "op.h"
 # include "libft.h"
 
+typedef struct          s_op
+{
+    char                *name;
+    int                 args_amount;
+    int                 args[3];
+    int                 id;
+    int                 cycles;
+    char                *description;
+    int                 arg_code;
+    int                 dir_size;
+}                       t_op;
 
 typedef struct          s_player
 {
@@ -21,13 +32,14 @@ typedef struct          s_carriage
 {
     int                 id;
     int                 carry;
-    unsigned char       op;
+    unsigned char       op_i;
     int                 last_cycle_live;
     int                 cycles_till_op;
-    char                *position;
+    int                 position;
     int                 step;
     int                 reg[REG_NUMBER];
     int                 to_delete;
+    t_op                *op;
     struct s_carriage   *next;
 }                       t_carriage;
 
@@ -47,16 +59,20 @@ typedef struct          s_cw
 	t_carriage          *carriage_list;
 }                       t_cw;
 
+extern  t_op            op_tab[17];
+
 int                     main(int argc, char **argv);
 void                    corewar_init(int argc, char **argv, t_cw *cw);
 void                    players_init(int argc, char **argv, t_cw *cw);
 void                    parse_players(t_cw *cw);
 void                    game_init(t_cw *cw);
 void	                display_arena(char *arena, int octets_num);
-t_carriage              *create_carriage(int id, char *pos);
+t_carriage              *create_carriage(int id, int pos);
 void                    game(t_cw *cw);
 void                    delete_carriages(int to_delete, t_cw *cw);
 void                    endgame(t_cw *cw);
+int                     validate_op(t_cw *cw, t_carriage *car);
+
 
 
 void                    error(char *message);

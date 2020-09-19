@@ -1,4 +1,4 @@
-#include "corewar.h"
+#include "game.h"
 
 static void     check(t_cw *cw)
 {
@@ -38,15 +38,36 @@ static void     reduce_carriages_cycles_till_op(t_carriage *car)
     }
 }
 
-static void     get_op_code(t_carriage *car)
+static void     get_op_code(char *arena, t_carriage *car)
 {
     while (car)
     {
-        car->op = *car->position;
-        if (*(car->position) >= 0x01 && *(car->position) <= 0x10)
+        car->op_i = arena[car->position];
+        if (car->op_i >= 0x01 && car->op_i <= 0x10)
         {
-            ;
-            //взять кол-во циклов до операции (op.c)
+            car->op = &op_tab[car->op_i];
+            car->cycles_till_op = car->op->cycles;
+        }
+        else
+        {
+            car->op = NULL;
+            car->cycles_till_op = 0;
+        }
+        car = car->next;
+    }
+}
+
+static void     execute_op(t_cw *cw, t_carriage *car)
+{
+    while (car)
+    {
+        if (car->cycles_till_op == 0)
+        {
+            ++car->step;
+            if (car->op && validate_op(cw, car))
+                champ_ops[car->op_i](car, cw);
+            car->position = (car->position + car->step) % MEM_SIZE;
+            car->step = 0;
         }
         car = car->next;
     }
@@ -66,9 +87,9 @@ void            game(t_cw *cw)
                 display_arena(cw->arena, 32 * cw->d_flag);
                 return ;
             }
-            get_op_code(cw->carriage_list);
+            get_op_code(cw->arena, cw->carriage_list);
             reduce_carriages_cycles_till_op(cw->carriage_list);
-            //выполнить операцию();
+            execute_op(cw, cw->carriage_list);
             --loop_iter;
             ++cw->game_cycles;
         }
