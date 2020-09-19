@@ -2,7 +2,7 @@
 
 static int          read_ints(int fd, size_t size)
 {
-    unsigned char   buf[size];
+    char   buf[size];
 
     if (read(fd, buf, size) != size)
         error("Failed reading");

@@ -321,6 +321,9 @@
 		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_op.c">
 			<Option target="corewar"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ld.c">
+			<Option target="corewar"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/live.c">
 			<Option target="corewar"/>
 		</Unit>

@@ -7,8 +7,8 @@ extern void (*champ_ops[16])(t_carriage *car, t_cw *cw);
 
 
 void            ch_live(t_carriage *car, t_cw *cw);
-/*
 void            ch_ld(t_carriage *car, t_cw *cw);
+/*
 void            ch_st(t_carriage *car, t_cw *cw);
 void            ch_add(t_carriage *car, t_cw *cw);
 void            ch_sub(t_carriage *car, t_cw *cw);

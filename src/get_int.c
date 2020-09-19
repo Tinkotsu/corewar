@@ -1,6 +1,6 @@
 #include "corewar.h"
 
-int         get_int(unsigned char *bytes, size_t size)
+int         get_int(char *bytes, size_t size)
 {
     int i;
     int number;

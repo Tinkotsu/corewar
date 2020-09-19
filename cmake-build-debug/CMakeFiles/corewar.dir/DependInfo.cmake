@@ -80,6 +80,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/gnl_free_fd.c" "/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.o"
   "/cygdrive/c/Users/Roman/Desktop/corewar/src/carriage.c" "/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/corewar.dir/src/carriage.c.o"
   "/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_op.c" "/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/corewar.dir/src/champ_op.c.o"
+  "/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ld.c" "/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/corewar.dir/src/champ_ops/ld.c.o"
   "/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/live.c" "/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/corewar.dir/src/champ_ops/live.c.o"
   "/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ops_array.c" "/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.o"
   "/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar_init.c" "/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/corewar.dir/src/corewar_init.c.o"

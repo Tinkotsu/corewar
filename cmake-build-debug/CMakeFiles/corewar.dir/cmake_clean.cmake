@@ -75,6 +75,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.o"
   "CMakeFiles/corewar.dir/src/carriage.c.o"
   "CMakeFiles/corewar.dir/src/champ_op.c.o"
+  "CMakeFiles/corewar.dir/src/champ_ops/ld.c.o"
   "CMakeFiles/corewar.dir/src/champ_ops/live.c.o"
   "CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.o"
   "CMakeFiles/corewar.dir/src/corewar_init.c.o"

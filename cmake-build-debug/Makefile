@@ -2195,6 +2195,33 @@ src/champ_op.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_op.c.s
 .PHONY : src/champ_op.c.s
 
+src/champ_ops/ld.o: src/champ_ops/ld.c.o
+
+.PHONY : src/champ_ops/ld.o
+
+# target to build an object file
+src/champ_ops/ld.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/ld.c.o
+.PHONY : src/champ_ops/ld.c.o
+
+src/champ_ops/ld.i: src/champ_ops/ld.c.i
+
+.PHONY : src/champ_ops/ld.i
+
+# target to preprocess a source file
+src/champ_ops/ld.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/ld.c.i
+.PHONY : src/champ_ops/ld.c.i
+
+src/champ_ops/ld.s: src/champ_ops/ld.c.s
+
+.PHONY : src/champ_ops/ld.s
+
+# target to generate assembly for a file
+src/champ_ops/ld.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/ld.c.s
+.PHONY : src/champ_ops/ld.c.s
+
 src/champ_ops/live.o: src/champ_ops/live.c.o
 
 .PHONY : src/champ_ops/live.o
@@ -2783,6 +2810,9 @@ help:
 	@echo "... src/champ_op.o"
 	@echo "... src/champ_op.i"
 	@echo "... src/champ_op.s"
+	@echo "... src/champ_ops/ld.o"
+	@echo "... src/champ_ops/ld.i"
+	@echo "... src/champ_ops/ld.s"
 	@echo "... src/champ_ops/live.o"
 	@echo "... src/champ_ops/live.i"
 	@echo "... src/champ_ops/live.s"
