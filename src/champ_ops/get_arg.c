@@ -17,7 +17,7 @@ void        get_arg_bytes(char *bytes, int size, char *arena, int byte_pos)
 
     i = 0;
     if (byte_pos < 0)
-        byte_pos = MEM_SIZE - abs(byte_pos) % MEM_SIZE;
+        byte_pos = (MEM_SIZE - byte_pos) % MEM_SIZE;
     while (i < size)
     {
         bytes[i] = arena[(byte_pos + i) % MEM_SIZE];
