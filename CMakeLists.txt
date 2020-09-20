@@ -86,8 +86,24 @@ add_executable(corewar
         libft/srcs/ft_ull_pow.c
         libft/srcs/get_next_line.c
         libft/srcs/gnl_free_fd.c
+        src/champ_ops/add.c
+        src/champ_ops/aff.c
+        src/champ_ops/and.c
+        src/champ_ops/fork.c
+        src/champ_ops/get_arg.c
+        src/champ_ops/ld.c
+        src/champ_ops/ldi.c
+        src/champ_ops/lfork.c
         src/champ_ops/live.c
+        src/champ_ops/lld.c
+        src/champ_ops/lldi.c
         src/champ_ops/ops_array.c
+        src/champ_ops/or.c
+        src/champ_ops/st.c
+        src/champ_ops/sti.c
+        src/champ_ops/sub.c
+        src/champ_ops/xor.c
+        src/champ_ops/zjmp.c
         src/carriage.c
         src/champ_op.c
         src/corewar_init.c
@@ -100,4 +116,4 @@ add_executable(corewar
         src/main.c
         src/op.c
         src/parse_players.c
-        src/players_init.c src/champ_ops/ld.c src/champ_ops/st.c src/champ_ops/add.c src/champ_ops/sub.c src/champ_ops/and.c src/champ_ops/or.c src/champ_ops/xor.c src/champ_ops/zjmp.c src/champ_ops/ldi.c src/champ_ops/sti.c src/champ_ops/fork.c src/champ_ops/lld.c src/champ_ops/lldi.c src/champ_ops/lfork.c src/champ_ops/aff.c src/champ_ops/get_arg.c)
+        src/players_init.c)

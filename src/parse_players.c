@@ -1,12 +1,16 @@
 #include "corewar.h"
+#include <stdio.h>
 
-static int          read_ints(int fd, size_t size)
+static unsigned int          read_ints(int fd, size_t size)
 {
-    char   buf[size];
+    char        buf[size];
+    unsigned int         res;
 
     if (read(fd, buf, size) != size)
         error("Failed reading");
-    return (get_int(buf, size));
+    res = get_int(buf, size);
+    printf("my magic = %d\nreal magic = %d\n", res, (int)COREWAR_EXEC_MAGIC);
+    return (res);
 }
 
 static void         read_chars(int fd, unsigned int size, char *dest, int last)

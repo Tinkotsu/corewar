@@ -2,6 +2,9 @@
 
 static int  check_if_flag(char *argv, t_cw *cw)
 {
+    int ret;
+
+    ret = 2;
     if (argv[0] == '-')
     {
         if (!cw->d_flag && ft_strequ(&argv[1], "d"))
@@ -10,40 +13,44 @@ static int  check_if_flag(char *argv, t_cw *cw)
             cw->d_flag = 1;
         else if (ft_strequ(&argv[1], "n"))
             ++cw->n_flags;
+        else if (!cw->a_flag && ft_strequ(&argv[1], "a"))
+        {
+            cw->a_flag = 1;
+            ret = 1;
+        }
         else
             error("Flag error"); //usage (type flag)
     }
     else
         return (0);
-    return (1);
+    return (ret);
 }
 
 static void  parse_input(int argc, char **argv, t_cw *cw)
 {
     int amount;
     int len;
+    int ret;
 
     amount = 0;
     while (argc)
     {
-        if (!check_if_flag(*argv, cw))
+        if ((ret = check_if_flag(*argv, cw)))
+        {
+            if (ret == 2 && !--argc)
+                error("Wrong input"); //usage
+            ++argv;
+        }
+        else
         {
             len = ft_strlen(*argv);
             if (len < 5 || !ft_strequ(&((*argv)[len - 4]), ".cor"))
                 error("Wrong filename!");
             ++amount;
         }
-        else
-        {
-            if (!--argc)
-                error("Wrong input"); //usage
-            ++argv;
-        }
         --argc;
         ++argv;
     }
-    if (amount > MAX_PLAYERS || !amount)
-        error("Wrong players amount");
     cw->players_amount = amount;
 }
 
@@ -74,10 +81,13 @@ static int  manage_d_flag(char **argv)
 
 void        corewar_init(int argc, char **argv, t_cw *cw)
 {
+    cw->a_flag = 0;
     cw->d_flag = 0;
     cw->n_flags = 0;
     cw->cars_amount = 0;
     parse_input(argc - 1, argv + 1, cw);
+    if (cw->players_amount > MAX_PLAYERS || !cw->players_amount)
+        error("Wrong players amount");
     cw->last_player_alive = cw->players_amount;
     cw->d_cycles = cw->d_flag ? manage_d_flag(argv) : 0;
     cw->cycles_to_die = CYCLE_TO_DIE;

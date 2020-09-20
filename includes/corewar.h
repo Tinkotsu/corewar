@@ -46,6 +46,7 @@ typedef struct          s_carriage
 typedef struct          s_cw
 {
 	int                 players_amount;
+	int                 a_flag;
 	int                 n_flags;
 	int                 d_flag; // 1 = 32 octs; 2 = 64 octs;
 	int                 d_cycles;
