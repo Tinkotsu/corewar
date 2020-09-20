@@ -95,6 +95,8 @@ void            game(t_cw *cw)
             execute_op(cw, cw->carriage_list);
             --loop_iter;
             ++cw->game_cycles;
+            if (cw->game_cycles == 229)
+                ft_putchar('x');
         }
         check(cw);
     }
