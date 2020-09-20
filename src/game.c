@@ -44,16 +44,15 @@ static void     get_op_code(char *arena, t_carriage *car)
     {
         if (!car->op)
         {
-            car->op_i = arena[car->position] - 1;
-            if (car->op_i >= 1 && car->op_i <= 0x10) {
-                car->op = &op_tab[car->op_i];
+            car->op_i = arena[car->position];
+            if (car->op_i >= 1 && car->op_i <= 0x10)
+            {
+                int op = car->op_i;
+                car->op = &op_tab[car->op_i - 1];
                 car->cycles_till_op = car->op->cycles;
             }
             else
-            {
-                car->op = NULL;
                 car->cycles_till_op = 0;
-            }
         }
         car = car->next;
     }
@@ -67,8 +66,9 @@ static void     execute_op(t_cw *cw, t_carriage *car)
         {
             ++car->step;
             if (car->op && validate_op(cw, car))
-                champ_ops[car->op_i](car, cw);
+                champ_ops[car->op_i - 1](car, cw);
             car->position = (car->position + car->step) % MEM_SIZE;
+            char *pos = &cw->arena[car->position];
             car->step = 0;
             car->op = NULL;
         }
@@ -85,8 +85,6 @@ void            game(t_cw *cw)
         loop_iter = cw->cycles_to_die > 0 ? cw->cycles_to_die : 1;
         while (loop_iter)
         {
-            --loop_iter;
-            ++cw->game_cycles;
             if (cw->d_flag && cw->game_cycles == cw->d_cycles)
             {
                 display_arena(cw->arena, 32 * cw->d_flag);
@@ -95,6 +93,8 @@ void            game(t_cw *cw)
             get_op_code(cw->arena, cw->carriage_list);
             reduce_carriages_cycles_till_op(cw->carriage_list);
             execute_op(cw, cw->carriage_list);
+            --loop_iter;
+            ++cw->game_cycles;
         }
         check(cw);
     }
