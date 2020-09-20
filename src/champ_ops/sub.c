@@ -3,7 +3,7 @@
 void            ch_sub(t_carriage *car, t_cw *cw)
 {
     int     args[3];
-    char    bytes[1];
+    unsigned char    bytes[1];
     int     res;
     int     i;
 

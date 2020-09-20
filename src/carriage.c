@@ -48,5 +48,8 @@ t_carriage              *create_carriage(int id, int pos)
     i = 1;
     while (i < REG_NUMBER)
         car->reg[i++] = 0;
+    i = 0;
+    while (i < 4)
+        car->args[i++] = 0;
     return (car);
 }

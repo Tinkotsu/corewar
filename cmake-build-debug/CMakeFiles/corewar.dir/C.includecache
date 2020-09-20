@@ -32,59 +32,47 @@ string.h
 get_next_line.h
 -
 
-/Users/tinkotsu/Desktop/corewar/src/champ_op.c
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/and.c
 game.h
-/Users/tinkotsu/Desktop/corewar/src/game.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/game.h
 
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/and.c
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/fork.c
 game.h
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/game.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/game.h
 
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/fork.c
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ld.c
 game.h
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/game.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/game.h
 
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/get_arg.c
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ldi.c
 game.h
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/game.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/game.h
 
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/ld.c
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/lfork.c
 game.h
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/game.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/game.h
 
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/ldi.c
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/lld.c
 game.h
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/game.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/game.h
 
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/lfork.c
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/lldi.c
 game.h
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/game.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/game.h
 
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/live.c
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/or.c
 game.h
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/game.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/game.h
 
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/lld.c
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/st.c
 game.h
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/game.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/game.h
 
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/lldi.c
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/sti.c
 game.h
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/game.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/game.h
 
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/or.c
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/xor.c
 game.h
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/game.h
-
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/sti.c
-game.h
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/game.h
-
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/xor.c
-game.h
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/game.h
-
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/zjmp.c
-game.h
-/Users/tinkotsu/Desktop/corewar/src/champ_ops/game.h
+/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/game.h
 

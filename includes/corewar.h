@@ -39,6 +39,7 @@ typedef struct          s_carriage
     int                 step;
     int                 reg[REG_NUMBER];
     int                 to_delete;
+    unsigned char       args[4];
     t_op                *op;
     struct s_carriage   *next;
 }                       t_carriage;
@@ -56,7 +57,7 @@ typedef struct          s_cw
 	int                 game_cycles;
 	int                 live_ops;
 	int                 checks_performed;
-	char                *arena; // to free
+	unsigned char       *arena;
 	t_player            **players; //to free
 	t_carriage          *carriage_list;
 }                       t_cw;

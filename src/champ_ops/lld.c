@@ -3,10 +3,10 @@
 void            ch_lld(t_carriage *car, t_cw *cw)
 {
     int     res;
-    char    bytes[4];
+    unsigned char    bytes[4];
 
     get_arg(0, car, cw->arena, bytes);
-    if (car->op->args[0] == 2)
+    if (car->args[0] == 2)
         res = get_int(bytes, car->op->dir_size == 0 ? 4 : 2);
     else
         res = get_ind_value(car, cw->arena, bytes, 1);

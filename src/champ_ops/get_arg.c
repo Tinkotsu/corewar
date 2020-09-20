@@ -1,17 +1,18 @@
 #include "game.h"
 
-static int  get_arg_size(t_op *op, int arg_i)
+static int  get_arg_size(unsigned char arg, t_op *op)
 {
-    if (op->args[arg_i] == 1)
+    if (arg == 1)
         return (1);
-    else if (op->args[arg_i] == 2)
+    else if (arg == 2)
         return (op->dir_size == 0 ? 4 : 2);
-    else if (op->args[arg_i] == 4)
+    else if (arg == 4)
         return (IND_SIZE);
     return (0);
 }
 
-void        get_arg_bytes(char *bytes, int size, char *arena, int byte_pos)
+void        get_arg_bytes(unsigned char *bytes, int size,
+                          unsigned char *arena, int byte_pos)
 {
     int i;
 
@@ -23,7 +24,8 @@ void        get_arg_bytes(char *bytes, int size, char *arena, int byte_pos)
     }
 }
 
-void        get_arg(int arg_i, t_carriage *car, char *arena, char *bytes)
+void        get_arg(int arg_i, t_carriage *car,
+                    unsigned char *arena, unsigned char *bytes)
 {
     int     i;
     int     len;
@@ -33,14 +35,15 @@ void        get_arg(int arg_i, t_carriage *car, char *arena, char *bytes)
     len = 1 + car->op->arg_code;
     while (i < arg_i)
     {
-        len += get_arg_size(car->op, i);
+        len += get_arg_size(car->args[i], car->op);
         ++i;
     }
-    size = get_arg_size(car->op, arg_i);
+    size = get_arg_size(car->args[i], car->op);
     get_arg_bytes(bytes, size, arena, car->position + len);
  }
 
- int    get_ind_value(t_carriage *car, char *arena, char *ind_bytes, int l_op)
+ int    get_ind_value(t_carriage *car, unsigned char *arena,
+                      unsigned char *ind_bytes, int l_op)
  {
     int res;
     int ind_pos;

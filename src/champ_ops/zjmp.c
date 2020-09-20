@@ -2,7 +2,7 @@
 
 void            ch_zjmp(t_carriage *car, t_cw *cw)
 {
-    char    bytes[car->op->dir_size == 0 ? 4 : 2];
+    unsigned char    bytes[car->op->dir_size == 0 ? 4 : 2];
     int     arg;
 
     if (car->carry)

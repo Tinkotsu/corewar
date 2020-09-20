@@ -44,8 +44,8 @@ static void     get_op_code(char *arena, t_carriage *car)
     {
         if (!car->op)
         {
-            car->op_i = arena[car->position];
-            if (car->op_i >= 0 && car->op_i < 0x10) {
+            car->op_i = arena[car->position] - 1;
+            if (car->op_i >= 1 && car->op_i <= 0x10) {
                 car->op = &op_tab[car->op_i];
                 car->cycles_till_op = car->op->cycles;
             }

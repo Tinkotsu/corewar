@@ -1,31 +1,35 @@
 #include "game.h"
 
 
-static void             get_op_args(char byte, unsigned char *args)
+static void             get_op_args(unsigned char byte, unsigned char *args)
 {
     int i;
-
+    int shift;
     i = 0;
+
     while (i < 4)
     {
-        args[i] = (byte >> (6 - 2 * i)) & 00000011;
+        shift = 6 - 2 * i;
+        args[i] = (byte & (3 << shift)) >> shift;
+        int n = args[i];
         if (args[i] == 3)
             args[i] = 4;
         ++i;
     }
 }
 
-static int              check_reg(t_carriage *car, char *arena)
+static int              check_reg(t_carriage *car, unsigned char *arena)
 {
-    char reg_byte;
+    unsigned char reg_byte;
 
     reg_byte = arena[(car->position + car->step - 1) % MEM_SIZE];
-    if (car->reg[0] != -(int)reg_byte)
+    if (reg_byte < 1 || reg_byte > 16)
         return (0);
     return (1);
 }
 
-static int              check_args(t_carriage *car, unsigned char *args, char *arena)
+static int              check_args(t_carriage *car,
+                                   unsigned char *args, unsigned char *arena)
 {
     int     i;
 
@@ -48,19 +52,20 @@ static int              check_args(t_carriage *car, unsigned char *args, char *a
             return (0);
         ++i;
     }
+    while (i < 4)
+        if (args[i++])
+            return (0);
     return (1);
 }
 
 int                     validate_op(t_cw *cw, t_carriage *car)
 {
-    unsigned char   args[4];
-
     if (car->op->arg_code)
     {
-        get_op_args(cw->arena[(car->position + 1) % MEM_SIZE], args);
+        get_op_args(cw->arena[(car->position + 1) % MEM_SIZE], car->args);
         ++car->step;
     }
-    if (!check_args(car, args, cw->arena))
+    if (!check_args(car, car->args, cw->arena))
         return (0);
     return (1);
 }
