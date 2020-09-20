@@ -10,12 +10,7 @@ void    ch_ld(t_carriage *car, t_cw *cw)
     if (car->op->args[0] == 2)
         res = get_int(bytes, car->op->dir_size);
     else
-    {
-        res = get_int(bytes, IND_SIZE);
-        ind_pos = (car->position + res % IDX_MOD) % MEM_SIZE;
-        get_arg_bytes(bytes, 4, cw->arena, ind_pos);
-        res = get_int(bytes, 4);
-    }
+        res = get_ind_value(car, cw->arena, bytes);
     get_arg(1, car, cw->arena, bytes);
     car->reg[get_int(bytes, 1) - 1] = res;
     car->carry = res ? 0 : 1;

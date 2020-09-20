@@ -11,7 +11,6 @@ static int  get_arg_size(t_op *op, int arg_i)
     return (0);
 }
 
-
 void        get_arg_bytes(char *bytes, int size, char *arena, int byte_pos)
 {
     int i;
@@ -39,4 +38,16 @@ void        get_arg(int arg_i, t_carriage *car, char *arena, char *bytes)
     }
     size = get_arg_size(car->op, arg_i);
     get_arg_bytes(bytes, size, arena, car->position + len);
+ }
+
+ int    get_ind_value(t_carriage *car, char *arena, char *ind_bytes)
+ {
+    int res;
+    int ind_pos;
+
+    res = get_int(ind_bytes, IND_SIZE);
+    ind_pos = ((car->position + res) % IDX_MOD) % MEM_SIZE;
+    get_arg_bytes(ind_bytes, 4, arena, ind_pos);
+    res = get_int(ind_bytes, 4);
+    return (res);
  }
