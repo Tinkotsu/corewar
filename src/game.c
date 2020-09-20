@@ -66,9 +66,11 @@ static void     execute_op(t_cw *cw, t_carriage *car)
         {
             ++car->step;
             if (car->op && validate_op(cw, car))
+            {
+                ft_putendl(op_tab[car->op_i - 1].name);
                 champ_ops[car->op_i - 1](car, cw);
+            }
             car->position = (car->position + car->step) % MEM_SIZE;
-            char *pos = &cw->arena[car->position];
             car->step = 0;
             car->op = NULL;
         }
@@ -95,9 +97,9 @@ void            game(t_cw *cw)
             execute_op(cw, cw->carriage_list);
             --loop_iter;
             ++cw->game_cycles;
-            if (cw->game_cycles == 229)
-                ft_putchar('x');
         }
         check(cw);
     }
+    ft_putnbr(cw->game_cycles);
+    ft_putchar('\n');
 }

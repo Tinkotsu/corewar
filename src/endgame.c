@@ -35,7 +35,7 @@ static void     free_data(t_cw *cw)
 
 void            endgame(t_cw *cw)
 {
-    if (!cw->carriage_list && cw->last_player_alive > 0)
+    if (!cw->carriage_list)
         announce_winner(cw->players[cw->last_player_alive - 1]);
     free_data(cw);
 }

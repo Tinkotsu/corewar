@@ -88,7 +88,7 @@ void        corewar_init(int argc, char **argv, t_cw *cw)
     parse_input(argc - 1, argv + 1, cw);
     if (cw->players_amount > MAX_PLAYERS || !cw->players_amount)
         error("Wrong players amount");
-    cw->last_player_alive = -1;
+    cw->last_player_alive = cw->players_amount;
     cw->d_cycles = cw->d_flag ? manage_d_flag(argv) : 0;
     cw->cycles_to_die = CYCLE_TO_DIE;
     cw->game_cycles = 0;
