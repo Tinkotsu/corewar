@@ -1,6 +1,6 @@
 #include "game.h"
 
-static int  get_arg_size(unsigned char arg, t_op *op)
+static int  get_arg_size(char arg, t_op *op)
 {
     if (arg == 1)
         return (1);
@@ -11,12 +11,12 @@ static int  get_arg_size(unsigned char arg, t_op *op)
     return (0);
 }
 
-void        get_arg_bytes(unsigned char *bytes, int size,
-                          unsigned char *arena, int byte_pos)
+void        get_arg_bytes(char *bytes, int size, char *arena, int byte_pos)
 {
     int i;
 
     i = 0;
+    byte_pos = byte_pos < 0 ? MEM_SIZE - abs(byte_pos) % MEM_SIZE : byte_pos;
     while (i < size)
     {
         bytes[i] = arena[(byte_pos + i) % MEM_SIZE];
@@ -25,7 +25,7 @@ void        get_arg_bytes(unsigned char *bytes, int size,
 }
 
 void        get_arg(int arg_i, t_carriage *car,
-                    unsigned char *arena, unsigned char *bytes)
+                    char *arena, char *bytes)
 {
     int     i;
     int     len;
@@ -42,8 +42,7 @@ void        get_arg(int arg_i, t_carriage *car,
     get_arg_bytes(bytes, size, arena, car->position + len);
  }
 
- int    get_ind_value(t_carriage *car, unsigned char *arena,
-                      unsigned char *ind_bytes, int l_op)
+ int    get_ind_value(t_carriage *car, char *arena, char *ind_bytes, int l_op)
  {
     int res;
     int ind_pos;

@@ -47,7 +47,6 @@ static void     get_op_code(char *arena, t_carriage *car)
             car->op_i = arena[car->position];
             if (car->op_i >= 1 && car->op_i <= 0x10)
             {
-                int op = car->op_i;
                 car->op = &op_tab[car->op_i - 1];
                 car->cycles_till_op = car->op->cycles;
             }
@@ -67,8 +66,17 @@ static void     execute_op(t_cw *cw, t_carriage *car)
             ++car->step;
             if (car->op && validate_op(cw, car))
             {
+                int y;
+                int cycles = cw->game_cycles;
+                if (cycles == 2724 && car->id == 12)
+                    y = cycles;
                 ft_putendl(op_tab[car->op_i - 1].name);
                 champ_ops[car->op_i - 1](car, cw);
+                char *op = op_tab[car->op_i - 1].name;
+                char *pos = &(cw->arena[car->position]);
+                if (cycles > 2500 && car->id == 12)
+                    y = cycles;
+                int x = 1;
             }
             car->position = (car->position + car->step) % MEM_SIZE;
             car->step = 0;

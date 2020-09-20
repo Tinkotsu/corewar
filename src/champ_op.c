@@ -33,11 +33,6 @@ static int              check_args(t_carriage *car,
 {
     int     i;
 
-    if (!car->op->arg_code)
-    {
-        car->step += car->op->dir_size == 0 ? 4 : 2;
-        return (1);
-    }
     i = 0;
     while (i < car->op->args_amount)
     {
@@ -64,6 +59,12 @@ int                     validate_op(t_cw *cw, t_carriage *car)
     {
         get_op_args(cw->arena[(car->position + 1) % MEM_SIZE], car->args);
         ++car->step;
+    }
+    else
+    {
+        car->step += car->op->dir_size == 0 ? 4 : 2;
+        car->args[0] = 2;
+        return (1);
     }
     if (!check_args(car, car->args, cw->arena))
         return (0);

@@ -3,12 +3,12 @@
 void            ch_and(t_carriage *car, t_cw *cw)
 {
     int     args[3];
-    unsigned char    bytes[4];
+    char    bytes[4];
     int     res;
     int     i;
 
     i = 0;
-    while (i < 3)
+    while (i < 2)
     {
         get_arg(i, car, cw->arena, bytes);
         if (car->args[i] == 1)
@@ -20,6 +20,8 @@ void            ch_and(t_carriage *car, t_cw *cw)
         ++i;
     }
     res = args[0] & args[1];
+    get_arg(2, car, cw->arena, bytes);
+    args[2] = get_int(bytes, 1);
     car->reg[args[2] - 1] = res;
     car->carry = res ? 0 : 1;
 }

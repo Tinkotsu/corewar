@@ -57,7 +57,7 @@ typedef struct          s_cw
 	int                 game_cycles;
 	int                 live_ops;
 	int                 checks_performed;
-	unsigned char       *arena;
+	char                *arena;
 	t_player            **players; //to free
 	t_carriage          *carriage_list;
 }                       t_cw;
@@ -65,7 +65,8 @@ typedef struct          s_cw
 extern  t_op            op_tab[17];
 
 int                     main(int argc, char **argv);
-int                     get_int(unsigned char *bytes, size_t size);
+int                     get_int(char *bytes, size_t size);
+void                    set_int(char *arena, int start_pos, int num);
 void                    corewar_init(int argc, char **argv, t_cw *cw);
 void                    players_init(int argc, char **argv, t_cw *cw);
 void                    parse_players(t_cw *cw);
@@ -76,8 +77,6 @@ void                    game(t_cw *cw);
 void                    delete_carriages(int to_delete, t_cw *cw);
 void                    endgame(t_cw *cw);
 int                     validate_op(t_cw *cw, t_carriage *car);
-
-
 
 void                    error(char *message);
 

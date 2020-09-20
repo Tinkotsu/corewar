@@ -99,13 +99,14 @@ file(REMOVE_RECURSE
   "CMakeFiles/corewar.dir/src/error.c.o"
   "CMakeFiles/corewar.dir/src/game.c.o"
   "CMakeFiles/corewar.dir/src/game_init.c.o"
-  "CMakeFiles/corewar.dir/src/get_int.c.o"
+  "CMakeFiles/corewar.dir/src/int_ops.c.o"
   "CMakeFiles/corewar.dir/src/main.c.o"
   "CMakeFiles/corewar.dir/src/op.c.o"
   "CMakeFiles/corewar.dir/src/parse_players.c.o"
   "CMakeFiles/corewar.dir/src/players_init.c.o"
-  "corewar"
+  "corewar.exe"
   "corewar.pdb"
+  "libcorewar.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

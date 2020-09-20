@@ -2,7 +2,7 @@
 
 void            ch_aff(t_carriage *car, t_cw *cw)
 {
-    unsigned char    bytes[1];
+    char    bytes[1];
     int     reg_i;
 
     if (cw->a_flag)

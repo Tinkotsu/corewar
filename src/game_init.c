@@ -6,7 +6,7 @@ static void         create_arena(t_cw *cw)
     int s_point;
 
     i = 0;
-    cw->arena = (unsigned char *)malloc(MEM_SIZE);
+    cw->arena = (char *)malloc(MEM_SIZE);
     if (!cw->arena)
         error("Memory error");
     ft_bzero(cw->arena, MEM_SIZE);

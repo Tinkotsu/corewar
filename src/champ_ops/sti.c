@@ -3,7 +3,7 @@
 void            ch_sti(t_carriage *car, t_cw *cw)
 {
     int     args[3];
-    unsigned char    bytes[4];
+    char    bytes[4];
     int     pos;
     int     i;
 
@@ -20,5 +20,5 @@ void            ch_sti(t_carriage *car, t_cw *cw)
         ++i;
     }
     pos = (car->position + (args[1] + args[2]) % IDX_MOD) % MEM_SIZE;
-    cw->arena[pos] = (unsigned char)args[0];
+    set_int(cw->arena, pos, args[0]);
 }

@@ -59,19 +59,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /cygdrive/c/Users/Roman/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = /cygdrive/c/Users/Roman/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tinkotsu/Desktop/corewar
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Roman/Desktop/corewar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tinkotsu/Desktop/corewar/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /Users/tinkotsu/Desktop/corewar/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/cygdrive/c/Users/Roman/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/cygdrive/c/Users/Roman/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tinkotsu/Desktop/corewar/cmake-build-debug/CMakeFiles /Users/tinkotsu/Desktop/corewar/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles /cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tinkotsu/Desktop/corewar/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -2843,32 +2843,32 @@ src/game_init.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/game_init.c.s
 .PHONY : src/game_init.c.s
 
-src/get_int.o: src/get_int.c.o
+src/int_ops.o: src/int_ops.c.o
 
-.PHONY : src/get_int.o
+.PHONY : src/int_ops.o
 
 # target to build an object file
-src/get_int.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/get_int.c.o
-.PHONY : src/get_int.c.o
+src/int_ops.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/int_ops.c.o
+.PHONY : src/int_ops.c.o
 
-src/get_int.i: src/get_int.c.i
+src/int_ops.i: src/int_ops.c.i
 
-.PHONY : src/get_int.i
+.PHONY : src/int_ops.i
 
 # target to preprocess a source file
-src/get_int.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/get_int.c.i
-.PHONY : src/get_int.c.i
+src/int_ops.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/int_ops.c.i
+.PHONY : src/int_ops.c.i
 
-src/get_int.s: src/get_int.c.s
+src/int_ops.s: src/int_ops.c.s
 
-.PHONY : src/get_int.s
+.PHONY : src/int_ops.s
 
 # target to generate assembly for a file
-src/get_int.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/get_int.c.s
-.PHONY : src/get_int.c.s
+src/int_ops.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/int_ops.c.s
+.PHONY : src/int_ops.c.s
 
 src/main.o: src/main.c.o
 
@@ -3287,9 +3287,9 @@ help:
 	@echo "... src/game_init.o"
 	@echo "... src/game_init.i"
 	@echo "... src/game_init.s"
-	@echo "... src/get_int.o"
-	@echo "... src/get_int.i"
-	@echo "... src/get_int.s"
+	@echo "... src/int_ops.o"
+	@echo "... src/int_ops.i"
+	@echo "... src/int_ops.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

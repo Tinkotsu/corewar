@@ -2,7 +2,7 @@
 
 void            ch_st(t_carriage *car, t_cw *cw)
 {
-    unsigned char    bytes[2];
+    char    bytes[2];
     int     reg_i;
     int     ind_value;
     int     ind_pos;
@@ -16,6 +16,6 @@ void            ch_st(t_carriage *car, t_cw *cw)
     {
         ind_value = get_int(bytes, IND_SIZE);
         ind_pos = ((car->position + ind_value) % IDX_MOD) % MEM_SIZE;
-        cw->arena[ind_pos] = (char)car->reg[reg_i - 1];
+        set_int(cw->arena, ind_pos, car->reg[reg_i - 1]);
     }
 }

@@ -3,7 +3,7 @@
 void            ch_lld(t_carriage *car, t_cw *cw)
 {
     int     res;
-    unsigned char    bytes[4];
+    char    bytes[4];
 
     get_arg(0, car, cw->arena, bytes);
     if (car->args[0] == 2)

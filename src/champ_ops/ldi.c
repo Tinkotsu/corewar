@@ -3,12 +3,15 @@
 void            ch_ldi(t_carriage *car, t_cw *cw)
 {
     int     args[3];
-    unsigned char    bytes[4];
+    char    bytes[4];
     int     pos;
     int     i;
+    int     res;
 
     i = 0;
-    while (i < 3)
+    if (cw->game_cycles == 2724 && car->id == 12)
+        i = 0;
+    while (i < 2)
     {
         get_arg(i, car, cw->arena, bytes);
         if (car->args[i] == 1)
@@ -21,5 +24,7 @@ void            ch_ldi(t_carriage *car, t_cw *cw)
     }
     pos = (car->position + (args[0] + args[1]) % IDX_MOD) % MEM_SIZE;
     get_arg_bytes(bytes, 4, cw->arena, pos);
-    car->reg[args[2] - 1] = get_int(bytes, 4);
+    res = get_int(bytes, 4);
+    get_arg(2, car, cw->arena, bytes);
+    car->reg[get_int(bytes, 1) - 1] = res;
 }
