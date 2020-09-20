@@ -8,7 +8,7 @@ void            ch_lfork(t_carriage *car, t_cw *cw)
     int         i;
 
     get_arg(0, car, cw->arena, bytes);
-    pos = (car->position + get_int(bytes, car->op->dir_size)) % MEM_SIZE;
+    pos = (car->position + get_int(bytes, car->op->dir_size == 0 ? 4 : 2)) % MEM_SIZE;
     new = create_carriage(++cw->cars_amount, pos);
     i = 0;
     while (i < REG_NUMBER)

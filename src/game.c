@@ -11,7 +11,7 @@ static void     check(t_cw *cw)
     while (car)
     {
         if (car->last_cycle_live >= cw->cycles_to_die ||
-            cw->cycles_to_die <= 0)
+            cw->cycles_to_die <= 0 || car->last_cycle_live == -1)
         {
             ++cars_to_delete;
             car->to_delete = 1;
@@ -42,16 +42,18 @@ static void     get_op_code(char *arena, t_carriage *car)
 {
     while (car)
     {
-        car->op_i = arena[car->position];
-        if (car->op_i >= 0x01 && car->op_i <= 0x10)
+        if (!car->op)
         {
-            car->op = &op_tab[car->op_i];
-            car->cycles_till_op = car->op->cycles;
-        }
-        else
-        {
-            car->op = NULL;
-            car->cycles_till_op = 0;
+            car->op_i = arena[car->position];
+            if (car->op_i >= 0 && car->op_i < 0x10) {
+                car->op = &op_tab[car->op_i];
+                car->cycles_till_op = car->op->cycles;
+            }
+            else
+            {
+                car->op = NULL;
+                car->cycles_till_op = 0;
+            }
         }
         car = car->next;
     }
@@ -68,6 +70,7 @@ static void     execute_op(t_cw *cw, t_carriage *car)
                 champ_ops[car->op_i](car, cw);
             car->position = (car->position + car->step) % MEM_SIZE;
             car->step = 0;
+            car->op = NULL;
         }
         car = car->next;
     }

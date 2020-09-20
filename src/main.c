@@ -11,7 +11,6 @@ int main(int argc, char **argv)
     parse_players(&cw);
     game_init(&cw);
     game(&cw);
-    //display_arena(cw.arena, 32);
     endgame(&cw);
     ft_putendl("Success!");
     return (0);

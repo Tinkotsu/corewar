@@ -1,6 +1,6 @@
 #include "corewar.h"
 
-int         get_int(char *bytes, size_t size)
+int         get_int(unsigned char *bytes, size_t size)
 {
     int i;
     int number;
@@ -11,7 +11,7 @@ int         get_int(char *bytes, size_t size)
     while (i < size)
     {
         shift = (size - 1) * 8 - 8 * i;
-        number |= bytes[i] << shift;
+        number |= (bytes[i] << shift);
         ++i;
     }
     return (number);

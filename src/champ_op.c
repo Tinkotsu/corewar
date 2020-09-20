@@ -31,7 +31,7 @@ static int              check_args(t_carriage *car, unsigned char *args, char *a
 
     if (!car->op->arg_code)
     {
-        car->step += car->op->dir_size;
+        car->step += car->op->dir_size == 0 ? 4 : 2;
         return (1);
     }
     i = 0;
@@ -40,7 +40,7 @@ static int              check_args(t_carriage *car, unsigned char *args, char *a
         if (args[i] == 1)
             ++car->step;
         else if (args[i] == 2)
-            car->step += car->op->dir_size;
+            car->step += car->op->dir_size == 0 ? 4 : 2;
         else if (args[i] == 4)
             car->step += 4;
         if (!(car->op->args[i] & args[i]) ||

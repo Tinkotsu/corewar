@@ -5,7 +5,7 @@ static int  get_arg_size(t_op *op, int arg_i)
     if (op->args[arg_i] == 1)
         return (1);
     else if (op->args[arg_i] == 2)
-        return (op->dir_size);
+        return (op->dir_size == 0 ? 4 : 2);
     else if (op->args[arg_i] == 4)
         return (IND_SIZE);
     return (0);

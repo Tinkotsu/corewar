@@ -7,7 +7,7 @@ void    ch_ld(t_carriage *car, t_cw *cw)
 
     get_arg(0, car, cw->arena, bytes);
     if (car->op->args[0] == 2)
-        res = get_int(bytes, car->op->dir_size);
+        res = get_int(bytes, car->op->dir_size == 0 ? 4 : 2);
     else
         res = get_ind_value(car, cw->arena, bytes, 0);
     get_arg(1, car, cw->arena, bytes);
