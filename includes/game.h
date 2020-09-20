@@ -6,8 +6,8 @@
 extern void (*champ_ops[16])(t_carriage *car, t_cw *cw);
 
 
-char            *get_arg_pos(int arg_i, t_carriage *car, char *arena);
-void            get_arg_bytes(char *bytes, int size, char *pos);
+void            get_arg(int arg_i, t_carriage *car, char *arena, char *bytes);
+void            get_arg_bytes(char *bytes, int size, char *arena, int byte_pos);
 void            ch_live(t_carriage *car, t_cw *cw);
 void            ch_ld(t_carriage *car, t_cw *cw);
 void            ch_st(t_carriage *car, t_cw *cw);

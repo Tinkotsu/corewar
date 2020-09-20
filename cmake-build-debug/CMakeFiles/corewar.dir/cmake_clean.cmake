@@ -79,7 +79,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/corewar.dir/src/champ_ops/aff.c.o"
   "CMakeFiles/corewar.dir/src/champ_ops/and.c.o"
   "CMakeFiles/corewar.dir/src/champ_ops/fork.c.o"
-  "CMakeFiles/corewar.dir/src/champ_ops/get_byte.c.o"
+  "CMakeFiles/corewar.dir/src/champ_ops/get_arg.c.o"
   "CMakeFiles/corewar.dir/src/champ_ops/ld.c.o"
   "CMakeFiles/corewar.dir/src/champ_ops/ldi.c.o"
   "CMakeFiles/corewar.dir/src/champ_ops/lfork.c.o"

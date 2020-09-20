@@ -337,7 +337,7 @@
 		<Unit filename="/Users/tinkotsu/Desktop/corewar/src/champ_ops/fork.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/src/champ_ops/get_byte.c">
+		<Unit filename="/Users/tinkotsu/Desktop/corewar/src/champ_ops/get_arg.c">
 			<Option target="corewar"/>
 		</Unit>
 		<Unit filename="/Users/tinkotsu/Desktop/corewar/src/champ_ops/ld.c">

@@ -1,37 +1,42 @@
 #include "game.h"
 
-//todo: объединить эти две функции. возвращаем массив байтов.
+static int  get_arg_size(t_op *op, int arg_i)
+{
+    if (op->args[arg_i] == 1)
+        return (1);
+    else if (op->args[arg_i] == 2)
+        return (op->dir_size);
+    else if (op->args[arg_i] == 4)
+        return (IND_SIZE);
+    return (0);
+}
 
-void        get_arg_bytes(char *bytes, int size, char *pos)
+
+void        get_arg_bytes(char *bytes, int size, char *arena, int byte_pos)
 {
     int i;
 
     i = 0;
     while (i < size)
     {
-        bytes[i] = pos[i % MEM_SIZE];
+        bytes[i] = arena[(byte_pos + i) % MEM_SIZE];
         ++i;
     }
 }
 
-char        *get_arg_pos(int arg_i, t_carriage *car, char *arena)
+void        get_arg(int arg_i, t_carriage *car, char *arena, char *bytes)
 {
-    char    *pos;
     int     i;
     int     len;
+    int     size;
 
-    i = -1;
+    i = 0;
     len = 1 + car->op->arg_code;
     while (i < arg_i)
     {
-        if (car->op->args[i] == 1)
-            ++len;
-        else if (car->op->args[i] == 2)
-            len += car->op->dir_size;
-        else if (car->op->args[i] == 4)
-            len += 4;
+        len += get_arg_size(car->op, i);
         ++i;
     }
-    pos = &arena[(car->position + len) % MEM_SIZE];
-    return (pos);
-}
+    size = get_arg_size(car->op, arg_i);
+    get_arg_bytes(bytes, size, arena, car->position + len);
+ }

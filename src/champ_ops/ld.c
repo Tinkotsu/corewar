@@ -4,18 +4,19 @@ void    ch_ld(t_carriage *car, t_cw *cw)
 {
     int     res;
     char    bytes[4];
-    char    *pos;
+    int     ind_pos;
 
-    pos = get_arg_pos(0, car, cw->arena);
+    get_arg(0, car, cw->arena, bytes);
     if (car->op->args[0] == 2)
-    {
-        get_arg_bytes(bytes, car->op->dir_size, pos, 0);
         res = get_int(bytes, car->op->dir_size);
-    }
     else
     {
-        get_arg_bytes(bytes, IND_SIZE, pos, 0);
         res = get_int(bytes, IND_SIZE);
-
+        ind_pos = (car->position + res % IDX_MOD) % MEM_SIZE;
+        get_arg_bytes(bytes, 4, cw->arena, ind_pos);
+        res = get_int(bytes, 4);
     }
+    get_arg(1, car, cw->arena, bytes);
+    car->reg[get_int(bytes, 1) - 1] = res;
+    car->carry = res ? 0 : 1;
 }

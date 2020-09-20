@@ -76,6 +76,7 @@ void        corewar_init(int argc, char **argv, t_cw *cw)
 {
     cw->d_flag = 0;
     cw->n_flags = 0;
+    cw->cars_amount = 0;
     parse_input(argc - 1, argv + 1, cw);
     cw->last_player_alive = cw->players_amount;
     cw->d_cycles = cw->d_flag ? manage_d_flag(argv) : 0;

@@ -44,14 +44,14 @@ static void         champs_introduction(t_cw *cw)
 
 static void         carriages_init(t_cw *cw)
 {
-    int i;
-    t_carriage *new;
+    t_carriage  *new;
+    int         i;
 
     i = 0;
     while (i < cw->players_amount)
     {
-        new = create_carriage(cw->players[i]->id,
-                              cw->players[i]->starting_point);
+        ++cw->cars_amount;
+        new = create_carriage(cw->cars_amount, cw->players[i]->starting_point);
         new->next = cw->carriage_list;
         cw->carriage_list = new;
         ++i;

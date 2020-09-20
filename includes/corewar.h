@@ -49,6 +49,7 @@ typedef struct          s_cw
 	int                 n_flags;
 	int                 d_flag; // 1 = 32 octs; 2 = 64 octs;
 	int                 d_cycles;
+	int                 cars_amount;
 	int                 last_player_alive;
     int                 cycles_to_die;
 	int                 game_cycles;

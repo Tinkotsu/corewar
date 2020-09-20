@@ -2303,32 +2303,32 @@ src/champ_ops/fork.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/fork.c.s
 .PHONY : src/champ_ops/fork.c.s
 
-src/champ_ops/get_byte.o: src/champ_ops/get_byte.c.o
+src/champ_ops/get_arg.o: src/champ_ops/get_arg.c.o
 
-.PHONY : src/champ_ops/get_byte.o
+.PHONY : src/champ_ops/get_arg.o
 
 # target to build an object file
-src/champ_ops/get_byte.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/get_byte.c.o
-.PHONY : src/champ_ops/get_byte.c.o
+src/champ_ops/get_arg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/get_arg.c.o
+.PHONY : src/champ_ops/get_arg.c.o
 
-src/champ_ops/get_byte.i: src/champ_ops/get_byte.c.i
+src/champ_ops/get_arg.i: src/champ_ops/get_arg.c.i
 
-.PHONY : src/champ_ops/get_byte.i
+.PHONY : src/champ_ops/get_arg.i
 
 # target to preprocess a source file
-src/champ_ops/get_byte.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/get_byte.c.i
-.PHONY : src/champ_ops/get_byte.c.i
+src/champ_ops/get_arg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/get_arg.c.i
+.PHONY : src/champ_ops/get_arg.c.i
 
-src/champ_ops/get_byte.s: src/champ_ops/get_byte.c.s
+src/champ_ops/get_arg.s: src/champ_ops/get_arg.c.s
 
-.PHONY : src/champ_ops/get_byte.s
+.PHONY : src/champ_ops/get_arg.s
 
 # target to generate assembly for a file
-src/champ_ops/get_byte.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/get_byte.c.s
-.PHONY : src/champ_ops/get_byte.c.s
+src/champ_ops/get_arg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/get_arg.c.s
+.PHONY : src/champ_ops/get_arg.c.s
 
 src/champ_ops/ld.o: src/champ_ops/ld.c.o
 
@@ -3227,9 +3227,9 @@ help:
 	@echo "... src/champ_ops/fork.o"
 	@echo "... src/champ_ops/fork.i"
 	@echo "... src/champ_ops/fork.s"
-	@echo "... src/champ_ops/get_byte.o"
-	@echo "... src/champ_ops/get_byte.i"
-	@echo "... src/champ_ops/get_byte.s"
+	@echo "... src/champ_ops/get_arg.o"
+	@echo "... src/champ_ops/get_arg.i"
+	@echo "... src/champ_ops/get_arg.s"
 	@echo "... src/champ_ops/ld.o"
 	@echo "... src/champ_ops/ld.i"
 	@echo "... src/champ_ops/ld.s"
