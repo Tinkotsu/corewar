@@ -14,10 +14,6 @@ op.h
 libft.h
 ../includes/libft.h
 
-../includes/game.h
-corewar.h
-../includes/corewar.h
-
 ../includes/op.h
 
 ../libft/includes/get_next_line.h
@@ -32,35 +28,7 @@ string.h
 get_next_line.h
 -
 
-/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/add.c
-game.h
-/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/game.h
-
-/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/and.c
-game.h
-/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/game.h
-
-/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/get_arg.c
-game.h
-/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/game.h
-
-/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ldi.c
-game.h
-/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/game.h
-
-/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/or.c
-game.h
-/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/game.h
-
-/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/xor.c
-game.h
-/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/game.h
-
-/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/zjmp.c
-game.h
-/cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/game.h
-
-/cygdrive/c/Users/Roman/Desktop/corewar/src/int_ops.c
+/cygdrive/c/Users/Roman/Desktop/corewar/src/main.c
 corewar.h
 /cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
 
