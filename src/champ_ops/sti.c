@@ -20,5 +20,5 @@ void            ch_sti(t_carriage *car, t_cw *cw)
         ++i;
     }
     pos = (car->position + (args[1] + args[2]) % IDX_MOD) % MEM_SIZE;
-    cw->arena[pos] = (char)car->reg[args[0] - 1];
+    cw->arena[pos] = (unsigned char)car->reg[args[0] - 1];
 }

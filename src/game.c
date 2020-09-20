@@ -85,6 +85,8 @@ void            game(t_cw *cw)
         loop_iter = cw->cycles_to_die > 0 ? cw->cycles_to_die : 1;
         while (loop_iter)
         {
+            --loop_iter;
+            ++cw->game_cycles;
             if (cw->d_flag && cw->game_cycles == cw->d_cycles)
             {
                 display_arena(cw->arena, 32 * cw->d_flag);
@@ -93,8 +95,6 @@ void            game(t_cw *cw)
             get_op_code(cw->arena, cw->carriage_list);
             reduce_carriages_cycles_till_op(cw->carriage_list);
             execute_op(cw, cw->carriage_list);
-            --loop_iter;
-            ++cw->game_cycles;
         }
         check(cw);
     }
