@@ -57,7 +57,7 @@ int                     validate_op(t_cw *cw, t_carriage *car)
 
     if (car->op->arg_code)
     {
-        get_op_args(cw->arena[(car->position + car->step) % MEM_SIZE], args);
+        get_op_args(cw->arena[(car->position + 1) % MEM_SIZE], args);
         ++car->step;
     }
     if (!check_args(car, args, cw->arena))

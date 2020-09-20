@@ -100,4 +100,4 @@ add_executable(corewar
         src/main.c
         src/op.c
         src/parse_players.c
-        src/players_init.c src/champ_ops/ld.c src/champ_ops/st.c src/champ_ops/add.c src/champ_ops/sub.c src/champ_ops/and.c src/champ_ops/or.c src/champ_ops/xor.c src/champ_ops/zjmp.c src/champ_ops/ldi.c src/champ_ops/sti.c src/champ_ops/fork.c src/champ_ops/lld.c src/champ_ops/lldi.c src/champ_ops/lfork.c src/champ_ops/aff.c)
+        src/players_init.c src/champ_ops/ld.c src/champ_ops/st.c src/champ_ops/add.c src/champ_ops/sub.c src/champ_ops/and.c src/champ_ops/or.c src/champ_ops/xor.c src/champ_ops/zjmp.c src/champ_ops/ldi.c src/champ_ops/sti.c src/champ_ops/fork.c src/champ_ops/lld.c src/champ_ops/lldi.c src/champ_ops/lfork.c src/champ_ops/aff.c src/champ_ops/get_arg.c)

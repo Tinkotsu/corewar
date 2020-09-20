@@ -79,6 +79,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/corewar.dir/src/champ_ops/aff.c.o"
   "CMakeFiles/corewar.dir/src/champ_ops/and.c.o"
   "CMakeFiles/corewar.dir/src/champ_ops/fork.c.o"
+  "CMakeFiles/corewar.dir/src/champ_ops/get_byte.c.o"
   "CMakeFiles/corewar.dir/src/champ_ops/ld.c.o"
   "CMakeFiles/corewar.dir/src/champ_ops/ldi.c.o"
   "CMakeFiles/corewar.dir/src/champ_ops/lfork.c.o"
@@ -103,9 +104,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/corewar.dir/src/op.c.o"
   "CMakeFiles/corewar.dir/src/parse_players.c.o"
   "CMakeFiles/corewar.dir/src/players_init.c.o"
-  "corewar.exe"
+  "corewar"
   "corewar.pdb"
-  "libcorewar.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

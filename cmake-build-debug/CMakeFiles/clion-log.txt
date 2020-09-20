@@ -1,4 +1,4 @@
-C:\Users\Roman\AppData\Local\JetBrains\CLion2020.2\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/gcc.exe -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Roman/Desktop/corewar
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/tinkotsu/Desktop/corewar
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug
+-- Build files have been written to: /Users/tinkotsu/Desktop/corewar/cmake-build-debug
