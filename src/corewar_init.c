@@ -76,8 +76,8 @@ static int  manage_d_flag(char **argv)
     while (!ft_strnequ(*argv, "-d", 2))
         ++argv;
     ++argv;
-    if (!argv || !ft_isnumber(*argv))
-        error("Wrong usage of '-d'"); //usage
+    if (!(*argv) || !ft_isnumber(*argv))
+        error("Wrong usage of '-dump' or '-d'"); //usage
     return (ft_atoi(*argv));
 }
 
