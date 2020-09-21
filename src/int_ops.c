@@ -9,21 +9,38 @@ void        set_int(char *arena, int start_pos, int num)
     arena[(start_pos + 3) % MEM_SIZE] = (num & 0x000000ff);
 }
 
-int         get_int(char *bytes, size_t size)
+static int  get_short_int(char *bytes)
 {
+    short   s_number;
     int     i;
-    short   number;
-    short   d;
-    int     shift;
 
-    number = 0;
     i = 0;
-    while (i < size)
+    s_number = 0;
+    while (i < 2)
     {
-        d = (short)bytes[i];
-        shift = 8 * ((size - 1) - i);
-        number |= d << shift;
+        s_number |= ((unsigned char)bytes[i]) << 8 * (1 - i);
         ++i;
+    }
+    return (s_number);
+
+}
+
+int         get_int(char *bytes, int size, int dir_size)
+{
+    int         i;
+    int         number;
+
+    i = 0;
+    number = 0;
+    if (size == 2 || dir_size == 1)
+       number = get_short_int(bytes);
+    else
+    {
+        while (i < 4)
+        {
+            number |= ((unsigned char)bytes[i]) << 8 * (3 - i);
+            ++i;
+        }
     }
     return (number);
 }

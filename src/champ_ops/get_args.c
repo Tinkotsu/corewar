@@ -21,6 +21,8 @@ static void     get_arg_bytes(char *bytes, int size, char *arena, int byte_pos)
         bytes[i] = arena[(byte_pos + i) % MEM_SIZE];
         ++i;
     }
+    while (i < 4)
+        bytes[i++] = 0;
 }
 
 static int      get_arg_pos(int arg_i, t_carriage *car, char *arena)
@@ -48,7 +50,7 @@ int             get_ind_value(int arg, int car_pos, char *arena, int flag_l)
         arg %= IDX_MOD;
     pos = check_pos(car_pos + arg);
     get_arg_bytes(bytes, 4, arena, pos);
-    res = get_int(bytes, 4);
+    res = get_int(bytes, 4, 0);
     return (res);
 }
 
@@ -64,11 +66,11 @@ void            get_args(int *args, t_carriage *car, t_cw *cw)
         pos = check_pos(get_arg_pos(i, car, cw->arena));
         get_arg_bytes(bytes, get_arg_size(car->args[i], car->op), cw->arena, pos);
         if (car->args[i] == 1) //T_REG
-            args[i] = get_int(bytes, 1);
+            args[i] = cw->arena[pos];
         else if (car->args[i] == 2) //T_DIR
-            args[i] = get_int(bytes, car->op->dir_size == 0 ? 4 : 2);
+            args[i] = get_int(bytes, car->op->dir_size == 0 ? 4 : 2, car->op->dir_size);
         else if (car->args[i] == 4) //T_IND
-            args[i] = get_int(bytes, 2);
+            args[i] = get_int(bytes, 2, car->op->dir_size);
         ++i;
     }
 }
