@@ -14,10 +14,6 @@ op.h
 libft.h
 ../includes/libft.h
 
-../includes/game.h
-corewar.h
-../includes/corewar.h
-
 ../includes/op.h
 
 ../libft/includes/get_next_line.h
@@ -35,14 +31,4 @@ get_next_line.h
 /cygdrive/c/Users/Roman/Desktop/corewar/src/corewar_init.c
 corewar.h
 /cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
-
-/cygdrive/c/Users/Roman/Desktop/corewar/src/display_arena.c
-corewar.h
-/cygdrive/c/Users/Roman/Desktop/corewar/src/corewar.h
-stdio.h
--
-
-/cygdrive/c/Users/Roman/Desktop/corewar/src/game.c
-game.h
-/cygdrive/c/Users/Roman/Desktop/corewar/src/game.h
 

@@ -14,4 +14,3 @@ int main(int argc, char **argv)
     endgame(&cw);
     return (0);
 }
-//todo: флаг -d без аргумента чет не работает
