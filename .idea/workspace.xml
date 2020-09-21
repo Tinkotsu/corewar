@@ -34,9 +34,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/corewar.dir/src/game.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/corewar.dir/src/game.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/corewar.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/corewar.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/champ_ops/fork.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/champ_ops/fork.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/champ_ops/get_args.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/champ_ops/get_args.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/champ_ops/lldi.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/champ_ops/lldi.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/champ_ops/zjmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/champ_ops/zjmp.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/game.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +105,7 @@
       <workItem from="1600639845329" duration="72000" />
       <workItem from="1600667849588" duration="4645000" />
       <workItem from="1600683840448" duration="9132000" />
-      <workItem from="1600693151689" duration="1531000" />
+      <workItem from="1600693151689" duration="3995000" />
     </task>
     <servers />
   </component>
@@ -138,53 +135,53 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600638688942" />
-    <state width="881" height="451" key="GridCell.Tab.0.bottom" timestamp="1600694461316">
+    <state width="786" height="352" key="GridCell.Tab.0.bottom" timestamp="1600697187486">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1600604774604" />
-    <state width="881" height="451" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600694461316" />
+    <state width="786" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600697187486" />
     <state width="1238" height="219" key="GridCell.Tab.0.bottom/0.23.1280.711@0.23.1280.711" timestamp="1600672621379" />
-    <state width="881" height="451" key="GridCell.Tab.0.center" timestamp="1600694461316">
+    <state width="786" height="352" key="GridCell.Tab.0.center" timestamp="1600697187486">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1600604774602" />
-    <state width="881" height="451" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600694461316" />
+    <state width="786" height="352" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600697187486" />
     <state width="1238" height="219" key="GridCell.Tab.0.center/0.23.1280.711@0.23.1280.711" timestamp="1600672621378" />
-    <state width="881" height="451" key="GridCell.Tab.0.left" timestamp="1600694461316">
+    <state width="786" height="352" key="GridCell.Tab.0.left" timestamp="1600697187486">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1600604774601" />
-    <state width="881" height="451" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600694461316" />
+    <state width="786" height="352" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600697187486" />
     <state width="1238" height="219" key="GridCell.Tab.0.left/0.23.1280.711@0.23.1280.711" timestamp="1600672621378" />
-    <state width="881" height="451" key="GridCell.Tab.0.right" timestamp="1600694461316">
+    <state width="786" height="352" key="GridCell.Tab.0.right" timestamp="1600697187486">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1600604774603" />
-    <state width="881" height="451" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600694461316" />
+    <state width="786" height="352" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600697187486" />
     <state width="1238" height="219" key="GridCell.Tab.0.right/0.23.1280.711@0.23.1280.711" timestamp="1600672621379" />
-    <state width="881" height="451" key="GridCell.Tab.1.bottom" timestamp="1600694462988">
+    <state width="786" height="352" key="GridCell.Tab.1.bottom" timestamp="1600697187389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="264" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1600604306550" />
-    <state width="881" height="451" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600694462988" />
+    <state width="786" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600697187389" />
     <state width="1238" height="219" key="GridCell.Tab.1.bottom/0.23.1280.711@0.23.1280.711" timestamp="1600672622953" />
-    <state width="881" height="451" key="GridCell.Tab.1.center" timestamp="1600694462988">
+    <state width="786" height="352" key="GridCell.Tab.1.center" timestamp="1600697187389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="264" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1600604306549" />
-    <state width="881" height="451" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600694462988" />
+    <state width="786" height="352" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600697187389" />
     <state width="1238" height="219" key="GridCell.Tab.1.center/0.23.1280.711@0.23.1280.711" timestamp="1600672622953" />
-    <state width="881" height="451" key="GridCell.Tab.1.left" timestamp="1600694462988">
+    <state width="786" height="352" key="GridCell.Tab.1.left" timestamp="1600697187389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="264" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1600604306548" />
-    <state width="881" height="451" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600694462988" />
+    <state width="786" height="352" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600697187389" />
     <state width="1238" height="219" key="GridCell.Tab.1.left/0.23.1280.711@0.23.1280.711" timestamp="1600672622952" />
-    <state width="881" height="451" key="GridCell.Tab.1.right" timestamp="1600694462988">
+    <state width="786" height="352" key="GridCell.Tab.1.right" timestamp="1600697187389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1238" height="264" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1600604306549" />
-    <state width="881" height="451" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600694462988" />
+    <state width="786" height="352" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600697187389" />
     <state width="1238" height="219" key="GridCell.Tab.1.right/0.23.1280.711@0.23.1280.711" timestamp="1600672622953" />
     <state width="427" height="140" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1600615966115">
       <screen x="0" y="23" width="1280" height="711" />
@@ -206,9 +203,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/game.c</url>
-          <line>102</line>
-          <option name="timeStamp" value="148" />
+          <url>file://$PROJECT_DIR$/src/champ_ops/fork.c</url>
+          <line>13</line>
+          <option name="timeStamp" value="158" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -217,6 +214,7 @@
         <watch expression="cw-&gt;game_cycles" language="ObjectiveC" />
         <watch expression="cw-&gt;cycles_to_die" language="ObjectiveC" />
         <watch expression="&amp;cw-&gt;arena[cw-&gt;carriage_list-&gt;position]" language="ObjectiveC" />
+        <watch expression="cw-&gt;carriage_list" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>

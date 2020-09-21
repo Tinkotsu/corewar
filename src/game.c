@@ -11,7 +11,7 @@ static void     check(t_cw *cw)
     while (car)
     {
         if (car->last_cycle_live <= cw->game_cycles - cw->cycles_to_die ||
-            cw->cycles_to_die <= 0 || car->last_cycle_live == -1)
+            cw->cycles_to_die <= 0)
         {
             ++cars_to_delete;
             car->to_delete = 1;
@@ -61,12 +61,15 @@ static void     execute_op(t_cw *cw, t_carriage *car)
 {
     while (car)
     {
-        if (car->cycles_till_op == 0)
+        if (car->op && car->cycles_till_op == 0)
         {
             ++car->step;
+            int x;
+            if (car->op->id == 12 || car->op->id == 15)
+                x = 1;
             if (car->op && validate_op(cw, car))
                 champ_ops[car->op_i - 1](car, cw);
-            car->position = (car->position + car->step) % MEM_SIZE;
+            car->position = check_pos(car->position + car->step);
             car->step = 0;
             car->op = NULL;
         }
@@ -78,29 +81,27 @@ void            game(t_cw *cw)
 {
     int loop_iter;
 
+    loop_iter = 0;
     while (cw->carriage_list)
     {
-        loop_iter = cw->cycles_to_die > 0 ? cw->cycles_to_die : 1;
-        while (loop_iter)
+        if (cw->d_flag && cw->game_cycles == cw->d_cycles)
         {
-            if (cw->d_flag && cw->game_cycles == cw->d_cycles)
-            {
-                display_arena(cw->arena, 32 * cw->d_flag);
-                return ;
-            }
-            get_op_code(cw->arena, cw->carriage_list);
-            if (cw->game_cycles > 0)
-            {
-                reduce_carriages_cycles_till_op(cw->carriage_list);
-                execute_op(cw, cw->carriage_list);
-            }
-            --loop_iter;
-            ++cw->game_cycles;
+            display_arena(cw->arena, 32 * cw->d_flag);
+            return ;
         }
-        if (cw->game_cycles > 25000)
-            ft_putchar('x');
-        check(cw);
-        int x = 1;
+        if (cw->game_cycles)
+        {
+            get_op_code(cw->arena, cw->carriage_list);
+            reduce_carriages_cycles_till_op(cw->carriage_list);
+        }
+        execute_op(cw, cw->carriage_list);
+        if (loop_iter == cw->cycles_to_die || cw->cycles_to_die <= 0)
+        {
+            check(cw);
+            loop_iter = 0;
+        }
+        ++loop_iter;
+        ++cw->game_cycles;
     }
     ft_putnbr(cw->game_cycles);
     ft_putchar('\n');
