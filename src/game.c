@@ -28,60 +28,53 @@ static void     check(t_cw *cw)
     cw->live_ops = 0;
 }
 
-static void     reduce_carriages_cycles_till_op(t_carriage *car)
+static void     get_op_code(char *arena, t_carriage *car, t_cw *cw)
 {
-    while (car)
+    car->op_i = arena[car->position];
+    if (car->op_i >= 1 && car->op_i <= 0x10)
     {
-        if (car->cycles_till_op > 0)
-            --car->cycles_till_op;
-        car = car->next;
+        car->op = &op_tab[car->op_i - 1];
+        car->cycles_till_op = car->op->cycles;
     }
-}
-
-static void     get_op_code(char *arena, t_carriage *car)
-{
-    while (car)
-    {
-        if (!car->op)
-        {
-            car->op_i = arena[car->position];
-            if (car->op_i >= 1 && car->op_i <= 0x10)
-            {
-                car->op = &op_tab[car->op_i - 1];
-                car->cycles_till_op = car->op->cycles;
-            }
-            else
-                car->cycles_till_op = 0;
-        }
-        car = car->next;
-    }
+    else
+        car->cycles_till_op = 0;
 }
 
 static void     execute_op(t_cw *cw, t_carriage *car)
 {
+        ++car->step;
+        if (car->op && validate_op(cw, car))
+            champ_ops[car->op_i - 1](car, cw);
+        car->position = check_pos(car->position + car->step);
+        car->step = 0;
+        car->op = NULL;
+ }
+
+static void     main_cycle(t_cw *cw)
+{
+    t_carriage *car;
+
+    car = cw->carriage_list;
     while (car)
     {
+        if (car->id == 15 && cw->game_cycles > 4500)
+            car->id = 15;
+        if (!car->op)
+            get_op_code(cw->arena, car, cw);
+        if (car->cycles_till_op > 0)
+            --car->cycles_till_op;
         if (car->op && car->cycles_till_op == 0)
-        {
-            ++car->step;
-            int x;
-            if (car->op->id == 12 || car->op->id == 15)
-                x = 1;
-            if (car->op && validate_op(cw, car))
-                champ_ops[car->op_i - 1](car, cw);
-            car->position = check_pos(car->position + car->step);
-            car->step = 0;
-            car->op = NULL;
-        }
+            execute_op(cw, car);
         car = car->next;
     }
 }
 
 void            game(t_cw *cw)
 {
-    int loop_iter;
+    int         loop_iter;
 
-    loop_iter = 0;
+    loop_iter = 1;
+    cw->game_cycles = 1;
     while (cw->carriage_list)
     {
         if (cw->d_flag && cw->game_cycles == cw->d_cycles)
@@ -89,12 +82,7 @@ void            game(t_cw *cw)
             display_arena(cw->arena, 32 * cw->d_flag);
             return ;
         }
-        if (cw->game_cycles)
-        {
-            get_op_code(cw->arena, cw->carriage_list);
-            reduce_carriages_cycles_till_op(cw->carriage_list);
-        }
-        execute_op(cw, cw->carriage_list);
+        main_cycle(cw);
         if (loop_iter == cw->cycles_to_die || cw->cycles_to_die <= 0)
         {
             check(cw);

@@ -29,7 +29,7 @@ static void         champs_introduction(t_cw *cw)
     ft_putendl("Introducing contestants...");
     while (i < cw->players_amount)
     {
-        ft_putstr(" * Player ");
+        ft_putstr("* Player ");
         ft_putnbr(cw->players[i]->id);
         ft_putstr(", weighing ");
         ft_putnbr((int)cw->players[i]->exec_size);
@@ -37,7 +37,7 @@ static void         champs_introduction(t_cw *cw)
         ft_putstr(cw->players[i]->name);
         ft_putstr("\" (\"");
         ft_putstr(cw->players[i]->comment);
-        ft_putstr("\") ! \n");
+        ft_putstr("\") !\n");
         ++i;
     }
 }
@@ -62,5 +62,6 @@ void                game_init(t_cw *cw)
 {
     create_arena(cw);
     carriages_init(cw);
+    display_arena(cw->arena, 32);
     champs_introduction(cw);
 }

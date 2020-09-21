@@ -10,9 +10,7 @@ int main(int argc, char **argv)
     players_init(argc, argv, &cw);
     parse_players(&cw);
     game_init(&cw);
-    display_arena(cw.arena, 32);
     game(&cw);
     endgame(&cw);
-    ft_putendl("Success!");
     return (0);
 }

@@ -1,5 +1,7 @@
 #include "corewar.h"
 
+#include <stdio.h>
+
 static void     ft_printhex(int n)
 {
     int c;
@@ -35,6 +37,7 @@ void	        display_arena(char *arena, int octets_num)
     counter = 0;
     while (counter < MEM_SIZE)
     {
+        /*
         print_column(counter);
         i = 0;
         while (i < octets_num)
@@ -48,6 +51,16 @@ void	        display_arena(char *arena, int octets_num)
             i++;
         }
         ft_putchar('\n');
-        counter += octets_num;
+        counter += octets_num;*/
+        printf("0x%04x : ", counter);
+        i = 0;
+        while (i < 32)
+        {
+            printf("%02x ", (unsigned char)*arena);
+            arena++;
+            i++;
+        }
+        printf("\n");
+        counter += 32;
     }
 }
