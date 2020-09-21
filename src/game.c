@@ -55,17 +55,13 @@ static void     main_cycle(t_cw *cw)
     t_carriage *car;
 
     car = cw->carriage_list;
-    if (cw->game_cycles == 4548)
-        cw->game_cycles = 4548;
     while (car)
     {
-        if (car->id == 14 && cw->game_cycles == 4549)
-            car->id = 14;
         if (!car->op)
             get_op_code(cw->arena, car, cw);
         if (car->cycles_till_op > 0)
             --car->cycles_till_op;
-        if (car->op && car->cycles_till_op == 0)
+        if (car->cycles_till_op == 0)
             execute_op(cw, car);
         car = car->next;
     }
@@ -93,6 +89,4 @@ void            game(t_cw *cw)
         ++loop_iter;
         ++cw->game_cycles;
     }
-    ft_putnbr(cw->game_cycles);
-    ft_putchar('\n');
 }

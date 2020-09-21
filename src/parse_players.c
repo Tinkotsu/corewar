@@ -1,24 +1,12 @@
 #include "corewar.h"
-#include <stdio.h>
 
-static  unsigned int          read_ints(int fd, size_t size)
+static int          read_ints(int fd, size_t size)
 {
-    unsigned char   buf[size];
-    int             i;
-    int             number;
-    int             shift;
+    char            buf[size];
 
     if (read(fd, buf, size) != size)
         error("Failed reading");
-    number = 0;
-    i = 0;
-    while (i < size)
-    {
-        shift = 8 * ((size - 1) - i);
-        number |= (buf[i] << shift);
-        ++i;
-    }
-    return (number);
+    return (get_int(buf, 4, 0));
 }
 
 static void         read_chars(int fd, unsigned int size, char *dest, int last)

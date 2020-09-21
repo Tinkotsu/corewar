@@ -1,6 +1,6 @@
 #include "game.h"
 
-void            ch_fork(t_carriage *car, t_cw *cw) //копировать "кое-что еще" :))))
+void            ch_fork(t_carriage *car, t_cw *cw)
 {
     t_carriage      *new;
     int             args[1];

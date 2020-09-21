@@ -54,13 +54,13 @@ void	        display_arena(char *arena, int octets_num)
         counter += octets_num;*/
         printf("0x%04x : ", counter);
         i = 0;
-        while (i < 32)
+        while (i < octets_num)
         {
             printf("%02x ", (unsigned char)*arena);
             arena++;
             i++;
         }
         printf("\n");
-        counter += 32;
+        counter += octets_num;
     }
 }

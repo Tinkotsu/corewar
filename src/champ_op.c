@@ -57,8 +57,6 @@ static int              check_args(t_carriage *car,
 
 int                     validate_op(t_cw *cw, t_carriage *car)
 {
-    if (cw->game_cycles == 4550 && car->id == 14)
-        car->id = 14;
     if (car->op->arg_code)
     {
         get_op_args(cw->arena[(car->position + 1) % MEM_SIZE], car->args);
