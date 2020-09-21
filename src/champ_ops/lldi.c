@@ -21,4 +21,5 @@ void            ch_lldi(t_carriage *car, t_cw *cw)
     }
     res = get_ind_value(args[0] + args[1], car->position, cw->arena, 1);
     car->reg[args[2] - 1] = res;
+    car->carry = res == 0 ? 1 : 0;
 }

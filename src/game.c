@@ -69,13 +69,6 @@ static void     execute_op(t_cw *cw, t_carriage *car)
             car->position = (car->position + car->step) % MEM_SIZE;
             car->step = 0;
             car->op = NULL;
-            int cycles = cw->game_cycles;
-            char *op = op_tab[car->op_i - 1].name;
-            char *pos = &(cw->arena[car->position]);
-            int y;
-            if (cycles == 3059 && car->id == 1)
-                y = cycles;
-            int x = 1;
         }
         car = car->next;
     }
@@ -104,7 +97,10 @@ void            game(t_cw *cw)
             --loop_iter;
             ++cw->game_cycles;
         }
+        if (cw->game_cycles > 25000)
+            ft_putchar('x');
         check(cw);
+        int x = 1;
     }
     ft_putnbr(cw->game_cycles);
     ft_putchar('\n');

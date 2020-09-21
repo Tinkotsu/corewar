@@ -25,7 +25,7 @@ static void     get_arg_bytes(char *bytes, int size, char *arena, int byte_pos)
         bytes[i++] = 0;
 }
 
-static int      get_arg_pos(int arg_i, t_carriage *car, char *arena)
+static int      get_arg_pos(int arg_i, t_carriage *car)
 {
     int step;
     int i;
@@ -63,7 +63,7 @@ void            get_args(int *args, t_carriage *car, t_cw *cw)
     i = 0;
     while (i < car->op->args_amount)
     {
-        pos = check_pos(get_arg_pos(i, car, cw->arena));
+        pos = check_pos(get_arg_pos(i, car));
         get_arg_bytes(bytes, get_arg_size(car->args[i], car->op), cw->arena, pos);
         if (car->args[i] == 1) //T_REG
             args[i] = cw->arena[pos];

@@ -8,7 +8,7 @@ void            ch_fork(t_carriage *car, t_cw *cw) //копировать "ко�
     int             i;
 
     get_args(args, car, cw);
-    pos = check_pos(car->position + args[0] % IDX_MOD);
+    pos = check_pos(car->position + (args[0] % IDX_MOD));
     new = create_carriage(++cw->cars_amount, pos);
     i = 0;
     while (i < REG_NUMBER)
