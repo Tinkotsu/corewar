@@ -1,7 +1,10 @@
-#include "corewar.h"
+#include "game.h"
 
-void        set_int(char *arena, int start_pos, int num)
+void        set_int(char *arena, int arg, int car_pos, int num)
 {
+    int start_pos;
+
+    start_pos = check_pos(arg + car_pos);
     arena[start_pos] = (num & 0xff000000) >> 24;
     arena[(start_pos + 1) % MEM_SIZE] = (num & 0x00ff0000) >> 16;
     arena[(start_pos + 2) % MEM_SIZE] = (num & 0x0000ff00) >> 8;

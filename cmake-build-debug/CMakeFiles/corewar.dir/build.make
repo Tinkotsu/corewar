@@ -1091,18 +1091,18 @@ CMakeFiles/corewar.dir/src/champ_ops/fork.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/champ_ops/fork.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tinkotsu/Desktop/corewar/src/champ_ops/fork.c -o CMakeFiles/corewar.dir/src/champ_ops/fork.c.s
 
-CMakeFiles/corewar.dir/src/champ_ops/get_arg.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/src/champ_ops/get_arg.c.o: ../src/champ_ops/get_arg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tinkotsu/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/corewar.dir/src/champ_ops/get_arg.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/champ_ops/get_arg.c.o   -c /Users/tinkotsu/Desktop/corewar/src/champ_ops/get_arg.c
+CMakeFiles/corewar.dir/src/champ_ops/get_args.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/champ_ops/get_args.c.o: ../src/champ_ops/get_args.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tinkotsu/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/corewar.dir/src/champ_ops/get_args.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/champ_ops/get_args.c.o   -c /Users/tinkotsu/Desktop/corewar/src/champ_ops/get_args.c
 
-CMakeFiles/corewar.dir/src/champ_ops/get_arg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/champ_ops/get_arg.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tinkotsu/Desktop/corewar/src/champ_ops/get_arg.c > CMakeFiles/corewar.dir/src/champ_ops/get_arg.c.i
+CMakeFiles/corewar.dir/src/champ_ops/get_args.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/champ_ops/get_args.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tinkotsu/Desktop/corewar/src/champ_ops/get_args.c > CMakeFiles/corewar.dir/src/champ_ops/get_args.c.i
 
-CMakeFiles/corewar.dir/src/champ_ops/get_arg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/champ_ops/get_arg.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tinkotsu/Desktop/corewar/src/champ_ops/get_arg.c -o CMakeFiles/corewar.dir/src/champ_ops/get_arg.c.s
+CMakeFiles/corewar.dir/src/champ_ops/get_args.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/champ_ops/get_args.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tinkotsu/Desktop/corewar/src/champ_ops/get_args.c -o CMakeFiles/corewar.dir/src/champ_ops/get_args.c.s
 
 CMakeFiles/corewar.dir/src/champ_ops/ld.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/src/champ_ops/ld.c.o: ../src/champ_ops/ld.c
@@ -1442,6 +1442,19 @@ CMakeFiles/corewar.dir/src/players_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/players_init.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tinkotsu/Desktop/corewar/src/players_init.c -o CMakeFiles/corewar.dir/src/players_init.c.s
 
+CMakeFiles/corewar.dir/src/champ_ops/check_pos.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/champ_ops/check_pos.c.o: ../src/champ_ops/check_pos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tinkotsu/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/corewar.dir/src/champ_ops/check_pos.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/champ_ops/check_pos.c.o   -c /Users/tinkotsu/Desktop/corewar/src/champ_ops/check_pos.c
+
+CMakeFiles/corewar.dir/src/champ_ops/check_pos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/champ_ops/check_pos.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tinkotsu/Desktop/corewar/src/champ_ops/check_pos.c > CMakeFiles/corewar.dir/src/champ_ops/check_pos.c.i
+
+CMakeFiles/corewar.dir/src/champ_ops/check_pos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/champ_ops/check_pos.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tinkotsu/Desktop/corewar/src/champ_ops/check_pos.c -o CMakeFiles/corewar.dir/src/champ_ops/check_pos.c.s
+
 # Object files for target corewar
 corewar_OBJECTS = \
 "CMakeFiles/corewar.dir/libft/srcs/ft_atoi.c.o" \
@@ -1522,7 +1535,7 @@ corewar_OBJECTS = \
 "CMakeFiles/corewar.dir/src/champ_ops/aff.c.o" \
 "CMakeFiles/corewar.dir/src/champ_ops/and.c.o" \
 "CMakeFiles/corewar.dir/src/champ_ops/fork.c.o" \
-"CMakeFiles/corewar.dir/src/champ_ops/get_arg.c.o" \
+"CMakeFiles/corewar.dir/src/champ_ops/get_args.c.o" \
 "CMakeFiles/corewar.dir/src/champ_ops/ld.c.o" \
 "CMakeFiles/corewar.dir/src/champ_ops/ldi.c.o" \
 "CMakeFiles/corewar.dir/src/champ_ops/lfork.c.o" \
@@ -1548,7 +1561,8 @@ corewar_OBJECTS = \
 "CMakeFiles/corewar.dir/src/main.c.o" \
 "CMakeFiles/corewar.dir/src/op.c.o" \
 "CMakeFiles/corewar.dir/src/parse_players.c.o" \
-"CMakeFiles/corewar.dir/src/players_init.c.o"
+"CMakeFiles/corewar.dir/src/players_init.c.o" \
+"CMakeFiles/corewar.dir/src/champ_ops/check_pos.c.o"
 
 # External object files for target corewar
 corewar_EXTERNAL_OBJECTS =
@@ -1631,7 +1645,7 @@ corewar: CMakeFiles/corewar.dir/src/champ_ops/add.c.o
 corewar: CMakeFiles/corewar.dir/src/champ_ops/aff.c.o
 corewar: CMakeFiles/corewar.dir/src/champ_ops/and.c.o
 corewar: CMakeFiles/corewar.dir/src/champ_ops/fork.c.o
-corewar: CMakeFiles/corewar.dir/src/champ_ops/get_arg.c.o
+corewar: CMakeFiles/corewar.dir/src/champ_ops/get_args.c.o
 corewar: CMakeFiles/corewar.dir/src/champ_ops/ld.c.o
 corewar: CMakeFiles/corewar.dir/src/champ_ops/ldi.c.o
 corewar: CMakeFiles/corewar.dir/src/champ_ops/lfork.c.o
@@ -1658,9 +1672,10 @@ corewar: CMakeFiles/corewar.dir/src/main.c.o
 corewar: CMakeFiles/corewar.dir/src/op.c.o
 corewar: CMakeFiles/corewar.dir/src/parse_players.c.o
 corewar: CMakeFiles/corewar.dir/src/players_init.c.o
+corewar: CMakeFiles/corewar.dir/src/champ_ops/check_pos.c.o
 corewar: CMakeFiles/corewar.dir/build.make
 corewar: CMakeFiles/corewar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tinkotsu/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Linking C executable corewar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tinkotsu/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Linking C executable corewar"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/corewar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

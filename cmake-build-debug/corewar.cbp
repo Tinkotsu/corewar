@@ -334,10 +334,13 @@
 		<Unit filename="/Users/tinkotsu/Desktop/corewar/src/champ_ops/and.c">
 			<Option target="corewar"/>
 		</Unit>
+		<Unit filename="/Users/tinkotsu/Desktop/corewar/src/champ_ops/check_pos.c">
+			<Option target="corewar"/>
+		</Unit>
 		<Unit filename="/Users/tinkotsu/Desktop/corewar/src/champ_ops/fork.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/tinkotsu/Desktop/corewar/src/champ_ops/get_arg.c">
+		<Unit filename="/Users/tinkotsu/Desktop/corewar/src/champ_ops/get_args.c">
 			<Option target="corewar"/>
 		</Unit>
 		<Unit filename="/Users/tinkotsu/Desktop/corewar/src/champ_ops/ld.c">

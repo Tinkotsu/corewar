@@ -2,14 +2,13 @@
 
 void            ch_fork(t_carriage *car, t_cw *cw) //копировать "кое-что еще" :))))
 {
-    t_carriage              *new;
-    char                    bytes[4];
-    int                     pos;
-    int                     i;
+    t_carriage      *new;
+    int             args[1];
+    int             pos;
+    int             i;
 
-    get_arg(0, car, cw->arena, bytes);
-    i = get_int(bytes, car->op->dir_size == 0 ? 4 : 2);
-    pos = (car->position + i % IDX_MOD) % MEM_SIZE;
+    get_args(args, car, cw);
+    pos = check_pos(car->position + args[0] % IDX_MOD);
     new = create_carriage(++cw->cars_amount, pos);
     i = 0;
     while (i < REG_NUMBER)

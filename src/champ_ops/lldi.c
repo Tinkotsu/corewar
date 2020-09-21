@@ -2,28 +2,23 @@
 
 void            ch_lldi(t_carriage *car, t_cw *cw)
 {
-    int     args[3];
-    char    bytes[4];
-    int     pos;
-    int     i;
-    int     res;
+    int args[3];
+    int values[2];
+    int i;
+    int res;
 
+    get_args(args, car, cw);
     i = 0;
     while (i < 2)
     {
-        get_arg(i, car, cw->arena, bytes);
         if (car->args[i] == 1)
-            args[i] = car->reg[get_int(bytes, 1) - 1];
+            values[i] = car->reg[args[i] - 1];
         else if (car->args[i] == 2)
-            args[i] = get_int(bytes, car->op->dir_size == 0 ? 4 : 2);
+            values[i] = args[i];
         else if (car->args[i] == 4)
-            args[i] = get_ind_value(car, cw->arena, bytes, 0);
+            values[i] = get_ind_value(args[i], car->position, cw->arena, 0);
         ++i;
     }
-    pos = (car->position + args[0] + args[1]) % MEM_SIZE;
-    get_arg_bytes(bytes, 4, cw->arena, pos);
-    res = get_int(bytes, 4);
-    get_arg(2, car, cw->arena, bytes);
-    car->reg[get_int(bytes, 1) - 1] = res;
-    car->carry = i ? 0 : 1;
+    res = get_ind_value(args[0] + args[1], car->position, cw->arena, 1);
+    car->reg[args[2] - 1] = res;
 }

@@ -2276,6 +2276,33 @@ src/champ_ops/and.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/and.c.s
 .PHONY : src/champ_ops/and.c.s
 
+src/champ_ops/check_pos.o: src/champ_ops/check_pos.c.o
+
+.PHONY : src/champ_ops/check_pos.o
+
+# target to build an object file
+src/champ_ops/check_pos.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/check_pos.c.o
+.PHONY : src/champ_ops/check_pos.c.o
+
+src/champ_ops/check_pos.i: src/champ_ops/check_pos.c.i
+
+.PHONY : src/champ_ops/check_pos.i
+
+# target to preprocess a source file
+src/champ_ops/check_pos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/check_pos.c.i
+.PHONY : src/champ_ops/check_pos.c.i
+
+src/champ_ops/check_pos.s: src/champ_ops/check_pos.c.s
+
+.PHONY : src/champ_ops/check_pos.s
+
+# target to generate assembly for a file
+src/champ_ops/check_pos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/check_pos.c.s
+.PHONY : src/champ_ops/check_pos.c.s
+
 src/champ_ops/fork.o: src/champ_ops/fork.c.o
 
 .PHONY : src/champ_ops/fork.o
@@ -2303,32 +2330,32 @@ src/champ_ops/fork.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/fork.c.s
 .PHONY : src/champ_ops/fork.c.s
 
-src/champ_ops/get_arg.o: src/champ_ops/get_arg.c.o
+src/champ_ops/get_args.o: src/champ_ops/get_args.c.o
 
-.PHONY : src/champ_ops/get_arg.o
+.PHONY : src/champ_ops/get_args.o
 
 # target to build an object file
-src/champ_ops/get_arg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/get_arg.c.o
-.PHONY : src/champ_ops/get_arg.c.o
+src/champ_ops/get_args.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/get_args.c.o
+.PHONY : src/champ_ops/get_args.c.o
 
-src/champ_ops/get_arg.i: src/champ_ops/get_arg.c.i
+src/champ_ops/get_args.i: src/champ_ops/get_args.c.i
 
-.PHONY : src/champ_ops/get_arg.i
+.PHONY : src/champ_ops/get_args.i
 
 # target to preprocess a source file
-src/champ_ops/get_arg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/get_arg.c.i
-.PHONY : src/champ_ops/get_arg.c.i
+src/champ_ops/get_args.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/get_args.c.i
+.PHONY : src/champ_ops/get_args.c.i
 
-src/champ_ops/get_arg.s: src/champ_ops/get_arg.c.s
+src/champ_ops/get_args.s: src/champ_ops/get_args.c.s
 
-.PHONY : src/champ_ops/get_arg.s
+.PHONY : src/champ_ops/get_args.s
 
 # target to generate assembly for a file
-src/champ_ops/get_arg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/get_arg.c.s
-.PHONY : src/champ_ops/get_arg.c.s
+src/champ_ops/get_args.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/get_args.c.s
+.PHONY : src/champ_ops/get_args.c.s
 
 src/champ_ops/ld.o: src/champ_ops/ld.c.o
 
@@ -3224,12 +3251,15 @@ help:
 	@echo "... src/champ_ops/and.o"
 	@echo "... src/champ_ops/and.i"
 	@echo "... src/champ_ops/and.s"
+	@echo "... src/champ_ops/check_pos.o"
+	@echo "... src/champ_ops/check_pos.i"
+	@echo "... src/champ_ops/check_pos.s"
 	@echo "... src/champ_ops/fork.o"
 	@echo "... src/champ_ops/fork.i"
 	@echo "... src/champ_ops/fork.s"
-	@echo "... src/champ_ops/get_arg.o"
-	@echo "... src/champ_ops/get_arg.i"
-	@echo "... src/champ_ops/get_arg.s"
+	@echo "... src/champ_ops/get_args.o"
+	@echo "... src/champ_ops/get_args.i"
+	@echo "... src/champ_ops/get_args.s"
 	@echo "... src/champ_ops/ld.o"
 	@echo "... src/champ_ops/ld.i"
 	@echo "... src/champ_ops/ld.s"

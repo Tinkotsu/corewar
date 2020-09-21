@@ -2,23 +2,23 @@
 
 void            ch_sti(t_carriage *car, t_cw *cw)
 {
-    int     args[3];
-    char    bytes[4];
-    int     pos;
-    int     i;
+    int args[3];
+    int values[3];
+    int i;
+    int arg;
 
+    get_args(args, car, cw);
     i = 0;
     while (i < 3)
     {
-        get_arg(i, car, cw->arena, bytes);
         if (car->args[i] == 1)
-            args[i] = car->reg[get_int(bytes, 1) - 1];
+            values[i] = car->reg[args[i] - 1];
         else if (car->args[i] == 2)
-            args[i] = get_int(bytes, car->op->dir_size == 0 ? 4 : 2);
+            values[i] = args[i];
         else if (car->args[i] == 4)
-            args[i] = get_ind_value(car, cw->arena, bytes, 0);
+            values[i] = get_ind_value(args[i], car->position, cw->arena, 0);
         ++i;
     }
-    pos = (car->position + (args[1] + args[2]) % IDX_MOD) % MEM_SIZE;
-    set_int(cw->arena, pos, args[0]);
+    arg = (values[1] + values[2]) % IDX_MOD;
+    set_int(cw->arena, arg, car->position, values[0]);
 }

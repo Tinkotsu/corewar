@@ -116,4 +116,4 @@ add_executable(corewar
         src/main.c
         src/op.c
         src/parse_players.c
-        src/players_init.c)
+        src/players_init.c src/champ_ops/check_pos.c)

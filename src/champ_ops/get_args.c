@@ -11,7 +11,7 @@ static int      get_arg_size(unsigned char arg, t_op *op)
     return (0);
 }
 
-void            get_arg_bytes(char *bytes, int size, char *arena, int byte_pos)
+static void     get_arg_bytes(char *bytes, int size, char *arena, int byte_pos)
 {
     int i;
 
@@ -23,7 +23,7 @@ void            get_arg_bytes(char *bytes, int size, char *arena, int byte_pos)
     }
 }
 
-int     get_arg_pos(int arg_i, t_carriage *car, char *arena)
+static int      get_arg_pos(int arg_i, t_carriage *car, char *arena)
 {
     int step;
     int i;
@@ -38,16 +38,21 @@ int     get_arg_pos(int arg_i, t_carriage *car, char *arena)
     return (car->position + step);
 }
 
-int     check_pos(int pos)
+int             get_ind_value(int arg, int car_pos, char *arena, int flag_l)
 {
-    if (pos < 0)
-        return ((MEM_SIZE - pos) % MEM_SIZE);
-    else if (pos >= MEM_SIZE)
-        return (pos % MEM_SIZE);
-    return (pos);
+    int     pos;
+    char    bytes[4];
+    int     res;
+
+    if (!flag_l)
+        arg %= IDX_MOD;
+    pos = check_pos(car_pos + arg);
+    get_arg_bytes(bytes, 4, arena, pos);
+    res = get_int(bytes, 4);
+    return (res);
 }
 
-void    get_args(int *args, t_carriage *car, t_cw *cw)
+void            get_args(int *args, t_carriage *car, t_cw *cw)
 {
     int     i;
     int     pos;

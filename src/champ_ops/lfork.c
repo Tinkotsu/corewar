@@ -2,13 +2,13 @@
 
 void            ch_lfork(t_carriage *car, t_cw *cw)
 {
-    t_carriage  *new;
-    char        bytes[4];
-    int         pos;
-    int         i;
+    t_carriage      *new;
+    int             args[1];
+    int             pos;
+    int             i;
 
-    get_arg(0, car, cw->arena, bytes);
-    pos = (get_int(bytes, car->op->dir_size == 0 ? 4 : 2)) % MEM_SIZE;
+    get_args(args, car, cw);
+    pos = check_pos(car->position + args[0]);
     new = create_carriage(++cw->cars_amount, pos);
     i = 0;
     while (i < REG_NUMBER)
