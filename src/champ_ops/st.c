@@ -10,5 +10,5 @@ void            ch_st(t_carriage *car, t_cw *cw)
     if (car->args[1] == 1)
         car->reg[args[1] - 1] = value;
     else
-        set_int(cw->arena, args[1] % IDX_MOD, car->position, value);
+        set_int(cw->arena, args[1] % IDX_MOD + car->position, value);
 }

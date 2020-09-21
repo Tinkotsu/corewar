@@ -5,7 +5,7 @@ void            ch_sti(t_carriage *car, t_cw *cw)
     int args[3];
     int values[3];
     int i;
-    int arg;
+    int pos;
 
     get_args(args, car, cw);
     i = 0;
@@ -19,6 +19,6 @@ void            ch_sti(t_carriage *car, t_cw *cw)
             values[i] = get_ind_value(args[i], car->position, cw->arena, 0);
         ++i;
     }
-    arg = (values[1] + values[2]) % IDX_MOD;
-    set_int(cw->arena, arg, car->position, values[0]);
+    pos = (values[1] + values[2]) % IDX_MOD + car->position;
+    set_int(cw->arena, pos, values[0]);
 }
