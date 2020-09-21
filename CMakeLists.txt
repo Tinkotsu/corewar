@@ -90,7 +90,7 @@ add_executable(corewar
         src/champ_ops/aff.c
         src/champ_ops/and.c
         src/champ_ops/fork.c
-        src/champ_ops/get_arg.c
+        src/champ_ops/get_args.c
         src/champ_ops/ld.c
         src/champ_ops/ldi.c
         src/champ_ops/lfork.c

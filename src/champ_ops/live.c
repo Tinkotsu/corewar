@@ -2,13 +2,10 @@
 
 void    ch_live(t_carriage *car, t_cw *cw)
 {
-    int     arg;
-    char    arg_bytes[car->op->dir_size == 0 ? 4 : 2];
+    int     args[1];
 
-    get_arg(0, car, cw->arena, arg_bytes);
-    car->last_cycle_live = cw->game_cycles;
-    arg = get_int(arg_bytes, car->op->dir_size == 0 ? 4 : 2);
-    if (-arg > 0 && -arg <= cw->players_amount)
+    get_args(args, car, cw);
+    if (-args[0] > 0 && -args[0] <= cw->players_amount)
         cw->last_player_alive = -car->reg[0];
     ++cw->live_ops;
 }

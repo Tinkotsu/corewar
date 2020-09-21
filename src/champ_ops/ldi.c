@@ -9,11 +9,8 @@ void            ch_ldi(t_carriage *car, t_cw *cw)
     int     res;
 
     i = 0;
-    if (cw->game_cycles == 2724 && car->id == 12)
-        i = 0;
     while (i < 2)
     {
-        get_arg(i, car, cw->arena, bytes);
         if (car->args[i] == 1)
             args[i] = car->reg[get_int(bytes, 1) - 1];
         else if (car->args[i] == 2)
