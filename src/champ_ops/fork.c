@@ -7,8 +7,6 @@ void            ch_fork(t_carriage *car, t_cw *cw) //копировать "ко�
     int             pos;
     int             i;
 
-    if (cw->game_cycles > 5000)
-        i = 0;
     get_args(args, car, cw);
     pos = check_pos(car->position + (args[0] % IDX_MOD));
     new = create_carriage(++cw->cars_amount, pos);

@@ -32,8 +32,10 @@ static int              check_args(t_carriage *car,
                                    unsigned char *args, unsigned char *arena)
 {
     int     i;
+    int     correct;
 
     i = 0;
+    correct = 1;
     while (i < car->op->args_amount)
     {
         if (args[i] == 1)
@@ -41,20 +43,22 @@ static int              check_args(t_carriage *car,
         else if (args[i] == 2)
             car->step += car->op->dir_size == 0 ? 4 : 2;
         else if (args[i] == 4)
-            car->step += 4;
+            car->step += 2;
         if (!(car->op->args[i] & args[i]) ||
             (args[i] == 1 && !check_reg(car, arena)))
-            return (0);
+            correct = 0;
         ++i;
     }
     while (i < 4)
         if (args[i++])
-            return (0);
-    return (1);
+            correct = 0;
+    return (correct);
 }
 
 int                     validate_op(t_cw *cw, t_carriage *car)
 {
+    if (cw->game_cycles == 4550 && car->id == 14)
+        car->id = 14;
     if (car->op->arg_code)
     {
         get_op_args(cw->arena[(car->position + 1) % MEM_SIZE], car->args);

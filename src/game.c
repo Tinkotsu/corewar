@@ -42,12 +42,12 @@ static void     get_op_code(char *arena, t_carriage *car, t_cw *cw)
 
 static void     execute_op(t_cw *cw, t_carriage *car)
 {
-        ++car->step;
-        if (car->op && validate_op(cw, car))
-            champ_ops[car->op_i - 1](car, cw);
-        car->position = check_pos(car->position + car->step);
-        car->step = 0;
-        car->op = NULL;
+    ++car->step;
+    if (car->op && validate_op(cw, car))
+        champ_ops[car->op_i - 1](car, cw);
+    car->position = check_pos(car->position + car->step);
+    car->step = 0;
+    car->op = NULL;
  }
 
 static void     main_cycle(t_cw *cw)
@@ -55,10 +55,12 @@ static void     main_cycle(t_cw *cw)
     t_carriage *car;
 
     car = cw->carriage_list;
+    if (cw->game_cycles == 4548)
+        cw->game_cycles = 4548;
     while (car)
     {
-        if (car->id == 15 && cw->game_cycles > 4500)
-            car->id = 15;
+        if (car->id == 14 && cw->game_cycles == 4549)
+            car->id = 14;
         if (!car->op)
             get_op_code(cw->arena, car, cw);
         if (car->cycles_till_op > 0)
