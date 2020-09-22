@@ -19,6 +19,6 @@ void            ch_ldi(t_carriage *car, t_cw *cw)
             values[i] = get_ind_value(args[i], car->position, cw->arena, 0);
         ++i;
     }
-    res = get_ind_value(args[0] + args[1], car->position, cw->arena, 0);
+    res = get_ind_value(values[0] + values[1], car->position, cw->arena, 0);
     car->reg[args[2] - 1] = res;
 }
