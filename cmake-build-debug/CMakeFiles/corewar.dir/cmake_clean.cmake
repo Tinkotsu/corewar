@@ -105,8 +105,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/corewar.dir/src/sub.c.o"
   "CMakeFiles/corewar.dir/src/xor.c.o"
   "CMakeFiles/corewar.dir/src/zjmp.c.o"
-  "corewar"
+  "corewar.exe"
   "corewar.pdb"
+  "libcorewar.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
