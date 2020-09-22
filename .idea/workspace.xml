@@ -31,10 +31,55 @@
   <component name="ChangeListManager">
     <list default="true" id="0ce6c016-7128-4a4f-b426-f138cdae9480" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/corewar.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/corewar.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/corewar.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/corewar.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/game.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game_init.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/game_init.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar" beforeDir="false" afterPath="$PROJECT_DIR$/42-corewar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/42-corewar/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/add.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/add_carry.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/aff.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/and.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/and_or_xor_overflow.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/and_or_xor_read_overflow.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/fork.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/fork2.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/fork_backflow.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/fork_neg_overflow.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/fork_overflow.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/fork_overflow_with_live.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/ld_1.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/ld_2.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/ld_carry.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/ld_st_overflow.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/ldi_1.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/ldi_2.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/ldi_bug_in_zaz_corewar.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/ldi_carry.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/ldi_overflow.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/lfork.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/lfork_overflow.1.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/lfork_overflow.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/live.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/lldi_carry.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/lldi_overflow.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/negative_st.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/or.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/process_next_pc_overflow.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/st.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/sti_1.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/sti_2.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/sub.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/sub_carry.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/t.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/test_limit.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/testing1.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/testing2.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/xor.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/zjmp_neg_overflow.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/zjmp_neg_overflow_fail.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/zjmp_overflow.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/corewar.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/corewar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/get_args.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/get_args.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/int_ops.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/int_ops.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parse_players.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_players.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,14 +112,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
-    <configuration name="corewar" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test_process_1.cor -dump 20" REDIRECT_INPUT="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="corewar" TARGET_NAME="corewar" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="corewar" RUN_TARGET_NAME="corewar">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="corewar" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test_process_1.cor -dump 20" REDIRECT_INPUT="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="corewar" TARGET_NAME="corewar" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="corewar" RUN_TARGET_NAME="corewar">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -118,6 +163,7 @@
       <workItem from="1600807036573" duration="42000" />
       <workItem from="1600807080427" duration="1838000" />
       <workItem from="1600809446395" duration="2733000" />
+      <workItem from="1600813743015" duration="748000" />
     </task>
     <servers />
   </component>
@@ -216,7 +262,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/game.c</url>
-          <line>83</line>
+          <line>84</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">

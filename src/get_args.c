@@ -50,7 +50,7 @@ int             get_ind_value(int arg, int car_pos, char *arena, int flag_l)
         arg %= IDX_MOD;
     pos = check_pos(car_pos + arg);
     get_arg_bytes(bytes, 4, arena, pos);
-    res = get_int(bytes, 4, 0);
+    res = get_int(bytes, 4);
     return (res);
 }
 
@@ -68,9 +68,9 @@ void            get_args(int *args, t_carriage *car, t_cw *cw)
         if (car->args[i] == 1) //T_REG
             args[i] = cw->arena[pos];
         else if (car->args[i] == 2) //T_DIR
-            args[i] = get_int(bytes, car->op->dir_size == 0 ? 4 : 2, car->op->dir_size);
+            args[i] = get_int(bytes, car->op->dir_size == 0 ? 4 : 2);
         else if (car->args[i] == 4) //T_IND
-            args[i] = get_int(bytes, 2, car->op->dir_size);
+            args[i] = get_int(bytes, 2);
         ++i;
     }
 }

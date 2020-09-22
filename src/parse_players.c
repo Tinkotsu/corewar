@@ -6,7 +6,7 @@ static int          read_ints(int fd, int size)
 
     if (read(fd, buf, size) != size)
         error("Failed reading");
-    return (get_int(buf, 4, 0));
+    return (get_int(buf, 4));
 }
 
 static void         read_chars(int fd, int size, char *dest, int last)

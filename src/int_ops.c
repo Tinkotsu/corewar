@@ -25,14 +25,14 @@ static int  get_short_int(char *bytes)
 
 }
 
-int         get_int(char *bytes, int size, int dir_size)
+int         get_int(char *bytes, int size)
 {
     int         i;
     int         number;
 
     i = 0;
     number = 0;
-    if (size == 2 || dir_size == 1)
+    if (size == 2)
        number = get_short_int(bytes);
     else
     {
