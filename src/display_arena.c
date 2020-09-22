@@ -1,7 +1,7 @@
 #include "corewar.h"
 
 #include <stdio.h>
-
+/*
 static void     ft_printhex(int n)
 {
     int c;
@@ -27,12 +27,11 @@ static void     print_column(int counter)
     ft_putstr(" : ");
     i = 0;
 }
-
+*/
 void	        display_arena(char *arena, int octets_num)
 {
     int		        counter;
     int		        i;
-    unsigned char   c;
 
     counter = 0;
     while (counter < MEM_SIZE)

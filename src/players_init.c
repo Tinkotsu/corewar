@@ -71,7 +71,7 @@ void    manage_remaining(int players_left, char **argv, t_cw *cw)
     }
 }
 
-void    players_init(int argc, char **argv, t_cw *cw)
+void    players_init(char **argv, t_cw *cw)
 {
     int i;
     int players_left;

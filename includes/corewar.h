@@ -39,7 +39,7 @@ typedef struct          s_carriage
     int                 step;
     int                 reg[REG_NUMBER];
     int                 to_delete;
-    unsigned char       args[4];
+    char                args[4];
     t_op                *op;
     struct s_carriage   *next;
 }                       t_carriage;
@@ -68,7 +68,7 @@ int                     main(int argc, char **argv);
 int                     get_int(char *bytes, int size, int dir_size);
 void                    set_int(char *arena, int start_pos, int num);
 void                    corewar_init(int argc, char **argv, t_cw *cw);
-void                    players_init(int argc, char **argv, t_cw *cw);
+void                    players_init(char **argv, t_cw *cw);
 void                    parse_players(t_cw *cw);
 void                    game_init(t_cw *cw);
 void	                display_arena(char *arena, int octets_num);

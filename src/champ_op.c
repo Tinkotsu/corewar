@@ -1,7 +1,7 @@
 #include "game.h"
 
 
-static void             get_op_args(unsigned char byte, unsigned char *args)
+static void             get_op_args(char byte, char *args)
 {
     int i;
     int shift;
@@ -11,14 +11,13 @@ static void             get_op_args(unsigned char byte, unsigned char *args)
     {
         shift = 6 - 2 * i;
         args[i] = (byte & (3 << shift)) >> shift;
-        int n = args[i];
         if (args[i] == 3)
             args[i] = 4;
         ++i;
     }
 }
 
-static int              check_reg(t_carriage *car, unsigned char *arena)
+static int              check_reg(t_carriage *car, char *arena)
 {
     unsigned char reg_byte;
 
@@ -28,8 +27,7 @@ static int              check_reg(t_carriage *car, unsigned char *arena)
     return (1);
 }
 
-static int              check_args(t_carriage *car,
-                                   unsigned char *args, unsigned char *arena)
+static int              check_args(t_carriage *car, char *args, char *arena)
 {
     int     i;
     int     correct;

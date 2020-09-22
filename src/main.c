@@ -7,7 +7,7 @@ int main(int argc, char **argv)
     if (argc == 1)
         error("Wrong usage!"); //print usage
     corewar_init(argc, argv, &cw);
-    players_init(argc, argv, &cw);
+    players_init(argv, &cw);
     parse_players(&cw);
     game_init(&cw);
     game(&cw);

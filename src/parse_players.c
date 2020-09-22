@@ -1,6 +1,6 @@
 #include "corewar.h"
 
-static int          read_ints(int fd, size_t size)
+static int          read_ints(int fd, int size)
 {
     char            buf[size];
 
@@ -9,7 +9,7 @@ static int          read_ints(int fd, size_t size)
     return (get_int(buf, 4, 0));
 }
 
-static void         read_chars(int fd, unsigned int size, char *dest, int last)
+static void         read_chars(int fd, int size, char *dest, int last)
 {
     char                    buf[size];
     int                     i;
@@ -27,7 +27,7 @@ static void         read_chars(int fd, unsigned int size, char *dest, int last)
             error("Champion size is not the same as declared");
 }
 
-static void         check_nulls(int fd, size_t size)
+static void         check_nulls(int fd, int size)
 {
     char    buf[size];
     int     i;
@@ -45,15 +45,15 @@ static void         check_nulls(int fd, size_t size)
 
 static void         read_player(int fd, t_player *player)
 {
-    if (read_ints(fd, sizeof(int)) != COREWAR_EXEC_MAGIC)
+    if (read_ints(fd, (int)sizeof(int)) != COREWAR_EXEC_MAGIC)
         error("Wrong magic header");
     read_chars(fd, PROG_NAME_LENGTH, player->name, 0);
-    check_nulls(fd, sizeof(int));
-    player->exec_size = read_ints(fd, sizeof(int));
+    check_nulls(fd, (int)sizeof(int));
+    player->exec_size = read_ints(fd, (int)sizeof(int));
     if (player->exec_size < 0 || player->exec_size > CHAMP_MAX_SIZE)
         error("Wrong champion size");
     read_chars(fd, COMMENT_LENGTH, player->comment, 0);
-    check_nulls(fd, sizeof(int));
+    check_nulls(fd, (int)sizeof(int));
     player->exec_code = (char *)malloc(player->exec_size);
     if (!player->exec_code)
         error("Memory error");

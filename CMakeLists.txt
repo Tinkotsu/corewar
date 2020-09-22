@@ -89,6 +89,7 @@ add_executable(corewar
         src/champ_ops/add.c
         src/champ_ops/aff.c
         src/champ_ops/and.c
+        src/champ_ops/check_pos.c
         src/champ_ops/fork.c
         src/champ_ops/get_args.c
         src/champ_ops/ld.c
@@ -116,4 +117,4 @@ add_executable(corewar
         src/main.c
         src/op.c
         src/parse_players.c
-        src/players_init.c src/champ_ops/check_pos.c)
+        src/players_init.c)

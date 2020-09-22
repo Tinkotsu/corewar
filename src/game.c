@@ -28,7 +28,7 @@ static void     check(t_cw *cw)
     cw->live_ops = 0;
 }
 
-static void     get_op_code(char *arena, t_carriage *car, t_cw *cw)
+static void     get_op_code(char *arena, t_carriage *car)
 {
     car->op_i = arena[car->position];
     if (car->op_i >= 1 && car->op_i <= 0x10)
@@ -58,7 +58,7 @@ static void     main_cycle(t_cw *cw)
     while (car)
     {
         if (!car->op)
-            get_op_code(cw->arena, car, cw);
+            get_op_code(cw->arena, car);
         if (car->cycles_till_op > 0)
             --car->cycles_till_op;
         if (car->cycles_till_op == 0)

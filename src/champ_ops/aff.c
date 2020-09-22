@@ -2,7 +2,7 @@
 
 void            ch_aff(t_carriage *car, t_cw *cw)
 {
-    char    args[1];
+    int    args[1];
 
     get_args(args, car, cw);
     if (cw->a_flag)
