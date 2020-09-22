@@ -78,19 +78,17 @@ void            game(t_cw *cw)
     cw->game_cycles = 1;
     while (cw->carriage_list)
     {
+        main_cycle(cw);
         if (cw->d_flag && cw->game_cycles == cw->d_cycles)
         {
             display_arena(cw->arena, 32 * cw->d_flag);
             return ;
         }
-        main_cycle(cw);
         if (loop_iter == cw->cycles_to_die || cw->cycles_to_die <= 0)
         {
             check(cw);
             loop_iter = 0;
         }
-        if (cw->game_cycles == 2500)
-            cw->game_cycles = 2500;
         ++loop_iter;
         ++cw->game_cycles;
     }
