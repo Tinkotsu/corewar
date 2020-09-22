@@ -8,6 +8,7 @@ void            ch_and(t_carriage *car, t_cw *cw)
     int i;
 
     i = 0;
+    get_args(args, car, cw);
     while (i < 2)
     {
         if (car->args[i] == 1)

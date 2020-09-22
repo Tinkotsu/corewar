@@ -7,6 +7,7 @@ void            ch_or(t_carriage *car, t_cw *cw)
     int res;
     int i;
 
+    get_args(args, car, cw);
     i = 0;
     while (i < 2)
     {
