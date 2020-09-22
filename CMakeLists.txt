@@ -86,35 +86,35 @@ add_executable(corewar
         libft/srcs/ft_ull_pow.c
         libft/srcs/get_next_line.c
         libft/srcs/gnl_free_fd.c
-        src/champ_ops/add.c
-        src/champ_ops/aff.c
-        src/champ_ops/and.c
-        src/champ_ops/check_pos.c
-        src/champ_ops/fork.c
-        src/champ_ops/get_args.c
-        src/champ_ops/ld.c
-        src/champ_ops/ldi.c
-        src/champ_ops/lfork.c
-        src/champ_ops/live.c
-        src/champ_ops/lld.c
-        src/champ_ops/lldi.c
-        src/champ_ops/ops_array.c
-        src/champ_ops/or.c
-        src/champ_ops/st.c
-        src/champ_ops/sti.c
-        src/champ_ops/sub.c
-        src/champ_ops/xor.c
-        src/champ_ops/zjmp.c
+        src/add.c
+        src/aff.c
+        src/and.c
         src/carriage.c
         src/champ_op.c
+        src/check_pos.c
         src/corewar_init.c
         src/display_arena.c
         src/endgame.c
         src/error.c
+        src/fork.c
         src/game.c
         src/game_init.c
+        src/get_args.c
         src/int_ops.c
+        src/ld.c
+        src/ldi.c
+        src/lfork.c
+        src/live.c
+        src/lld.c
+        src/lldi.c
         src/main.c
         src/op.c
+        src/ops_array.c
+        src/or.c
         src/parse_players.c
-        src/players_init.c)
+        src/players_init.c
+        src/st.c
+        src/sti.c
+        src/sub.c
+        src/xor.c
+        src/zjmp.c)

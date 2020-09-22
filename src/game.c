@@ -46,6 +46,9 @@ static void     execute_op(t_cw *cw, t_carriage *car)
     if (car->op && validate_op(cw, car))
         champ_ops[car->op_i - 1](car, cw);
     car->position = check_pos(car->position + car->step);
+    int x;
+    if (cw->game_cycles > 950)
+        x = 1;
     car->step = 0;
     car->op = NULL;
  }
@@ -86,7 +89,11 @@ void            game(t_cw *cw)
             check(cw);
             loop_iter = 0;
         }
+        if (cw->game_cycles == 2500)
+            cw->game_cycles = 2500;
         ++loop_iter;
         ++cw->game_cycles;
     }
+    ft_putnbr(cw->game_cycles);
+    ft_putchar('\n');
 }

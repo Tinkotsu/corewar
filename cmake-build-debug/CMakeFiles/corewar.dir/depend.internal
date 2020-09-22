@@ -4,506 +4,506 @@
 CMakeFiles/corewar.dir/libft/srcs/ft_atoi.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_atoi.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_atoi.c
 CMakeFiles/corewar.dir/libft/srcs/ft_bzero.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_bzero.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_bzero.c
 CMakeFiles/corewar.dir/libft/srcs/ft_clearing.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_clearing.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_clearing.c
 CMakeFiles/corewar.dir/libft/srcs/ft_freep.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_freep.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_freep.c
 CMakeFiles/corewar.dir/libft/srcs/ft_isalnum.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_isalnum.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isalnum.c
 CMakeFiles/corewar.dir/libft/srcs/ft_isalpha.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_isalpha.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isalpha.c
 CMakeFiles/corewar.dir/libft/srcs/ft_isascii.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_isascii.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isascii.c
 CMakeFiles/corewar.dir/libft/srcs/ft_isdigit.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_isdigit.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isdigit.c
 CMakeFiles/corewar.dir/libft/srcs/ft_islower.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_islower.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_islower.c
 CMakeFiles/corewar.dir/libft/srcs/ft_isnumber.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_isnumber.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isnumber.c
 CMakeFiles/corewar.dir/libft/srcs/ft_isprint.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_isprint.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isprint.c
 CMakeFiles/corewar.dir/libft/srcs/ft_isspace.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_isspace.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isspace.c
 CMakeFiles/corewar.dir/libft/srcs/ft_isupper.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_isupper.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_isupper.c
 CMakeFiles/corewar.dir/libft/srcs/ft_itoa.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_itoa.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_itoa.c
 CMakeFiles/corewar.dir/libft/srcs/ft_lstadd.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_lstadd.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstadd.c
 CMakeFiles/corewar.dir/libft/srcs/ft_lstdel.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_lstdel.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstdel.c
 CMakeFiles/corewar.dir/libft/srcs/ft_lstdelone.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_lstdelone.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstdelone.c
 CMakeFiles/corewar.dir/libft/srcs/ft_lstfree.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_lstfree.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstfree.c
 CMakeFiles/corewar.dir/libft/srcs/ft_lstiter.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_lstiter.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstiter.c
 CMakeFiles/corewar.dir/libft/srcs/ft_lstmap.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_lstmap.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstmap.c
 CMakeFiles/corewar.dir/libft/srcs/ft_lstnew.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_lstnew.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstnew.c
 CMakeFiles/corewar.dir/libft/srcs/ft_lstpushback.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_lstpushback.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_lstpushback.c
 CMakeFiles/corewar.dir/libft/srcs/ft_memalloc.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_memalloc.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memalloc.c
 CMakeFiles/corewar.dir/libft/srcs/ft_memccpy.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_memccpy.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memccpy.c
 CMakeFiles/corewar.dir/libft/srcs/ft_memchr.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_memchr.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memchr.c
 CMakeFiles/corewar.dir/libft/srcs/ft_memcmp.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_memcmp.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memcmp.c
 CMakeFiles/corewar.dir/libft/srcs/ft_memcpy.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_memcpy.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memcpy.c
 CMakeFiles/corewar.dir/libft/srcs/ft_memdel.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_memdel.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memdel.c
 CMakeFiles/corewar.dir/libft/srcs/ft_memmove.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_memmove.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memmove.c
 CMakeFiles/corewar.dir/libft/srcs/ft_memset.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_memset.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_memset.c
 CMakeFiles/corewar.dir/libft/srcs/ft_putchar.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_putchar.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putchar.c
 CMakeFiles/corewar.dir/libft/srcs/ft_putchar_fd.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_putchar_fd.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putchar_fd.c
 CMakeFiles/corewar.dir/libft/srcs/ft_putendl.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_putendl.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putendl.c
 CMakeFiles/corewar.dir/libft/srcs/ft_putendl_fd.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_putendl_fd.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putendl_fd.c
 CMakeFiles/corewar.dir/libft/srcs/ft_putnbr.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_putnbr.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putnbr.c
 CMakeFiles/corewar.dir/libft/srcs/ft_putnbr_fd.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_putnbr_fd.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putnbr_fd.c
 CMakeFiles/corewar.dir/libft/srcs/ft_putstr.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_putstr.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putstr.c
 CMakeFiles/corewar.dir/libft/srcs/ft_putstr_fd.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_putstr_fd.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_putstr_fd.c
 CMakeFiles/corewar.dir/libft/srcs/ft_realloc.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_realloc.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_realloc.c
 CMakeFiles/corewar.dir/libft/srcs/ft_sort_params.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_sort_params.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_sort_params.c
 CMakeFiles/corewar.dir/libft/srcs/ft_sqrt.c.o
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_sqrt.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_sqrt.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strcat.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strcat.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strcat.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strchr.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strchr.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strchr.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strclr.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strclr.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strclr.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strcmp.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strcmp.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strcmp.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strcpy.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strcpy.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strcpy.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strdel.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strdel.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strdel.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strdup.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strdup.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strdup.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strequ.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strequ.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strequ.c
 CMakeFiles/corewar.dir/libft/srcs/ft_striter.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_striter.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_striter.c
 CMakeFiles/corewar.dir/libft/srcs/ft_striteri.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_striteri.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_striteri.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strjoin.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strjoin.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strjoin.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strlcat.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strlcat.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strlcat.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strlen.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strlen.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strlen.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strmap.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strmap.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strmap.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strmapi.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strmapi.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strmapi.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strncat.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strncat.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strncat.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strncmp.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strncmp.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strncmp.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strncpy.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strncpy.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strncpy.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strnequ.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strnequ.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strnequ.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strnew.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strnew.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strnew.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strnstr.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strnstr.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strnstr.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strrchr.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strrchr.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strrchr.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strsplit.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strsplit.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strsplit.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strsplit_full.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strsplit_full.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strsplit_full.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strstr.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strstr.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strstr.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strsub.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strsub.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strsub.c
 CMakeFiles/corewar.dir/libft/srcs/ft_strtrim.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_strtrim.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_strtrim.c
 CMakeFiles/corewar.dir/libft/srcs/ft_swap.c.o
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_swap.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_swap.c
 CMakeFiles/corewar.dir/libft/srcs/ft_tolower.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_tolower.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_tolower.c
 CMakeFiles/corewar.dir/libft/srcs/ft_toupper.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_toupper.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_toupper.c
 CMakeFiles/corewar.dir/libft/srcs/ft_ull_pow.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/ft_ull_pow.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/ft_ull_pow.c
 CMakeFiles/corewar.dir/libft/srcs/get_next_line.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/get_next_line.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/get_next_line.c
 CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/libft/srcs/gnl_free_fd.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/gnl_free_fd.c
+CMakeFiles/corewar.dir/src/add.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/add.c
+CMakeFiles/corewar.dir/src/aff.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/aff.c
+CMakeFiles/corewar.dir/src/and.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/and.c
 CMakeFiles/corewar.dir/src/carriage.c.o
  ../includes/corewar.h
  ../includes/op.h
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/carriage.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/carriage.c
 CMakeFiles/corewar.dir/src/champ_op.c.o
  ../includes/corewar.h
  ../includes/game.h
  ../includes/op.h
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/champ_op.c
-CMakeFiles/corewar.dir/src/champ_ops/add.c.o
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_op.c
+CMakeFiles/corewar.dir/src/check_pos.c.o
  ../includes/corewar.h
  ../includes/game.h
  ../includes/op.h
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/champ_ops/add.c
-CMakeFiles/corewar.dir/src/champ_ops/aff.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/champ_ops/aff.c
-CMakeFiles/corewar.dir/src/champ_ops/and.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/champ_ops/and.c
-CMakeFiles/corewar.dir/src/champ_ops/check_pos.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/champ_ops/check_pos.c
-CMakeFiles/corewar.dir/src/champ_ops/fork.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/champ_ops/fork.c
-CMakeFiles/corewar.dir/src/champ_ops/get_args.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/champ_ops/get_args.c
-CMakeFiles/corewar.dir/src/champ_ops/ld.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/champ_ops/ld.c
-CMakeFiles/corewar.dir/src/champ_ops/ldi.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/champ_ops/ldi.c
-CMakeFiles/corewar.dir/src/champ_ops/lfork.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/champ_ops/lfork.c
-CMakeFiles/corewar.dir/src/champ_ops/live.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/champ_ops/live.c
-CMakeFiles/corewar.dir/src/champ_ops/lld.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/champ_ops/lld.c
-CMakeFiles/corewar.dir/src/champ_ops/lldi.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/champ_ops/lldi.c
-CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/champ_ops/ops_array.c
-CMakeFiles/corewar.dir/src/champ_ops/or.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/champ_ops/or.c
-CMakeFiles/corewar.dir/src/champ_ops/st.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/champ_ops/st.c
-CMakeFiles/corewar.dir/src/champ_ops/sti.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/champ_ops/sti.c
-CMakeFiles/corewar.dir/src/champ_ops/sub.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/champ_ops/sub.c
-CMakeFiles/corewar.dir/src/champ_ops/xor.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/champ_ops/xor.c
-CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/champ_ops/zjmp.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/check_pos.c
 CMakeFiles/corewar.dir/src/corewar_init.c.o
  ../includes/corewar.h
  ../includes/op.h
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/corewar_init.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/corewar_init.c
 CMakeFiles/corewar.dir/src/display_arena.c.o
  ../includes/corewar.h
  ../includes/op.h
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/display_arena.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/display_arena.c
 CMakeFiles/corewar.dir/src/endgame.c.o
  ../includes/corewar.h
  ../includes/op.h
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/endgame.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/endgame.c
 CMakeFiles/corewar.dir/src/error.c.o
  ../includes/corewar.h
  ../includes/op.h
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/error.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/error.c
+CMakeFiles/corewar.dir/src/fork.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/fork.c
 CMakeFiles/corewar.dir/src/game.c.o
  ../includes/corewar.h
  ../includes/game.h
  ../includes/op.h
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/game.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/game.c
 CMakeFiles/corewar.dir/src/game_init.c.o
  ../includes/corewar.h
  ../includes/op.h
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/game_init.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/game_init.c
+CMakeFiles/corewar.dir/src/get_args.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/get_args.c
 CMakeFiles/corewar.dir/src/int_ops.c.o
  ../includes/corewar.h
  ../includes/game.h
  ../includes/op.h
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/int_ops.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/int_ops.c
+CMakeFiles/corewar.dir/src/ld.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/ld.c
+CMakeFiles/corewar.dir/src/ldi.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/ldi.c
+CMakeFiles/corewar.dir/src/lfork.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/lfork.c
+CMakeFiles/corewar.dir/src/live.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/live.c
+CMakeFiles/corewar.dir/src/lld.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/lld.c
+CMakeFiles/corewar.dir/src/lldi.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/lldi.c
 CMakeFiles/corewar.dir/src/main.c.o
  ../includes/corewar.h
  ../includes/op.h
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/main.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/main.c
 CMakeFiles/corewar.dir/src/op.c.o
  ../includes/corewar.h
  ../includes/op.h
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/op.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/op.c
+CMakeFiles/corewar.dir/src/ops_array.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/ops_array.c
+CMakeFiles/corewar.dir/src/or.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/or.c
 CMakeFiles/corewar.dir/src/parse_players.c.o
  ../includes/corewar.h
  ../includes/op.h
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/parse_players.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/parse_players.c
 CMakeFiles/corewar.dir/src/players_init.c.o
  ../includes/corewar.h
  ../includes/op.h
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
- /Users/tinkotsu/Desktop/corewar/src/players_init.c
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/players_init.c
+CMakeFiles/corewar.dir/src/st.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/st.c
+CMakeFiles/corewar.dir/src/sti.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/sti.c
+CMakeFiles/corewar.dir/src/sub.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/sub.c
+CMakeFiles/corewar.dir/src/xor.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/xor.c
+CMakeFiles/corewar.dir/src/zjmp.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/zjmp.c

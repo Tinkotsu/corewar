@@ -8,9 +8,9 @@ static int  check_if_flag(char *argv, t_cw *cw)
     if (argv[0] == '-')
     {
         if (!cw->d_flag && ft_strequ(&argv[1], "d"))
-            cw->d_flag = 2;
-        else if (!cw->d_flag && ft_strequ(&argv[1], "dump"))
             cw->d_flag = 1;
+        else if (!cw->d_flag && ft_strequ(&argv[1], "dump"))
+            cw->d_flag = 2;
         else if (ft_strequ(&argv[1], "n"))
             ++cw->n_flags;
         else if (!cw->a_flag && ft_strequ(&argv[1], "a"))
