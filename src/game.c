@@ -94,6 +94,6 @@ void            game(t_cw *cw)
         ++loop_iter;
         ++cw->game_cycles;
     }
-    ft_putnbr(cw->game_cycles);
-    ft_putchar('\n');
+    //ft_putnbr(cw->game_cycles);
+    //ft_putchar('\n');
 }
