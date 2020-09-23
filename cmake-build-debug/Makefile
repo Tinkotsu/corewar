@@ -2141,87 +2141,6 @@ libft/srcs/gnl_free_fd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.s
 .PHONY : libft/srcs/gnl_free_fd.c.s
 
-src/add.o: src/add.c.o
-
-.PHONY : src/add.o
-
-# target to build an object file
-src/add.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/add.c.o
-.PHONY : src/add.c.o
-
-src/add.i: src/add.c.i
-
-.PHONY : src/add.i
-
-# target to preprocess a source file
-src/add.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/add.c.i
-.PHONY : src/add.c.i
-
-src/add.s: src/add.c.s
-
-.PHONY : src/add.s
-
-# target to generate assembly for a file
-src/add.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/add.c.s
-.PHONY : src/add.c.s
-
-src/aff.o: src/aff.c.o
-
-.PHONY : src/aff.o
-
-# target to build an object file
-src/aff.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/aff.c.o
-.PHONY : src/aff.c.o
-
-src/aff.i: src/aff.c.i
-
-.PHONY : src/aff.i
-
-# target to preprocess a source file
-src/aff.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/aff.c.i
-.PHONY : src/aff.c.i
-
-src/aff.s: src/aff.c.s
-
-.PHONY : src/aff.s
-
-# target to generate assembly for a file
-src/aff.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/aff.c.s
-.PHONY : src/aff.c.s
-
-src/and.o: src/and.c.o
-
-.PHONY : src/and.o
-
-# target to build an object file
-src/and.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/and.c.o
-.PHONY : src/and.c.o
-
-src/and.i: src/and.c.i
-
-.PHONY : src/and.i
-
-# target to preprocess a source file
-src/and.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/and.c.i
-.PHONY : src/and.c.i
-
-src/and.s: src/and.c.s
-
-.PHONY : src/and.s
-
-# target to generate assembly for a file
-src/and.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/and.c.s
-.PHONY : src/and.c.s
-
 src/carriage.o: src/carriage.c.o
 
 .PHONY : src/carriage.o
@@ -2275,6 +2194,465 @@ src/champ_op.s: src/champ_op.c.s
 src/champ_op.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_op.c.s
 .PHONY : src/champ_op.c.s
+
+src/champ_ops/add.o: src/champ_ops/add.c.o
+
+.PHONY : src/champ_ops/add.o
+
+# target to build an object file
+src/champ_ops/add.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/add.c.o
+.PHONY : src/champ_ops/add.c.o
+
+src/champ_ops/add.i: src/champ_ops/add.c.i
+
+.PHONY : src/champ_ops/add.i
+
+# target to preprocess a source file
+src/champ_ops/add.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/add.c.i
+.PHONY : src/champ_ops/add.c.i
+
+src/champ_ops/add.s: src/champ_ops/add.c.s
+
+.PHONY : src/champ_ops/add.s
+
+# target to generate assembly for a file
+src/champ_ops/add.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/add.c.s
+.PHONY : src/champ_ops/add.c.s
+
+src/champ_ops/aff.o: src/champ_ops/aff.c.o
+
+.PHONY : src/champ_ops/aff.o
+
+# target to build an object file
+src/champ_ops/aff.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/aff.c.o
+.PHONY : src/champ_ops/aff.c.o
+
+src/champ_ops/aff.i: src/champ_ops/aff.c.i
+
+.PHONY : src/champ_ops/aff.i
+
+# target to preprocess a source file
+src/champ_ops/aff.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/aff.c.i
+.PHONY : src/champ_ops/aff.c.i
+
+src/champ_ops/aff.s: src/champ_ops/aff.c.s
+
+.PHONY : src/champ_ops/aff.s
+
+# target to generate assembly for a file
+src/champ_ops/aff.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/aff.c.s
+.PHONY : src/champ_ops/aff.c.s
+
+src/champ_ops/and.o: src/champ_ops/and.c.o
+
+.PHONY : src/champ_ops/and.o
+
+# target to build an object file
+src/champ_ops/and.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/and.c.o
+.PHONY : src/champ_ops/and.c.o
+
+src/champ_ops/and.i: src/champ_ops/and.c.i
+
+.PHONY : src/champ_ops/and.i
+
+# target to preprocess a source file
+src/champ_ops/and.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/and.c.i
+.PHONY : src/champ_ops/and.c.i
+
+src/champ_ops/and.s: src/champ_ops/and.c.s
+
+.PHONY : src/champ_ops/and.s
+
+# target to generate assembly for a file
+src/champ_ops/and.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/and.c.s
+.PHONY : src/champ_ops/and.c.s
+
+src/champ_ops/fork.o: src/champ_ops/fork.c.o
+
+.PHONY : src/champ_ops/fork.o
+
+# target to build an object file
+src/champ_ops/fork.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/fork.c.o
+.PHONY : src/champ_ops/fork.c.o
+
+src/champ_ops/fork.i: src/champ_ops/fork.c.i
+
+.PHONY : src/champ_ops/fork.i
+
+# target to preprocess a source file
+src/champ_ops/fork.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/fork.c.i
+.PHONY : src/champ_ops/fork.c.i
+
+src/champ_ops/fork.s: src/champ_ops/fork.c.s
+
+.PHONY : src/champ_ops/fork.s
+
+# target to generate assembly for a file
+src/champ_ops/fork.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/fork.c.s
+.PHONY : src/champ_ops/fork.c.s
+
+src/champ_ops/ld.o: src/champ_ops/ld.c.o
+
+.PHONY : src/champ_ops/ld.o
+
+# target to build an object file
+src/champ_ops/ld.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/ld.c.o
+.PHONY : src/champ_ops/ld.c.o
+
+src/champ_ops/ld.i: src/champ_ops/ld.c.i
+
+.PHONY : src/champ_ops/ld.i
+
+# target to preprocess a source file
+src/champ_ops/ld.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/ld.c.i
+.PHONY : src/champ_ops/ld.c.i
+
+src/champ_ops/ld.s: src/champ_ops/ld.c.s
+
+.PHONY : src/champ_ops/ld.s
+
+# target to generate assembly for a file
+src/champ_ops/ld.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/ld.c.s
+.PHONY : src/champ_ops/ld.c.s
+
+src/champ_ops/ldi.o: src/champ_ops/ldi.c.o
+
+.PHONY : src/champ_ops/ldi.o
+
+# target to build an object file
+src/champ_ops/ldi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/ldi.c.o
+.PHONY : src/champ_ops/ldi.c.o
+
+src/champ_ops/ldi.i: src/champ_ops/ldi.c.i
+
+.PHONY : src/champ_ops/ldi.i
+
+# target to preprocess a source file
+src/champ_ops/ldi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/ldi.c.i
+.PHONY : src/champ_ops/ldi.c.i
+
+src/champ_ops/ldi.s: src/champ_ops/ldi.c.s
+
+.PHONY : src/champ_ops/ldi.s
+
+# target to generate assembly for a file
+src/champ_ops/ldi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/ldi.c.s
+.PHONY : src/champ_ops/ldi.c.s
+
+src/champ_ops/lfork.o: src/champ_ops/lfork.c.o
+
+.PHONY : src/champ_ops/lfork.o
+
+# target to build an object file
+src/champ_ops/lfork.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/lfork.c.o
+.PHONY : src/champ_ops/lfork.c.o
+
+src/champ_ops/lfork.i: src/champ_ops/lfork.c.i
+
+.PHONY : src/champ_ops/lfork.i
+
+# target to preprocess a source file
+src/champ_ops/lfork.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/lfork.c.i
+.PHONY : src/champ_ops/lfork.c.i
+
+src/champ_ops/lfork.s: src/champ_ops/lfork.c.s
+
+.PHONY : src/champ_ops/lfork.s
+
+# target to generate assembly for a file
+src/champ_ops/lfork.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/lfork.c.s
+.PHONY : src/champ_ops/lfork.c.s
+
+src/champ_ops/live.o: src/champ_ops/live.c.o
+
+.PHONY : src/champ_ops/live.o
+
+# target to build an object file
+src/champ_ops/live.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/live.c.o
+.PHONY : src/champ_ops/live.c.o
+
+src/champ_ops/live.i: src/champ_ops/live.c.i
+
+.PHONY : src/champ_ops/live.i
+
+# target to preprocess a source file
+src/champ_ops/live.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/live.c.i
+.PHONY : src/champ_ops/live.c.i
+
+src/champ_ops/live.s: src/champ_ops/live.c.s
+
+.PHONY : src/champ_ops/live.s
+
+# target to generate assembly for a file
+src/champ_ops/live.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/live.c.s
+.PHONY : src/champ_ops/live.c.s
+
+src/champ_ops/lld.o: src/champ_ops/lld.c.o
+
+.PHONY : src/champ_ops/lld.o
+
+# target to build an object file
+src/champ_ops/lld.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/lld.c.o
+.PHONY : src/champ_ops/lld.c.o
+
+src/champ_ops/lld.i: src/champ_ops/lld.c.i
+
+.PHONY : src/champ_ops/lld.i
+
+# target to preprocess a source file
+src/champ_ops/lld.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/lld.c.i
+.PHONY : src/champ_ops/lld.c.i
+
+src/champ_ops/lld.s: src/champ_ops/lld.c.s
+
+.PHONY : src/champ_ops/lld.s
+
+# target to generate assembly for a file
+src/champ_ops/lld.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/lld.c.s
+.PHONY : src/champ_ops/lld.c.s
+
+src/champ_ops/lldi.o: src/champ_ops/lldi.c.o
+
+.PHONY : src/champ_ops/lldi.o
+
+# target to build an object file
+src/champ_ops/lldi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/lldi.c.o
+.PHONY : src/champ_ops/lldi.c.o
+
+src/champ_ops/lldi.i: src/champ_ops/lldi.c.i
+
+.PHONY : src/champ_ops/lldi.i
+
+# target to preprocess a source file
+src/champ_ops/lldi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/lldi.c.i
+.PHONY : src/champ_ops/lldi.c.i
+
+src/champ_ops/lldi.s: src/champ_ops/lldi.c.s
+
+.PHONY : src/champ_ops/lldi.s
+
+# target to generate assembly for a file
+src/champ_ops/lldi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/lldi.c.s
+.PHONY : src/champ_ops/lldi.c.s
+
+src/champ_ops/ops_array.o: src/champ_ops/ops_array.c.o
+
+.PHONY : src/champ_ops/ops_array.o
+
+# target to build an object file
+src/champ_ops/ops_array.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.o
+.PHONY : src/champ_ops/ops_array.c.o
+
+src/champ_ops/ops_array.i: src/champ_ops/ops_array.c.i
+
+.PHONY : src/champ_ops/ops_array.i
+
+# target to preprocess a source file
+src/champ_ops/ops_array.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.i
+.PHONY : src/champ_ops/ops_array.c.i
+
+src/champ_ops/ops_array.s: src/champ_ops/ops_array.c.s
+
+.PHONY : src/champ_ops/ops_array.s
+
+# target to generate assembly for a file
+src/champ_ops/ops_array.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.s
+.PHONY : src/champ_ops/ops_array.c.s
+
+src/champ_ops/or.o: src/champ_ops/or.c.o
+
+.PHONY : src/champ_ops/or.o
+
+# target to build an object file
+src/champ_ops/or.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/or.c.o
+.PHONY : src/champ_ops/or.c.o
+
+src/champ_ops/or.i: src/champ_ops/or.c.i
+
+.PHONY : src/champ_ops/or.i
+
+# target to preprocess a source file
+src/champ_ops/or.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/or.c.i
+.PHONY : src/champ_ops/or.c.i
+
+src/champ_ops/or.s: src/champ_ops/or.c.s
+
+.PHONY : src/champ_ops/or.s
+
+# target to generate assembly for a file
+src/champ_ops/or.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/or.c.s
+.PHONY : src/champ_ops/or.c.s
+
+src/champ_ops/st.o: src/champ_ops/st.c.o
+
+.PHONY : src/champ_ops/st.o
+
+# target to build an object file
+src/champ_ops/st.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/st.c.o
+.PHONY : src/champ_ops/st.c.o
+
+src/champ_ops/st.i: src/champ_ops/st.c.i
+
+.PHONY : src/champ_ops/st.i
+
+# target to preprocess a source file
+src/champ_ops/st.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/st.c.i
+.PHONY : src/champ_ops/st.c.i
+
+src/champ_ops/st.s: src/champ_ops/st.c.s
+
+.PHONY : src/champ_ops/st.s
+
+# target to generate assembly for a file
+src/champ_ops/st.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/st.c.s
+.PHONY : src/champ_ops/st.c.s
+
+src/champ_ops/sti.o: src/champ_ops/sti.c.o
+
+.PHONY : src/champ_ops/sti.o
+
+# target to build an object file
+src/champ_ops/sti.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/sti.c.o
+.PHONY : src/champ_ops/sti.c.o
+
+src/champ_ops/sti.i: src/champ_ops/sti.c.i
+
+.PHONY : src/champ_ops/sti.i
+
+# target to preprocess a source file
+src/champ_ops/sti.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/sti.c.i
+.PHONY : src/champ_ops/sti.c.i
+
+src/champ_ops/sti.s: src/champ_ops/sti.c.s
+
+.PHONY : src/champ_ops/sti.s
+
+# target to generate assembly for a file
+src/champ_ops/sti.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/sti.c.s
+.PHONY : src/champ_ops/sti.c.s
+
+src/champ_ops/sub.o: src/champ_ops/sub.c.o
+
+.PHONY : src/champ_ops/sub.o
+
+# target to build an object file
+src/champ_ops/sub.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/sub.c.o
+.PHONY : src/champ_ops/sub.c.o
+
+src/champ_ops/sub.i: src/champ_ops/sub.c.i
+
+.PHONY : src/champ_ops/sub.i
+
+# target to preprocess a source file
+src/champ_ops/sub.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/sub.c.i
+.PHONY : src/champ_ops/sub.c.i
+
+src/champ_ops/sub.s: src/champ_ops/sub.c.s
+
+.PHONY : src/champ_ops/sub.s
+
+# target to generate assembly for a file
+src/champ_ops/sub.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/sub.c.s
+.PHONY : src/champ_ops/sub.c.s
+
+src/champ_ops/xor.o: src/champ_ops/xor.c.o
+
+.PHONY : src/champ_ops/xor.o
+
+# target to build an object file
+src/champ_ops/xor.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/xor.c.o
+.PHONY : src/champ_ops/xor.c.o
+
+src/champ_ops/xor.i: src/champ_ops/xor.c.i
+
+.PHONY : src/champ_ops/xor.i
+
+# target to preprocess a source file
+src/champ_ops/xor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/xor.c.i
+.PHONY : src/champ_ops/xor.c.i
+
+src/champ_ops/xor.s: src/champ_ops/xor.c.s
+
+.PHONY : src/champ_ops/xor.s
+
+# target to generate assembly for a file
+src/champ_ops/xor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/xor.c.s
+.PHONY : src/champ_ops/xor.c.s
+
+src/champ_ops/zjmp.o: src/champ_ops/zjmp.c.o
+
+.PHONY : src/champ_ops/zjmp.o
+
+# target to build an object file
+src/champ_ops/zjmp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.o
+.PHONY : src/champ_ops/zjmp.c.o
+
+src/champ_ops/zjmp.i: src/champ_ops/zjmp.c.i
+
+.PHONY : src/champ_ops/zjmp.i
+
+# target to preprocess a source file
+src/champ_ops/zjmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.i
+.PHONY : src/champ_ops/zjmp.c.i
+
+src/champ_ops/zjmp.s: src/champ_ops/zjmp.c.s
+
+.PHONY : src/champ_ops/zjmp.s
+
+# target to generate assembly for a file
+src/champ_ops/zjmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.s
+.PHONY : src/champ_ops/zjmp.c.s
 
 src/check_pos.o: src/check_pos.c.o
 
@@ -2411,33 +2789,6 @@ src/error.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/error.c.s
 .PHONY : src/error.c.s
 
-src/fork.o: src/fork.c.o
-
-.PHONY : src/fork.o
-
-# target to build an object file
-src/fork.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/fork.c.o
-.PHONY : src/fork.c.o
-
-src/fork.i: src/fork.c.i
-
-.PHONY : src/fork.i
-
-# target to preprocess a source file
-src/fork.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/fork.c.i
-.PHONY : src/fork.c.i
-
-src/fork.s: src/fork.c.s
-
-.PHONY : src/fork.s
-
-# target to generate assembly for a file
-src/fork.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/fork.c.s
-.PHONY : src/fork.c.s
-
 src/game.o: src/game.c.o
 
 .PHONY : src/game.o
@@ -2546,168 +2897,6 @@ src/int_ops.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/int_ops.c.s
 .PHONY : src/int_ops.c.s
 
-src/ld.o: src/ld.c.o
-
-.PHONY : src/ld.o
-
-# target to build an object file
-src/ld.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/ld.c.o
-.PHONY : src/ld.c.o
-
-src/ld.i: src/ld.c.i
-
-.PHONY : src/ld.i
-
-# target to preprocess a source file
-src/ld.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/ld.c.i
-.PHONY : src/ld.c.i
-
-src/ld.s: src/ld.c.s
-
-.PHONY : src/ld.s
-
-# target to generate assembly for a file
-src/ld.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/ld.c.s
-.PHONY : src/ld.c.s
-
-src/ldi.o: src/ldi.c.o
-
-.PHONY : src/ldi.o
-
-# target to build an object file
-src/ldi.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/ldi.c.o
-.PHONY : src/ldi.c.o
-
-src/ldi.i: src/ldi.c.i
-
-.PHONY : src/ldi.i
-
-# target to preprocess a source file
-src/ldi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/ldi.c.i
-.PHONY : src/ldi.c.i
-
-src/ldi.s: src/ldi.c.s
-
-.PHONY : src/ldi.s
-
-# target to generate assembly for a file
-src/ldi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/ldi.c.s
-.PHONY : src/ldi.c.s
-
-src/lfork.o: src/lfork.c.o
-
-.PHONY : src/lfork.o
-
-# target to build an object file
-src/lfork.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/lfork.c.o
-.PHONY : src/lfork.c.o
-
-src/lfork.i: src/lfork.c.i
-
-.PHONY : src/lfork.i
-
-# target to preprocess a source file
-src/lfork.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/lfork.c.i
-.PHONY : src/lfork.c.i
-
-src/lfork.s: src/lfork.c.s
-
-.PHONY : src/lfork.s
-
-# target to generate assembly for a file
-src/lfork.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/lfork.c.s
-.PHONY : src/lfork.c.s
-
-src/live.o: src/live.c.o
-
-.PHONY : src/live.o
-
-# target to build an object file
-src/live.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/live.c.o
-.PHONY : src/live.c.o
-
-src/live.i: src/live.c.i
-
-.PHONY : src/live.i
-
-# target to preprocess a source file
-src/live.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/live.c.i
-.PHONY : src/live.c.i
-
-src/live.s: src/live.c.s
-
-.PHONY : src/live.s
-
-# target to generate assembly for a file
-src/live.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/live.c.s
-.PHONY : src/live.c.s
-
-src/lld.o: src/lld.c.o
-
-.PHONY : src/lld.o
-
-# target to build an object file
-src/lld.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/lld.c.o
-.PHONY : src/lld.c.o
-
-src/lld.i: src/lld.c.i
-
-.PHONY : src/lld.i
-
-# target to preprocess a source file
-src/lld.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/lld.c.i
-.PHONY : src/lld.c.i
-
-src/lld.s: src/lld.c.s
-
-.PHONY : src/lld.s
-
-# target to generate assembly for a file
-src/lld.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/lld.c.s
-.PHONY : src/lld.c.s
-
-src/lldi.o: src/lldi.c.o
-
-.PHONY : src/lldi.o
-
-# target to build an object file
-src/lldi.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/lldi.c.o
-.PHONY : src/lldi.c.o
-
-src/lldi.i: src/lldi.c.i
-
-.PHONY : src/lldi.i
-
-# target to preprocess a source file
-src/lldi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/lldi.c.i
-.PHONY : src/lldi.c.i
-
-src/lldi.s: src/lldi.c.s
-
-.PHONY : src/lldi.s
-
-# target to generate assembly for a file
-src/lldi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/lldi.c.s
-.PHONY : src/lldi.c.s
-
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -2762,60 +2951,6 @@ src/op.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/op.c.s
 .PHONY : src/op.c.s
 
-src/ops_array.o: src/ops_array.c.o
-
-.PHONY : src/ops_array.o
-
-# target to build an object file
-src/ops_array.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/ops_array.c.o
-.PHONY : src/ops_array.c.o
-
-src/ops_array.i: src/ops_array.c.i
-
-.PHONY : src/ops_array.i
-
-# target to preprocess a source file
-src/ops_array.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/ops_array.c.i
-.PHONY : src/ops_array.c.i
-
-src/ops_array.s: src/ops_array.c.s
-
-.PHONY : src/ops_array.s
-
-# target to generate assembly for a file
-src/ops_array.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/ops_array.c.s
-.PHONY : src/ops_array.c.s
-
-src/or.o: src/or.c.o
-
-.PHONY : src/or.o
-
-# target to build an object file
-src/or.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/or.c.o
-.PHONY : src/or.c.o
-
-src/or.i: src/or.c.i
-
-.PHONY : src/or.i
-
-# target to preprocess a source file
-src/or.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/or.c.i
-.PHONY : src/or.c.i
-
-src/or.s: src/or.c.s
-
-.PHONY : src/or.s
-
-# target to generate assembly for a file
-src/or.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/or.c.s
-.PHONY : src/or.c.s
-
 src/parse_players.o: src/parse_players.c.o
 
 .PHONY : src/parse_players.o
@@ -2869,141 +3004,6 @@ src/players_init.s: src/players_init.c.s
 src/players_init.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/players_init.c.s
 .PHONY : src/players_init.c.s
-
-src/st.o: src/st.c.o
-
-.PHONY : src/st.o
-
-# target to build an object file
-src/st.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/st.c.o
-.PHONY : src/st.c.o
-
-src/st.i: src/st.c.i
-
-.PHONY : src/st.i
-
-# target to preprocess a source file
-src/st.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/st.c.i
-.PHONY : src/st.c.i
-
-src/st.s: src/st.c.s
-
-.PHONY : src/st.s
-
-# target to generate assembly for a file
-src/st.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/st.c.s
-.PHONY : src/st.c.s
-
-src/sti.o: src/sti.c.o
-
-.PHONY : src/sti.o
-
-# target to build an object file
-src/sti.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/sti.c.o
-.PHONY : src/sti.c.o
-
-src/sti.i: src/sti.c.i
-
-.PHONY : src/sti.i
-
-# target to preprocess a source file
-src/sti.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/sti.c.i
-.PHONY : src/sti.c.i
-
-src/sti.s: src/sti.c.s
-
-.PHONY : src/sti.s
-
-# target to generate assembly for a file
-src/sti.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/sti.c.s
-.PHONY : src/sti.c.s
-
-src/sub.o: src/sub.c.o
-
-.PHONY : src/sub.o
-
-# target to build an object file
-src/sub.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/sub.c.o
-.PHONY : src/sub.c.o
-
-src/sub.i: src/sub.c.i
-
-.PHONY : src/sub.i
-
-# target to preprocess a source file
-src/sub.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/sub.c.i
-.PHONY : src/sub.c.i
-
-src/sub.s: src/sub.c.s
-
-.PHONY : src/sub.s
-
-# target to generate assembly for a file
-src/sub.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/sub.c.s
-.PHONY : src/sub.c.s
-
-src/xor.o: src/xor.c.o
-
-.PHONY : src/xor.o
-
-# target to build an object file
-src/xor.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/xor.c.o
-.PHONY : src/xor.c.o
-
-src/xor.i: src/xor.c.i
-
-.PHONY : src/xor.i
-
-# target to preprocess a source file
-src/xor.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/xor.c.i
-.PHONY : src/xor.c.i
-
-src/xor.s: src/xor.c.s
-
-.PHONY : src/xor.s
-
-# target to generate assembly for a file
-src/xor.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/xor.c.s
-.PHONY : src/xor.c.s
-
-src/zjmp.o: src/zjmp.c.o
-
-.PHONY : src/zjmp.o
-
-# target to build an object file
-src/zjmp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/zjmp.c.o
-.PHONY : src/zjmp.c.o
-
-src/zjmp.i: src/zjmp.c.i
-
-.PHONY : src/zjmp.i
-
-# target to preprocess a source file
-src/zjmp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/zjmp.c.i
-.PHONY : src/zjmp.c.i
-
-src/zjmp.s: src/zjmp.c.s
-
-.PHONY : src/zjmp.s
-
-# target to generate assembly for a file
-src/zjmp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/corewar.dir/build.make CMakeFiles/corewar.dir/src/zjmp.c.s
-.PHONY : src/zjmp.c.s
 
 # Help Target
 help:
@@ -3236,21 +3236,63 @@ help:
 	@echo "... libft/srcs/gnl_free_fd.o"
 	@echo "... libft/srcs/gnl_free_fd.i"
 	@echo "... libft/srcs/gnl_free_fd.s"
-	@echo "... src/add.o"
-	@echo "... src/add.i"
-	@echo "... src/add.s"
-	@echo "... src/aff.o"
-	@echo "... src/aff.i"
-	@echo "... src/aff.s"
-	@echo "... src/and.o"
-	@echo "... src/and.i"
-	@echo "... src/and.s"
 	@echo "... src/carriage.o"
 	@echo "... src/carriage.i"
 	@echo "... src/carriage.s"
 	@echo "... src/champ_op.o"
 	@echo "... src/champ_op.i"
 	@echo "... src/champ_op.s"
+	@echo "... src/champ_ops/add.o"
+	@echo "... src/champ_ops/add.i"
+	@echo "... src/champ_ops/add.s"
+	@echo "... src/champ_ops/aff.o"
+	@echo "... src/champ_ops/aff.i"
+	@echo "... src/champ_ops/aff.s"
+	@echo "... src/champ_ops/and.o"
+	@echo "... src/champ_ops/and.i"
+	@echo "... src/champ_ops/and.s"
+	@echo "... src/champ_ops/fork.o"
+	@echo "... src/champ_ops/fork.i"
+	@echo "... src/champ_ops/fork.s"
+	@echo "... src/champ_ops/ld.o"
+	@echo "... src/champ_ops/ld.i"
+	@echo "... src/champ_ops/ld.s"
+	@echo "... src/champ_ops/ldi.o"
+	@echo "... src/champ_ops/ldi.i"
+	@echo "... src/champ_ops/ldi.s"
+	@echo "... src/champ_ops/lfork.o"
+	@echo "... src/champ_ops/lfork.i"
+	@echo "... src/champ_ops/lfork.s"
+	@echo "... src/champ_ops/live.o"
+	@echo "... src/champ_ops/live.i"
+	@echo "... src/champ_ops/live.s"
+	@echo "... src/champ_ops/lld.o"
+	@echo "... src/champ_ops/lld.i"
+	@echo "... src/champ_ops/lld.s"
+	@echo "... src/champ_ops/lldi.o"
+	@echo "... src/champ_ops/lldi.i"
+	@echo "... src/champ_ops/lldi.s"
+	@echo "... src/champ_ops/ops_array.o"
+	@echo "... src/champ_ops/ops_array.i"
+	@echo "... src/champ_ops/ops_array.s"
+	@echo "... src/champ_ops/or.o"
+	@echo "... src/champ_ops/or.i"
+	@echo "... src/champ_ops/or.s"
+	@echo "... src/champ_ops/st.o"
+	@echo "... src/champ_ops/st.i"
+	@echo "... src/champ_ops/st.s"
+	@echo "... src/champ_ops/sti.o"
+	@echo "... src/champ_ops/sti.i"
+	@echo "... src/champ_ops/sti.s"
+	@echo "... src/champ_ops/sub.o"
+	@echo "... src/champ_ops/sub.i"
+	@echo "... src/champ_ops/sub.s"
+	@echo "... src/champ_ops/xor.o"
+	@echo "... src/champ_ops/xor.i"
+	@echo "... src/champ_ops/xor.s"
+	@echo "... src/champ_ops/zjmp.o"
+	@echo "... src/champ_ops/zjmp.i"
+	@echo "... src/champ_ops/zjmp.s"
 	@echo "... src/check_pos.o"
 	@echo "... src/check_pos.i"
 	@echo "... src/check_pos.s"
@@ -3266,9 +3308,6 @@ help:
 	@echo "... src/error.o"
 	@echo "... src/error.i"
 	@echo "... src/error.s"
-	@echo "... src/fork.o"
-	@echo "... src/fork.i"
-	@echo "... src/fork.s"
 	@echo "... src/game.o"
 	@echo "... src/game.i"
 	@echo "... src/game.s"
@@ -3281,57 +3320,18 @@ help:
 	@echo "... src/int_ops.o"
 	@echo "... src/int_ops.i"
 	@echo "... src/int_ops.s"
-	@echo "... src/ld.o"
-	@echo "... src/ld.i"
-	@echo "... src/ld.s"
-	@echo "... src/ldi.o"
-	@echo "... src/ldi.i"
-	@echo "... src/ldi.s"
-	@echo "... src/lfork.o"
-	@echo "... src/lfork.i"
-	@echo "... src/lfork.s"
-	@echo "... src/live.o"
-	@echo "... src/live.i"
-	@echo "... src/live.s"
-	@echo "... src/lld.o"
-	@echo "... src/lld.i"
-	@echo "... src/lld.s"
-	@echo "... src/lldi.o"
-	@echo "... src/lldi.i"
-	@echo "... src/lldi.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/op.o"
 	@echo "... src/op.i"
 	@echo "... src/op.s"
-	@echo "... src/ops_array.o"
-	@echo "... src/ops_array.i"
-	@echo "... src/ops_array.s"
-	@echo "... src/or.o"
-	@echo "... src/or.i"
-	@echo "... src/or.s"
 	@echo "... src/parse_players.o"
 	@echo "... src/parse_players.i"
 	@echo "... src/parse_players.s"
 	@echo "... src/players_init.o"
 	@echo "... src/players_init.i"
 	@echo "... src/players_init.s"
-	@echo "... src/st.o"
-	@echo "... src/st.i"
-	@echo "... src/st.s"
-	@echo "... src/sti.o"
-	@echo "... src/sti.i"
-	@echo "... src/sti.s"
-	@echo "... src/sub.o"
-	@echo "... src/sub.i"
-	@echo "... src/sub.s"
-	@echo "... src/xor.o"
-	@echo "... src/xor.i"
-	@echo "... src/xor.s"
-	@echo "... src/zjmp.o"
-	@echo "... src/zjmp.i"
-	@echo "... src/zjmp.s"
 .PHONY : help
 
 

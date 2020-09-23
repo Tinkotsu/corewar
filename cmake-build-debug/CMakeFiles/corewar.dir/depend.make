@@ -293,27 +293,6 @@ CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.o: ../libft/includes/get_next_li
 CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.o: ../libft/includes/libft.h
 CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.o: ../libft/srcs/gnl_free_fd.c
 
-CMakeFiles/corewar.dir/src/add.c.o: ../includes/corewar.h
-CMakeFiles/corewar.dir/src/add.c.o: ../includes/game.h
-CMakeFiles/corewar.dir/src/add.c.o: ../includes/op.h
-CMakeFiles/corewar.dir/src/add.c.o: ../libft/includes/get_next_line.h
-CMakeFiles/corewar.dir/src/add.c.o: ../libft/includes/libft.h
-CMakeFiles/corewar.dir/src/add.c.o: ../src/add.c
-
-CMakeFiles/corewar.dir/src/aff.c.o: ../includes/corewar.h
-CMakeFiles/corewar.dir/src/aff.c.o: ../includes/game.h
-CMakeFiles/corewar.dir/src/aff.c.o: ../includes/op.h
-CMakeFiles/corewar.dir/src/aff.c.o: ../libft/includes/get_next_line.h
-CMakeFiles/corewar.dir/src/aff.c.o: ../libft/includes/libft.h
-CMakeFiles/corewar.dir/src/aff.c.o: ../src/aff.c
-
-CMakeFiles/corewar.dir/src/and.c.o: ../includes/corewar.h
-CMakeFiles/corewar.dir/src/and.c.o: ../includes/game.h
-CMakeFiles/corewar.dir/src/and.c.o: ../includes/op.h
-CMakeFiles/corewar.dir/src/and.c.o: ../libft/includes/get_next_line.h
-CMakeFiles/corewar.dir/src/and.c.o: ../libft/includes/libft.h
-CMakeFiles/corewar.dir/src/and.c.o: ../src/and.c
-
 CMakeFiles/corewar.dir/src/carriage.c.o: ../includes/corewar.h
 CMakeFiles/corewar.dir/src/carriage.c.o: ../includes/op.h
 CMakeFiles/corewar.dir/src/carriage.c.o: ../libft/includes/get_next_line.h
@@ -326,6 +305,125 @@ CMakeFiles/corewar.dir/src/champ_op.c.o: ../includes/op.h
 CMakeFiles/corewar.dir/src/champ_op.c.o: ../libft/includes/get_next_line.h
 CMakeFiles/corewar.dir/src/champ_op.c.o: ../libft/includes/libft.h
 CMakeFiles/corewar.dir/src/champ_op.c.o: ../src/champ_op.c
+
+CMakeFiles/corewar.dir/src/champ_ops/add.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/champ_ops/add.c.o: ../includes/game.h
+CMakeFiles/corewar.dir/src/champ_ops/add.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/champ_ops/add.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/champ_ops/add.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/champ_ops/add.c.o: ../src/champ_ops/add.c
+
+CMakeFiles/corewar.dir/src/champ_ops/aff.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/champ_ops/aff.c.o: ../includes/game.h
+CMakeFiles/corewar.dir/src/champ_ops/aff.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/champ_ops/aff.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/champ_ops/aff.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/champ_ops/aff.c.o: ../src/champ_ops/aff.c
+
+CMakeFiles/corewar.dir/src/champ_ops/and.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/champ_ops/and.c.o: ../includes/game.h
+CMakeFiles/corewar.dir/src/champ_ops/and.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/champ_ops/and.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/champ_ops/and.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/champ_ops/and.c.o: ../src/champ_ops/and.c
+
+CMakeFiles/corewar.dir/src/champ_ops/fork.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/champ_ops/fork.c.o: ../includes/game.h
+CMakeFiles/corewar.dir/src/champ_ops/fork.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/champ_ops/fork.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/champ_ops/fork.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/champ_ops/fork.c.o: ../src/champ_ops/fork.c
+
+CMakeFiles/corewar.dir/src/champ_ops/ld.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/champ_ops/ld.c.o: ../includes/game.h
+CMakeFiles/corewar.dir/src/champ_ops/ld.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/champ_ops/ld.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/champ_ops/ld.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/champ_ops/ld.c.o: ../src/champ_ops/ld.c
+
+CMakeFiles/corewar.dir/src/champ_ops/ldi.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/champ_ops/ldi.c.o: ../includes/game.h
+CMakeFiles/corewar.dir/src/champ_ops/ldi.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/champ_ops/ldi.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/champ_ops/ldi.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/champ_ops/ldi.c.o: ../src/champ_ops/ldi.c
+
+CMakeFiles/corewar.dir/src/champ_ops/lfork.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/champ_ops/lfork.c.o: ../includes/game.h
+CMakeFiles/corewar.dir/src/champ_ops/lfork.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/champ_ops/lfork.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/champ_ops/lfork.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/champ_ops/lfork.c.o: ../src/champ_ops/lfork.c
+
+CMakeFiles/corewar.dir/src/champ_ops/live.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/champ_ops/live.c.o: ../includes/game.h
+CMakeFiles/corewar.dir/src/champ_ops/live.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/champ_ops/live.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/champ_ops/live.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/champ_ops/live.c.o: ../src/champ_ops/live.c
+
+CMakeFiles/corewar.dir/src/champ_ops/lld.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/champ_ops/lld.c.o: ../includes/game.h
+CMakeFiles/corewar.dir/src/champ_ops/lld.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/champ_ops/lld.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/champ_ops/lld.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/champ_ops/lld.c.o: ../src/champ_ops/lld.c
+
+CMakeFiles/corewar.dir/src/champ_ops/lldi.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/champ_ops/lldi.c.o: ../includes/game.h
+CMakeFiles/corewar.dir/src/champ_ops/lldi.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/champ_ops/lldi.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/champ_ops/lldi.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/champ_ops/lldi.c.o: ../src/champ_ops/lldi.c
+
+CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.o: ../includes/game.h
+CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.o: ../src/champ_ops/ops_array.c
+
+CMakeFiles/corewar.dir/src/champ_ops/or.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/champ_ops/or.c.o: ../includes/game.h
+CMakeFiles/corewar.dir/src/champ_ops/or.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/champ_ops/or.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/champ_ops/or.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/champ_ops/or.c.o: ../src/champ_ops/or.c
+
+CMakeFiles/corewar.dir/src/champ_ops/st.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/champ_ops/st.c.o: ../includes/game.h
+CMakeFiles/corewar.dir/src/champ_ops/st.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/champ_ops/st.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/champ_ops/st.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/champ_ops/st.c.o: ../src/champ_ops/st.c
+
+CMakeFiles/corewar.dir/src/champ_ops/sti.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/champ_ops/sti.c.o: ../includes/game.h
+CMakeFiles/corewar.dir/src/champ_ops/sti.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/champ_ops/sti.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/champ_ops/sti.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/champ_ops/sti.c.o: ../src/champ_ops/sti.c
+
+CMakeFiles/corewar.dir/src/champ_ops/sub.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/champ_ops/sub.c.o: ../includes/game.h
+CMakeFiles/corewar.dir/src/champ_ops/sub.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/champ_ops/sub.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/champ_ops/sub.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/champ_ops/sub.c.o: ../src/champ_ops/sub.c
+
+CMakeFiles/corewar.dir/src/champ_ops/xor.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/champ_ops/xor.c.o: ../includes/game.h
+CMakeFiles/corewar.dir/src/champ_ops/xor.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/champ_ops/xor.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/champ_ops/xor.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/champ_ops/xor.c.o: ../src/champ_ops/xor.c
+
+CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.o: ../includes/corewar.h
+CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.o: ../includes/game.h
+CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.o: ../includes/op.h
+CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.o: ../libft/includes/get_next_line.h
+CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.o: ../libft/includes/libft.h
+CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.o: ../src/champ_ops/zjmp.c
 
 CMakeFiles/corewar.dir/src/check_pos.c.o: ../includes/corewar.h
 CMakeFiles/corewar.dir/src/check_pos.c.o: ../includes/game.h
@@ -358,13 +456,6 @@ CMakeFiles/corewar.dir/src/error.c.o: ../libft/includes/get_next_line.h
 CMakeFiles/corewar.dir/src/error.c.o: ../libft/includes/libft.h
 CMakeFiles/corewar.dir/src/error.c.o: ../src/error.c
 
-CMakeFiles/corewar.dir/src/fork.c.o: ../includes/corewar.h
-CMakeFiles/corewar.dir/src/fork.c.o: ../includes/game.h
-CMakeFiles/corewar.dir/src/fork.c.o: ../includes/op.h
-CMakeFiles/corewar.dir/src/fork.c.o: ../libft/includes/get_next_line.h
-CMakeFiles/corewar.dir/src/fork.c.o: ../libft/includes/libft.h
-CMakeFiles/corewar.dir/src/fork.c.o: ../src/fork.c
-
 CMakeFiles/corewar.dir/src/game.c.o: ../includes/corewar.h
 CMakeFiles/corewar.dir/src/game.c.o: ../includes/game.h
 CMakeFiles/corewar.dir/src/game.c.o: ../includes/op.h
@@ -392,48 +483,6 @@ CMakeFiles/corewar.dir/src/int_ops.c.o: ../libft/includes/get_next_line.h
 CMakeFiles/corewar.dir/src/int_ops.c.o: ../libft/includes/libft.h
 CMakeFiles/corewar.dir/src/int_ops.c.o: ../src/int_ops.c
 
-CMakeFiles/corewar.dir/src/ld.c.o: ../includes/corewar.h
-CMakeFiles/corewar.dir/src/ld.c.o: ../includes/game.h
-CMakeFiles/corewar.dir/src/ld.c.o: ../includes/op.h
-CMakeFiles/corewar.dir/src/ld.c.o: ../libft/includes/get_next_line.h
-CMakeFiles/corewar.dir/src/ld.c.o: ../libft/includes/libft.h
-CMakeFiles/corewar.dir/src/ld.c.o: ../src/ld.c
-
-CMakeFiles/corewar.dir/src/ldi.c.o: ../includes/corewar.h
-CMakeFiles/corewar.dir/src/ldi.c.o: ../includes/game.h
-CMakeFiles/corewar.dir/src/ldi.c.o: ../includes/op.h
-CMakeFiles/corewar.dir/src/ldi.c.o: ../libft/includes/get_next_line.h
-CMakeFiles/corewar.dir/src/ldi.c.o: ../libft/includes/libft.h
-CMakeFiles/corewar.dir/src/ldi.c.o: ../src/ldi.c
-
-CMakeFiles/corewar.dir/src/lfork.c.o: ../includes/corewar.h
-CMakeFiles/corewar.dir/src/lfork.c.o: ../includes/game.h
-CMakeFiles/corewar.dir/src/lfork.c.o: ../includes/op.h
-CMakeFiles/corewar.dir/src/lfork.c.o: ../libft/includes/get_next_line.h
-CMakeFiles/corewar.dir/src/lfork.c.o: ../libft/includes/libft.h
-CMakeFiles/corewar.dir/src/lfork.c.o: ../src/lfork.c
-
-CMakeFiles/corewar.dir/src/live.c.o: ../includes/corewar.h
-CMakeFiles/corewar.dir/src/live.c.o: ../includes/game.h
-CMakeFiles/corewar.dir/src/live.c.o: ../includes/op.h
-CMakeFiles/corewar.dir/src/live.c.o: ../libft/includes/get_next_line.h
-CMakeFiles/corewar.dir/src/live.c.o: ../libft/includes/libft.h
-CMakeFiles/corewar.dir/src/live.c.o: ../src/live.c
-
-CMakeFiles/corewar.dir/src/lld.c.o: ../includes/corewar.h
-CMakeFiles/corewar.dir/src/lld.c.o: ../includes/game.h
-CMakeFiles/corewar.dir/src/lld.c.o: ../includes/op.h
-CMakeFiles/corewar.dir/src/lld.c.o: ../libft/includes/get_next_line.h
-CMakeFiles/corewar.dir/src/lld.c.o: ../libft/includes/libft.h
-CMakeFiles/corewar.dir/src/lld.c.o: ../src/lld.c
-
-CMakeFiles/corewar.dir/src/lldi.c.o: ../includes/corewar.h
-CMakeFiles/corewar.dir/src/lldi.c.o: ../includes/game.h
-CMakeFiles/corewar.dir/src/lldi.c.o: ../includes/op.h
-CMakeFiles/corewar.dir/src/lldi.c.o: ../libft/includes/get_next_line.h
-CMakeFiles/corewar.dir/src/lldi.c.o: ../libft/includes/libft.h
-CMakeFiles/corewar.dir/src/lldi.c.o: ../src/lldi.c
-
 CMakeFiles/corewar.dir/src/main.c.o: ../includes/corewar.h
 CMakeFiles/corewar.dir/src/main.c.o: ../includes/op.h
 CMakeFiles/corewar.dir/src/main.c.o: ../libft/includes/get_next_line.h
@@ -446,20 +495,6 @@ CMakeFiles/corewar.dir/src/op.c.o: ../libft/includes/get_next_line.h
 CMakeFiles/corewar.dir/src/op.c.o: ../libft/includes/libft.h
 CMakeFiles/corewar.dir/src/op.c.o: ../src/op.c
 
-CMakeFiles/corewar.dir/src/ops_array.c.o: ../includes/corewar.h
-CMakeFiles/corewar.dir/src/ops_array.c.o: ../includes/game.h
-CMakeFiles/corewar.dir/src/ops_array.c.o: ../includes/op.h
-CMakeFiles/corewar.dir/src/ops_array.c.o: ../libft/includes/get_next_line.h
-CMakeFiles/corewar.dir/src/ops_array.c.o: ../libft/includes/libft.h
-CMakeFiles/corewar.dir/src/ops_array.c.o: ../src/ops_array.c
-
-CMakeFiles/corewar.dir/src/or.c.o: ../includes/corewar.h
-CMakeFiles/corewar.dir/src/or.c.o: ../includes/game.h
-CMakeFiles/corewar.dir/src/or.c.o: ../includes/op.h
-CMakeFiles/corewar.dir/src/or.c.o: ../libft/includes/get_next_line.h
-CMakeFiles/corewar.dir/src/or.c.o: ../libft/includes/libft.h
-CMakeFiles/corewar.dir/src/or.c.o: ../src/or.c
-
 CMakeFiles/corewar.dir/src/parse_players.c.o: ../includes/corewar.h
 CMakeFiles/corewar.dir/src/parse_players.c.o: ../includes/op.h
 CMakeFiles/corewar.dir/src/parse_players.c.o: ../libft/includes/get_next_line.h
@@ -471,39 +506,4 @@ CMakeFiles/corewar.dir/src/players_init.c.o: ../includes/op.h
 CMakeFiles/corewar.dir/src/players_init.c.o: ../libft/includes/get_next_line.h
 CMakeFiles/corewar.dir/src/players_init.c.o: ../libft/includes/libft.h
 CMakeFiles/corewar.dir/src/players_init.c.o: ../src/players_init.c
-
-CMakeFiles/corewar.dir/src/st.c.o: ../includes/corewar.h
-CMakeFiles/corewar.dir/src/st.c.o: ../includes/game.h
-CMakeFiles/corewar.dir/src/st.c.o: ../includes/op.h
-CMakeFiles/corewar.dir/src/st.c.o: ../libft/includes/get_next_line.h
-CMakeFiles/corewar.dir/src/st.c.o: ../libft/includes/libft.h
-CMakeFiles/corewar.dir/src/st.c.o: ../src/st.c
-
-CMakeFiles/corewar.dir/src/sti.c.o: ../includes/corewar.h
-CMakeFiles/corewar.dir/src/sti.c.o: ../includes/game.h
-CMakeFiles/corewar.dir/src/sti.c.o: ../includes/op.h
-CMakeFiles/corewar.dir/src/sti.c.o: ../libft/includes/get_next_line.h
-CMakeFiles/corewar.dir/src/sti.c.o: ../libft/includes/libft.h
-CMakeFiles/corewar.dir/src/sti.c.o: ../src/sti.c
-
-CMakeFiles/corewar.dir/src/sub.c.o: ../includes/corewar.h
-CMakeFiles/corewar.dir/src/sub.c.o: ../includes/game.h
-CMakeFiles/corewar.dir/src/sub.c.o: ../includes/op.h
-CMakeFiles/corewar.dir/src/sub.c.o: ../libft/includes/get_next_line.h
-CMakeFiles/corewar.dir/src/sub.c.o: ../libft/includes/libft.h
-CMakeFiles/corewar.dir/src/sub.c.o: ../src/sub.c
-
-CMakeFiles/corewar.dir/src/xor.c.o: ../includes/corewar.h
-CMakeFiles/corewar.dir/src/xor.c.o: ../includes/game.h
-CMakeFiles/corewar.dir/src/xor.c.o: ../includes/op.h
-CMakeFiles/corewar.dir/src/xor.c.o: ../libft/includes/get_next_line.h
-CMakeFiles/corewar.dir/src/xor.c.o: ../libft/includes/libft.h
-CMakeFiles/corewar.dir/src/xor.c.o: ../src/xor.c
-
-CMakeFiles/corewar.dir/src/zjmp.c.o: ../includes/corewar.h
-CMakeFiles/corewar.dir/src/zjmp.c.o: ../includes/game.h
-CMakeFiles/corewar.dir/src/zjmp.c.o: ../includes/op.h
-CMakeFiles/corewar.dir/src/zjmp.c.o: ../libft/includes/get_next_line.h
-CMakeFiles/corewar.dir/src/zjmp.c.o: ../libft/includes/libft.h
-CMakeFiles/corewar.dir/src/zjmp.c.o: ../src/zjmp.c
 

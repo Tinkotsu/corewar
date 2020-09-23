@@ -293,27 +293,6 @@ CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
  /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/gnl_free_fd.c
-CMakeFiles/corewar.dir/src/add.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /cygdrive/c/Users/Roman/Desktop/corewar/src/add.c
-CMakeFiles/corewar.dir/src/aff.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /cygdrive/c/Users/Roman/Desktop/corewar/src/aff.c
-CMakeFiles/corewar.dir/src/and.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /cygdrive/c/Users/Roman/Desktop/corewar/src/and.c
 CMakeFiles/corewar.dir/src/carriage.c.o
  ../includes/corewar.h
  ../includes/op.h
@@ -327,6 +306,125 @@ CMakeFiles/corewar.dir/src/champ_op.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
  /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_op.c
+CMakeFiles/corewar.dir/src/champ_ops/add.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/add.c
+CMakeFiles/corewar.dir/src/champ_ops/aff.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/aff.c
+CMakeFiles/corewar.dir/src/champ_ops/and.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/and.c
+CMakeFiles/corewar.dir/src/champ_ops/fork.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/fork.c
+CMakeFiles/corewar.dir/src/champ_ops/ld.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ld.c
+CMakeFiles/corewar.dir/src/champ_ops/ldi.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ldi.c
+CMakeFiles/corewar.dir/src/champ_ops/lfork.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/lfork.c
+CMakeFiles/corewar.dir/src/champ_ops/live.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/live.c
+CMakeFiles/corewar.dir/src/champ_ops/lld.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/lld.c
+CMakeFiles/corewar.dir/src/champ_ops/lldi.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/lldi.c
+CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ops_array.c
+CMakeFiles/corewar.dir/src/champ_ops/or.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/or.c
+CMakeFiles/corewar.dir/src/champ_ops/st.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/st.c
+CMakeFiles/corewar.dir/src/champ_ops/sti.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/sti.c
+CMakeFiles/corewar.dir/src/champ_ops/sub.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/sub.c
+CMakeFiles/corewar.dir/src/champ_ops/xor.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/xor.c
+CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.o
+ ../includes/corewar.h
+ ../includes/game.h
+ ../includes/op.h
+ ../libft/includes/get_next_line.h
+ ../libft/includes/libft.h
+ /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/zjmp.c
 CMakeFiles/corewar.dir/src/check_pos.c.o
  ../includes/corewar.h
  ../includes/game.h
@@ -358,13 +456,6 @@ CMakeFiles/corewar.dir/src/error.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
  /cygdrive/c/Users/Roman/Desktop/corewar/src/error.c
-CMakeFiles/corewar.dir/src/fork.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /cygdrive/c/Users/Roman/Desktop/corewar/src/fork.c
 CMakeFiles/corewar.dir/src/game.c.o
  ../includes/corewar.h
  ../includes/game.h
@@ -392,48 +483,6 @@ CMakeFiles/corewar.dir/src/int_ops.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
  /cygdrive/c/Users/Roman/Desktop/corewar/src/int_ops.c
-CMakeFiles/corewar.dir/src/ld.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /cygdrive/c/Users/Roman/Desktop/corewar/src/ld.c
-CMakeFiles/corewar.dir/src/ldi.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /cygdrive/c/Users/Roman/Desktop/corewar/src/ldi.c
-CMakeFiles/corewar.dir/src/lfork.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /cygdrive/c/Users/Roman/Desktop/corewar/src/lfork.c
-CMakeFiles/corewar.dir/src/live.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /cygdrive/c/Users/Roman/Desktop/corewar/src/live.c
-CMakeFiles/corewar.dir/src/lld.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /cygdrive/c/Users/Roman/Desktop/corewar/src/lld.c
-CMakeFiles/corewar.dir/src/lldi.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /cygdrive/c/Users/Roman/Desktop/corewar/src/lldi.c
 CMakeFiles/corewar.dir/src/main.c.o
  ../includes/corewar.h
  ../includes/op.h
@@ -446,20 +495,6 @@ CMakeFiles/corewar.dir/src/op.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
  /cygdrive/c/Users/Roman/Desktop/corewar/src/op.c
-CMakeFiles/corewar.dir/src/ops_array.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /cygdrive/c/Users/Roman/Desktop/corewar/src/ops_array.c
-CMakeFiles/corewar.dir/src/or.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /cygdrive/c/Users/Roman/Desktop/corewar/src/or.c
 CMakeFiles/corewar.dir/src/parse_players.c.o
  ../includes/corewar.h
  ../includes/op.h
@@ -472,38 +507,3 @@ CMakeFiles/corewar.dir/src/players_init.c.o
  ../libft/includes/get_next_line.h
  ../libft/includes/libft.h
  /cygdrive/c/Users/Roman/Desktop/corewar/src/players_init.c
-CMakeFiles/corewar.dir/src/st.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /cygdrive/c/Users/Roman/Desktop/corewar/src/st.c
-CMakeFiles/corewar.dir/src/sti.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /cygdrive/c/Users/Roman/Desktop/corewar/src/sti.c
-CMakeFiles/corewar.dir/src/sub.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /cygdrive/c/Users/Roman/Desktop/corewar/src/sub.c
-CMakeFiles/corewar.dir/src/xor.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /cygdrive/c/Users/Roman/Desktop/corewar/src/xor.c
-CMakeFiles/corewar.dir/src/zjmp.c.o
- ../includes/corewar.h
- ../includes/game.h
- ../includes/op.h
- ../libft/includes/get_next_line.h
- ../libft/includes/libft.h
- /cygdrive/c/Users/Roman/Desktop/corewar/src/zjmp.c

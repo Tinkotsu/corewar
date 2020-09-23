@@ -1039,48 +1039,230 @@ CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.s"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/libft/srcs/gnl_free_fd.c -o CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.s
 
-CMakeFiles/corewar.dir/src/add.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/src/add.c.o: ../src/add.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/corewar.dir/src/add.c.o"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/add.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/add.c
+CMakeFiles/corewar.dir/src/champ_ops/add.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/champ_ops/add.c.o: ../src/champ_ops/add.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/corewar.dir/src/champ_ops/add.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/champ_ops/add.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/add.c
 
-CMakeFiles/corewar.dir/src/add.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/add.c.i"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/add.c > CMakeFiles/corewar.dir/src/add.c.i
+CMakeFiles/corewar.dir/src/champ_ops/add.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/champ_ops/add.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/add.c > CMakeFiles/corewar.dir/src/champ_ops/add.c.i
 
-CMakeFiles/corewar.dir/src/add.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/add.c.s"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/add.c -o CMakeFiles/corewar.dir/src/add.c.s
+CMakeFiles/corewar.dir/src/champ_ops/add.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/champ_ops/add.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/add.c -o CMakeFiles/corewar.dir/src/champ_ops/add.c.s
 
-CMakeFiles/corewar.dir/src/aff.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/src/aff.c.o: ../src/aff.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/corewar.dir/src/aff.c.o"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/aff.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/aff.c
+CMakeFiles/corewar.dir/src/champ_ops/aff.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/champ_ops/aff.c.o: ../src/champ_ops/aff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/corewar.dir/src/champ_ops/aff.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/champ_ops/aff.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/aff.c
 
-CMakeFiles/corewar.dir/src/aff.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/aff.c.i"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/aff.c > CMakeFiles/corewar.dir/src/aff.c.i
+CMakeFiles/corewar.dir/src/champ_ops/aff.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/champ_ops/aff.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/aff.c > CMakeFiles/corewar.dir/src/champ_ops/aff.c.i
 
-CMakeFiles/corewar.dir/src/aff.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/aff.c.s"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/aff.c -o CMakeFiles/corewar.dir/src/aff.c.s
+CMakeFiles/corewar.dir/src/champ_ops/aff.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/champ_ops/aff.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/aff.c -o CMakeFiles/corewar.dir/src/champ_ops/aff.c.s
 
-CMakeFiles/corewar.dir/src/and.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/src/and.c.o: ../src/and.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/corewar.dir/src/and.c.o"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/and.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/and.c
+CMakeFiles/corewar.dir/src/champ_ops/and.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/champ_ops/and.c.o: ../src/champ_ops/and.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/corewar.dir/src/champ_ops/and.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/champ_ops/and.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/and.c
 
-CMakeFiles/corewar.dir/src/and.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/and.c.i"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/and.c > CMakeFiles/corewar.dir/src/and.c.i
+CMakeFiles/corewar.dir/src/champ_ops/and.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/champ_ops/and.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/and.c > CMakeFiles/corewar.dir/src/champ_ops/and.c.i
 
-CMakeFiles/corewar.dir/src/and.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/and.c.s"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/and.c -o CMakeFiles/corewar.dir/src/and.c.s
+CMakeFiles/corewar.dir/src/champ_ops/and.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/champ_ops/and.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/and.c -o CMakeFiles/corewar.dir/src/champ_ops/and.c.s
+
+CMakeFiles/corewar.dir/src/champ_ops/fork.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/champ_ops/fork.c.o: ../src/champ_ops/fork.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/corewar.dir/src/champ_ops/fork.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/champ_ops/fork.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/fork.c
+
+CMakeFiles/corewar.dir/src/champ_ops/fork.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/champ_ops/fork.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/fork.c > CMakeFiles/corewar.dir/src/champ_ops/fork.c.i
+
+CMakeFiles/corewar.dir/src/champ_ops/fork.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/champ_ops/fork.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/fork.c -o CMakeFiles/corewar.dir/src/champ_ops/fork.c.s
+
+CMakeFiles/corewar.dir/src/champ_ops/ld.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/champ_ops/ld.c.o: ../src/champ_ops/ld.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/corewar.dir/src/champ_ops/ld.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/champ_ops/ld.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ld.c
+
+CMakeFiles/corewar.dir/src/champ_ops/ld.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/champ_ops/ld.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ld.c > CMakeFiles/corewar.dir/src/champ_ops/ld.c.i
+
+CMakeFiles/corewar.dir/src/champ_ops/ld.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/champ_ops/ld.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ld.c -o CMakeFiles/corewar.dir/src/champ_ops/ld.c.s
+
+CMakeFiles/corewar.dir/src/champ_ops/ldi.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/champ_ops/ldi.c.o: ../src/champ_ops/ldi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/corewar.dir/src/champ_ops/ldi.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/champ_ops/ldi.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ldi.c
+
+CMakeFiles/corewar.dir/src/champ_ops/ldi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/champ_ops/ldi.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ldi.c > CMakeFiles/corewar.dir/src/champ_ops/ldi.c.i
+
+CMakeFiles/corewar.dir/src/champ_ops/ldi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/champ_ops/ldi.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ldi.c -o CMakeFiles/corewar.dir/src/champ_ops/ldi.c.s
+
+CMakeFiles/corewar.dir/src/champ_ops/lfork.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/champ_ops/lfork.c.o: ../src/champ_ops/lfork.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/corewar.dir/src/champ_ops/lfork.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/champ_ops/lfork.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/lfork.c
+
+CMakeFiles/corewar.dir/src/champ_ops/lfork.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/champ_ops/lfork.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/lfork.c > CMakeFiles/corewar.dir/src/champ_ops/lfork.c.i
+
+CMakeFiles/corewar.dir/src/champ_ops/lfork.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/champ_ops/lfork.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/lfork.c -o CMakeFiles/corewar.dir/src/champ_ops/lfork.c.s
+
+CMakeFiles/corewar.dir/src/champ_ops/live.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/champ_ops/live.c.o: ../src/champ_ops/live.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/corewar.dir/src/champ_ops/live.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/champ_ops/live.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/live.c
+
+CMakeFiles/corewar.dir/src/champ_ops/live.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/champ_ops/live.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/live.c > CMakeFiles/corewar.dir/src/champ_ops/live.c.i
+
+CMakeFiles/corewar.dir/src/champ_ops/live.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/champ_ops/live.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/live.c -o CMakeFiles/corewar.dir/src/champ_ops/live.c.s
+
+CMakeFiles/corewar.dir/src/champ_ops/lld.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/champ_ops/lld.c.o: ../src/champ_ops/lld.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/corewar.dir/src/champ_ops/lld.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/champ_ops/lld.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/lld.c
+
+CMakeFiles/corewar.dir/src/champ_ops/lld.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/champ_ops/lld.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/lld.c > CMakeFiles/corewar.dir/src/champ_ops/lld.c.i
+
+CMakeFiles/corewar.dir/src/champ_ops/lld.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/champ_ops/lld.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/lld.c -o CMakeFiles/corewar.dir/src/champ_ops/lld.c.s
+
+CMakeFiles/corewar.dir/src/champ_ops/lldi.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/champ_ops/lldi.c.o: ../src/champ_ops/lldi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/corewar.dir/src/champ_ops/lldi.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/champ_ops/lldi.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/lldi.c
+
+CMakeFiles/corewar.dir/src/champ_ops/lldi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/champ_ops/lldi.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/lldi.c > CMakeFiles/corewar.dir/src/champ_ops/lldi.c.i
+
+CMakeFiles/corewar.dir/src/champ_ops/lldi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/champ_ops/lldi.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/lldi.c -o CMakeFiles/corewar.dir/src/champ_ops/lldi.c.s
+
+CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.o: ../src/champ_ops/ops_array.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ops_array.c
+
+CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ops_array.c > CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.i
+
+CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/ops_array.c -o CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.s
+
+CMakeFiles/corewar.dir/src/champ_ops/or.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/champ_ops/or.c.o: ../src/champ_ops/or.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/corewar.dir/src/champ_ops/or.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/champ_ops/or.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/or.c
+
+CMakeFiles/corewar.dir/src/champ_ops/or.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/champ_ops/or.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/or.c > CMakeFiles/corewar.dir/src/champ_ops/or.c.i
+
+CMakeFiles/corewar.dir/src/champ_ops/or.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/champ_ops/or.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/or.c -o CMakeFiles/corewar.dir/src/champ_ops/or.c.s
+
+CMakeFiles/corewar.dir/src/champ_ops/st.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/champ_ops/st.c.o: ../src/champ_ops/st.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/corewar.dir/src/champ_ops/st.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/champ_ops/st.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/st.c
+
+CMakeFiles/corewar.dir/src/champ_ops/st.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/champ_ops/st.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/st.c > CMakeFiles/corewar.dir/src/champ_ops/st.c.i
+
+CMakeFiles/corewar.dir/src/champ_ops/st.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/champ_ops/st.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/st.c -o CMakeFiles/corewar.dir/src/champ_ops/st.c.s
+
+CMakeFiles/corewar.dir/src/champ_ops/sti.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/champ_ops/sti.c.o: ../src/champ_ops/sti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/corewar.dir/src/champ_ops/sti.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/champ_ops/sti.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/sti.c
+
+CMakeFiles/corewar.dir/src/champ_ops/sti.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/champ_ops/sti.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/sti.c > CMakeFiles/corewar.dir/src/champ_ops/sti.c.i
+
+CMakeFiles/corewar.dir/src/champ_ops/sti.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/champ_ops/sti.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/sti.c -o CMakeFiles/corewar.dir/src/champ_ops/sti.c.s
+
+CMakeFiles/corewar.dir/src/champ_ops/sub.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/champ_ops/sub.c.o: ../src/champ_ops/sub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/corewar.dir/src/champ_ops/sub.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/champ_ops/sub.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/sub.c
+
+CMakeFiles/corewar.dir/src/champ_ops/sub.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/champ_ops/sub.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/sub.c > CMakeFiles/corewar.dir/src/champ_ops/sub.c.i
+
+CMakeFiles/corewar.dir/src/champ_ops/sub.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/champ_ops/sub.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/sub.c -o CMakeFiles/corewar.dir/src/champ_ops/sub.c.s
+
+CMakeFiles/corewar.dir/src/champ_ops/xor.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/champ_ops/xor.c.o: ../src/champ_ops/xor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/corewar.dir/src/champ_ops/xor.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/champ_ops/xor.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/xor.c
+
+CMakeFiles/corewar.dir/src/champ_ops/xor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/champ_ops/xor.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/xor.c > CMakeFiles/corewar.dir/src/champ_ops/xor.c.i
+
+CMakeFiles/corewar.dir/src/champ_ops/xor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/champ_ops/xor.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/xor.c -o CMakeFiles/corewar.dir/src/champ_ops/xor.c.s
+
+CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.o: CMakeFiles/corewar.dir/flags.make
+CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.o: ../src/champ_ops/zjmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.o"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/zjmp.c
+
+CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.i"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/zjmp.c > CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.i
+
+CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.s"
+	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_ops/zjmp.c -o CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.s
 
 CMakeFiles/corewar.dir/src/carriage.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/src/carriage.c.o: ../src/carriage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/corewar.dir/src/carriage.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/corewar.dir/src/carriage.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/carriage.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/carriage.c
 
 CMakeFiles/corewar.dir/src/carriage.c.i: cmake_force
@@ -1093,7 +1275,7 @@ CMakeFiles/corewar.dir/src/carriage.c.s: cmake_force
 
 CMakeFiles/corewar.dir/src/champ_op.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/src/champ_op.c.o: ../src/champ_op.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/corewar.dir/src/champ_op.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/corewar.dir/src/champ_op.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/champ_op.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/champ_op.c
 
 CMakeFiles/corewar.dir/src/champ_op.c.i: cmake_force
@@ -1106,7 +1288,7 @@ CMakeFiles/corewar.dir/src/champ_op.c.s: cmake_force
 
 CMakeFiles/corewar.dir/src/check_pos.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/src/check_pos.c.o: ../src/check_pos.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/corewar.dir/src/check_pos.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/corewar.dir/src/check_pos.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/check_pos.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/check_pos.c
 
 CMakeFiles/corewar.dir/src/check_pos.c.i: cmake_force
@@ -1119,7 +1301,7 @@ CMakeFiles/corewar.dir/src/check_pos.c.s: cmake_force
 
 CMakeFiles/corewar.dir/src/corewar_init.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/src/corewar_init.c.o: ../src/corewar_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/corewar.dir/src/corewar_init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/corewar.dir/src/corewar_init.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/corewar_init.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/corewar_init.c
 
 CMakeFiles/corewar.dir/src/corewar_init.c.i: cmake_force
@@ -1132,7 +1314,7 @@ CMakeFiles/corewar.dir/src/corewar_init.c.s: cmake_force
 
 CMakeFiles/corewar.dir/src/display_arena.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/src/display_arena.c.o: ../src/display_arena.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/corewar.dir/src/display_arena.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/corewar.dir/src/display_arena.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/display_arena.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/display_arena.c
 
 CMakeFiles/corewar.dir/src/display_arena.c.i: cmake_force
@@ -1145,7 +1327,7 @@ CMakeFiles/corewar.dir/src/display_arena.c.s: cmake_force
 
 CMakeFiles/corewar.dir/src/endgame.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/src/endgame.c.o: ../src/endgame.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/corewar.dir/src/endgame.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/corewar.dir/src/endgame.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/endgame.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/endgame.c
 
 CMakeFiles/corewar.dir/src/endgame.c.i: cmake_force
@@ -1158,7 +1340,7 @@ CMakeFiles/corewar.dir/src/endgame.c.s: cmake_force
 
 CMakeFiles/corewar.dir/src/error.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/src/error.c.o: ../src/error.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/corewar.dir/src/error.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/corewar.dir/src/error.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/error.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/error.c
 
 CMakeFiles/corewar.dir/src/error.c.i: cmake_force
@@ -1169,22 +1351,9 @@ CMakeFiles/corewar.dir/src/error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/error.c.s"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/error.c -o CMakeFiles/corewar.dir/src/error.c.s
 
-CMakeFiles/corewar.dir/src/fork.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/src/fork.c.o: ../src/fork.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/corewar.dir/src/fork.c.o"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/fork.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/fork.c
-
-CMakeFiles/corewar.dir/src/fork.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/fork.c.i"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/fork.c > CMakeFiles/corewar.dir/src/fork.c.i
-
-CMakeFiles/corewar.dir/src/fork.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/fork.c.s"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/fork.c -o CMakeFiles/corewar.dir/src/fork.c.s
-
 CMakeFiles/corewar.dir/src/game.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/src/game.c.o: ../src/game.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/corewar.dir/src/game.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/corewar.dir/src/game.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/game.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/game.c
 
 CMakeFiles/corewar.dir/src/game.c.i: cmake_force
@@ -1197,7 +1366,7 @@ CMakeFiles/corewar.dir/src/game.c.s: cmake_force
 
 CMakeFiles/corewar.dir/src/game_init.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/src/game_init.c.o: ../src/game_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/corewar.dir/src/game_init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/corewar.dir/src/game_init.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/game_init.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/game_init.c
 
 CMakeFiles/corewar.dir/src/game_init.c.i: cmake_force
@@ -1210,7 +1379,7 @@ CMakeFiles/corewar.dir/src/game_init.c.s: cmake_force
 
 CMakeFiles/corewar.dir/src/get_args.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/src/get_args.c.o: ../src/get_args.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/corewar.dir/src/get_args.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/corewar.dir/src/get_args.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/get_args.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/get_args.c
 
 CMakeFiles/corewar.dir/src/get_args.c.i: cmake_force
@@ -1223,7 +1392,7 @@ CMakeFiles/corewar.dir/src/get_args.c.s: cmake_force
 
 CMakeFiles/corewar.dir/src/int_ops.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/src/int_ops.c.o: ../src/int_ops.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/corewar.dir/src/int_ops.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/corewar.dir/src/int_ops.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/int_ops.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/int_ops.c
 
 CMakeFiles/corewar.dir/src/int_ops.c.i: cmake_force
@@ -1234,87 +1403,9 @@ CMakeFiles/corewar.dir/src/int_ops.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/int_ops.c.s"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/int_ops.c -o CMakeFiles/corewar.dir/src/int_ops.c.s
 
-CMakeFiles/corewar.dir/src/ld.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/src/ld.c.o: ../src/ld.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/corewar.dir/src/ld.c.o"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/ld.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/ld.c
-
-CMakeFiles/corewar.dir/src/ld.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/ld.c.i"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/ld.c > CMakeFiles/corewar.dir/src/ld.c.i
-
-CMakeFiles/corewar.dir/src/ld.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/ld.c.s"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/ld.c -o CMakeFiles/corewar.dir/src/ld.c.s
-
-CMakeFiles/corewar.dir/src/ldi.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/src/ldi.c.o: ../src/ldi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/corewar.dir/src/ldi.c.o"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/ldi.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/ldi.c
-
-CMakeFiles/corewar.dir/src/ldi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/ldi.c.i"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/ldi.c > CMakeFiles/corewar.dir/src/ldi.c.i
-
-CMakeFiles/corewar.dir/src/ldi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/ldi.c.s"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/ldi.c -o CMakeFiles/corewar.dir/src/ldi.c.s
-
-CMakeFiles/corewar.dir/src/lfork.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/src/lfork.c.o: ../src/lfork.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/corewar.dir/src/lfork.c.o"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/lfork.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/lfork.c
-
-CMakeFiles/corewar.dir/src/lfork.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/lfork.c.i"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/lfork.c > CMakeFiles/corewar.dir/src/lfork.c.i
-
-CMakeFiles/corewar.dir/src/lfork.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/lfork.c.s"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/lfork.c -o CMakeFiles/corewar.dir/src/lfork.c.s
-
-CMakeFiles/corewar.dir/src/live.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/src/live.c.o: ../src/live.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/corewar.dir/src/live.c.o"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/live.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/live.c
-
-CMakeFiles/corewar.dir/src/live.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/live.c.i"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/live.c > CMakeFiles/corewar.dir/src/live.c.i
-
-CMakeFiles/corewar.dir/src/live.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/live.c.s"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/live.c -o CMakeFiles/corewar.dir/src/live.c.s
-
-CMakeFiles/corewar.dir/src/lld.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/src/lld.c.o: ../src/lld.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/corewar.dir/src/lld.c.o"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/lld.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/lld.c
-
-CMakeFiles/corewar.dir/src/lld.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/lld.c.i"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/lld.c > CMakeFiles/corewar.dir/src/lld.c.i
-
-CMakeFiles/corewar.dir/src/lld.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/lld.c.s"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/lld.c -o CMakeFiles/corewar.dir/src/lld.c.s
-
-CMakeFiles/corewar.dir/src/lldi.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/src/lldi.c.o: ../src/lldi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/corewar.dir/src/lldi.c.o"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/lldi.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/lldi.c
-
-CMakeFiles/corewar.dir/src/lldi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/lldi.c.i"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/lldi.c > CMakeFiles/corewar.dir/src/lldi.c.i
-
-CMakeFiles/corewar.dir/src/lldi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/lldi.c.s"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/lldi.c -o CMakeFiles/corewar.dir/src/lldi.c.s
-
 CMakeFiles/corewar.dir/src/main.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/corewar.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/corewar.dir/src/main.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/main.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/main.c
 
 CMakeFiles/corewar.dir/src/main.c.i: cmake_force
@@ -1327,7 +1418,7 @@ CMakeFiles/corewar.dir/src/main.c.s: cmake_force
 
 CMakeFiles/corewar.dir/src/op.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/src/op.c.o: ../src/op.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/corewar.dir/src/op.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/corewar.dir/src/op.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/op.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/op.c
 
 CMakeFiles/corewar.dir/src/op.c.i: cmake_force
@@ -1338,35 +1429,9 @@ CMakeFiles/corewar.dir/src/op.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/op.c.s"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/op.c -o CMakeFiles/corewar.dir/src/op.c.s
 
-CMakeFiles/corewar.dir/src/ops_array.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/src/ops_array.c.o: ../src/ops_array.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/corewar.dir/src/ops_array.c.o"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/ops_array.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/ops_array.c
-
-CMakeFiles/corewar.dir/src/ops_array.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/ops_array.c.i"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/ops_array.c > CMakeFiles/corewar.dir/src/ops_array.c.i
-
-CMakeFiles/corewar.dir/src/ops_array.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/ops_array.c.s"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/ops_array.c -o CMakeFiles/corewar.dir/src/ops_array.c.s
-
-CMakeFiles/corewar.dir/src/or.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/src/or.c.o: ../src/or.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/corewar.dir/src/or.c.o"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/or.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/or.c
-
-CMakeFiles/corewar.dir/src/or.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/or.c.i"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/or.c > CMakeFiles/corewar.dir/src/or.c.i
-
-CMakeFiles/corewar.dir/src/or.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/or.c.s"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/or.c -o CMakeFiles/corewar.dir/src/or.c.s
-
 CMakeFiles/corewar.dir/src/parse_players.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/src/parse_players.c.o: ../src/parse_players.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/corewar.dir/src/parse_players.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/corewar.dir/src/parse_players.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/parse_players.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/parse_players.c
 
 CMakeFiles/corewar.dir/src/parse_players.c.i: cmake_force
@@ -1379,7 +1444,7 @@ CMakeFiles/corewar.dir/src/parse_players.c.s: cmake_force
 
 CMakeFiles/corewar.dir/src/players_init.c.o: CMakeFiles/corewar.dir/flags.make
 CMakeFiles/corewar.dir/src/players_init.c.o: ../src/players_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/corewar.dir/src/players_init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/corewar.dir/src/players_init.c.o"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/players_init.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/players_init.c
 
 CMakeFiles/corewar.dir/src/players_init.c.i: cmake_force
@@ -1389,71 +1454,6 @@ CMakeFiles/corewar.dir/src/players_init.c.i: cmake_force
 CMakeFiles/corewar.dir/src/players_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/players_init.c.s"
 	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/players_init.c -o CMakeFiles/corewar.dir/src/players_init.c.s
-
-CMakeFiles/corewar.dir/src/st.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/src/st.c.o: ../src/st.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/corewar.dir/src/st.c.o"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/st.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/st.c
-
-CMakeFiles/corewar.dir/src/st.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/st.c.i"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/st.c > CMakeFiles/corewar.dir/src/st.c.i
-
-CMakeFiles/corewar.dir/src/st.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/st.c.s"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/st.c -o CMakeFiles/corewar.dir/src/st.c.s
-
-CMakeFiles/corewar.dir/src/sti.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/src/sti.c.o: ../src/sti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/corewar.dir/src/sti.c.o"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/sti.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/sti.c
-
-CMakeFiles/corewar.dir/src/sti.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/sti.c.i"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/sti.c > CMakeFiles/corewar.dir/src/sti.c.i
-
-CMakeFiles/corewar.dir/src/sti.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/sti.c.s"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/sti.c -o CMakeFiles/corewar.dir/src/sti.c.s
-
-CMakeFiles/corewar.dir/src/sub.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/src/sub.c.o: ../src/sub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/corewar.dir/src/sub.c.o"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/sub.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/sub.c
-
-CMakeFiles/corewar.dir/src/sub.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/sub.c.i"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/sub.c > CMakeFiles/corewar.dir/src/sub.c.i
-
-CMakeFiles/corewar.dir/src/sub.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/sub.c.s"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/sub.c -o CMakeFiles/corewar.dir/src/sub.c.s
-
-CMakeFiles/corewar.dir/src/xor.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/src/xor.c.o: ../src/xor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/corewar.dir/src/xor.c.o"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/xor.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/xor.c
-
-CMakeFiles/corewar.dir/src/xor.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/xor.c.i"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/xor.c > CMakeFiles/corewar.dir/src/xor.c.i
-
-CMakeFiles/corewar.dir/src/xor.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/xor.c.s"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/xor.c -o CMakeFiles/corewar.dir/src/xor.c.s
-
-CMakeFiles/corewar.dir/src/zjmp.c.o: CMakeFiles/corewar.dir/flags.make
-CMakeFiles/corewar.dir/src/zjmp.c.o: ../src/zjmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/corewar.dir/src/zjmp.c.o"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/corewar.dir/src/zjmp.c.o   -c /cygdrive/c/Users/Roman/Desktop/corewar/src/zjmp.c
-
-CMakeFiles/corewar.dir/src/zjmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/corewar.dir/src/zjmp.c.i"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Roman/Desktop/corewar/src/zjmp.c > CMakeFiles/corewar.dir/src/zjmp.c.i
-
-CMakeFiles/corewar.dir/src/zjmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/corewar.dir/src/zjmp.c.s"
-	/usr/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Roman/Desktop/corewar/src/zjmp.c -o CMakeFiles/corewar.dir/src/zjmp.c.s
 
 # Object files for target corewar
 corewar_OBJECTS = \
@@ -1531,9 +1531,23 @@ corewar_OBJECTS = \
 "CMakeFiles/corewar.dir/libft/srcs/ft_ull_pow.c.o" \
 "CMakeFiles/corewar.dir/libft/srcs/get_next_line.c.o" \
 "CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.o" \
-"CMakeFiles/corewar.dir/src/add.c.o" \
-"CMakeFiles/corewar.dir/src/aff.c.o" \
-"CMakeFiles/corewar.dir/src/and.c.o" \
+"CMakeFiles/corewar.dir/src/champ_ops/add.c.o" \
+"CMakeFiles/corewar.dir/src/champ_ops/aff.c.o" \
+"CMakeFiles/corewar.dir/src/champ_ops/and.c.o" \
+"CMakeFiles/corewar.dir/src/champ_ops/fork.c.o" \
+"CMakeFiles/corewar.dir/src/champ_ops/ld.c.o" \
+"CMakeFiles/corewar.dir/src/champ_ops/ldi.c.o" \
+"CMakeFiles/corewar.dir/src/champ_ops/lfork.c.o" \
+"CMakeFiles/corewar.dir/src/champ_ops/live.c.o" \
+"CMakeFiles/corewar.dir/src/champ_ops/lld.c.o" \
+"CMakeFiles/corewar.dir/src/champ_ops/lldi.c.o" \
+"CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.o" \
+"CMakeFiles/corewar.dir/src/champ_ops/or.c.o" \
+"CMakeFiles/corewar.dir/src/champ_ops/st.c.o" \
+"CMakeFiles/corewar.dir/src/champ_ops/sti.c.o" \
+"CMakeFiles/corewar.dir/src/champ_ops/sub.c.o" \
+"CMakeFiles/corewar.dir/src/champ_ops/xor.c.o" \
+"CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.o" \
 "CMakeFiles/corewar.dir/src/carriage.c.o" \
 "CMakeFiles/corewar.dir/src/champ_op.c.o" \
 "CMakeFiles/corewar.dir/src/check_pos.c.o" \
@@ -1541,28 +1555,14 @@ corewar_OBJECTS = \
 "CMakeFiles/corewar.dir/src/display_arena.c.o" \
 "CMakeFiles/corewar.dir/src/endgame.c.o" \
 "CMakeFiles/corewar.dir/src/error.c.o" \
-"CMakeFiles/corewar.dir/src/fork.c.o" \
 "CMakeFiles/corewar.dir/src/game.c.o" \
 "CMakeFiles/corewar.dir/src/game_init.c.o" \
 "CMakeFiles/corewar.dir/src/get_args.c.o" \
 "CMakeFiles/corewar.dir/src/int_ops.c.o" \
-"CMakeFiles/corewar.dir/src/ld.c.o" \
-"CMakeFiles/corewar.dir/src/ldi.c.o" \
-"CMakeFiles/corewar.dir/src/lfork.c.o" \
-"CMakeFiles/corewar.dir/src/live.c.o" \
-"CMakeFiles/corewar.dir/src/lld.c.o" \
-"CMakeFiles/corewar.dir/src/lldi.c.o" \
 "CMakeFiles/corewar.dir/src/main.c.o" \
 "CMakeFiles/corewar.dir/src/op.c.o" \
-"CMakeFiles/corewar.dir/src/ops_array.c.o" \
-"CMakeFiles/corewar.dir/src/or.c.o" \
 "CMakeFiles/corewar.dir/src/parse_players.c.o" \
-"CMakeFiles/corewar.dir/src/players_init.c.o" \
-"CMakeFiles/corewar.dir/src/st.c.o" \
-"CMakeFiles/corewar.dir/src/sti.c.o" \
-"CMakeFiles/corewar.dir/src/sub.c.o" \
-"CMakeFiles/corewar.dir/src/xor.c.o" \
-"CMakeFiles/corewar.dir/src/zjmp.c.o"
+"CMakeFiles/corewar.dir/src/players_init.c.o"
 
 # External object files for target corewar
 corewar_EXTERNAL_OBJECTS =
@@ -1641,9 +1641,23 @@ corewar.exe: CMakeFiles/corewar.dir/libft/srcs/ft_toupper.c.o
 corewar.exe: CMakeFiles/corewar.dir/libft/srcs/ft_ull_pow.c.o
 corewar.exe: CMakeFiles/corewar.dir/libft/srcs/get_next_line.c.o
 corewar.exe: CMakeFiles/corewar.dir/libft/srcs/gnl_free_fd.c.o
-corewar.exe: CMakeFiles/corewar.dir/src/add.c.o
-corewar.exe: CMakeFiles/corewar.dir/src/aff.c.o
-corewar.exe: CMakeFiles/corewar.dir/src/and.c.o
+corewar.exe: CMakeFiles/corewar.dir/src/champ_ops/add.c.o
+corewar.exe: CMakeFiles/corewar.dir/src/champ_ops/aff.c.o
+corewar.exe: CMakeFiles/corewar.dir/src/champ_ops/and.c.o
+corewar.exe: CMakeFiles/corewar.dir/src/champ_ops/fork.c.o
+corewar.exe: CMakeFiles/corewar.dir/src/champ_ops/ld.c.o
+corewar.exe: CMakeFiles/corewar.dir/src/champ_ops/ldi.c.o
+corewar.exe: CMakeFiles/corewar.dir/src/champ_ops/lfork.c.o
+corewar.exe: CMakeFiles/corewar.dir/src/champ_ops/live.c.o
+corewar.exe: CMakeFiles/corewar.dir/src/champ_ops/lld.c.o
+corewar.exe: CMakeFiles/corewar.dir/src/champ_ops/lldi.c.o
+corewar.exe: CMakeFiles/corewar.dir/src/champ_ops/ops_array.c.o
+corewar.exe: CMakeFiles/corewar.dir/src/champ_ops/or.c.o
+corewar.exe: CMakeFiles/corewar.dir/src/champ_ops/st.c.o
+corewar.exe: CMakeFiles/corewar.dir/src/champ_ops/sti.c.o
+corewar.exe: CMakeFiles/corewar.dir/src/champ_ops/sub.c.o
+corewar.exe: CMakeFiles/corewar.dir/src/champ_ops/xor.c.o
+corewar.exe: CMakeFiles/corewar.dir/src/champ_ops/zjmp.c.o
 corewar.exe: CMakeFiles/corewar.dir/src/carriage.c.o
 corewar.exe: CMakeFiles/corewar.dir/src/champ_op.c.o
 corewar.exe: CMakeFiles/corewar.dir/src/check_pos.c.o
@@ -1651,28 +1665,14 @@ corewar.exe: CMakeFiles/corewar.dir/src/corewar_init.c.o
 corewar.exe: CMakeFiles/corewar.dir/src/display_arena.c.o
 corewar.exe: CMakeFiles/corewar.dir/src/endgame.c.o
 corewar.exe: CMakeFiles/corewar.dir/src/error.c.o
-corewar.exe: CMakeFiles/corewar.dir/src/fork.c.o
 corewar.exe: CMakeFiles/corewar.dir/src/game.c.o
 corewar.exe: CMakeFiles/corewar.dir/src/game_init.c.o
 corewar.exe: CMakeFiles/corewar.dir/src/get_args.c.o
 corewar.exe: CMakeFiles/corewar.dir/src/int_ops.c.o
-corewar.exe: CMakeFiles/corewar.dir/src/ld.c.o
-corewar.exe: CMakeFiles/corewar.dir/src/ldi.c.o
-corewar.exe: CMakeFiles/corewar.dir/src/lfork.c.o
-corewar.exe: CMakeFiles/corewar.dir/src/live.c.o
-corewar.exe: CMakeFiles/corewar.dir/src/lld.c.o
-corewar.exe: CMakeFiles/corewar.dir/src/lldi.c.o
 corewar.exe: CMakeFiles/corewar.dir/src/main.c.o
 corewar.exe: CMakeFiles/corewar.dir/src/op.c.o
-corewar.exe: CMakeFiles/corewar.dir/src/ops_array.c.o
-corewar.exe: CMakeFiles/corewar.dir/src/or.c.o
 corewar.exe: CMakeFiles/corewar.dir/src/parse_players.c.o
 corewar.exe: CMakeFiles/corewar.dir/src/players_init.c.o
-corewar.exe: CMakeFiles/corewar.dir/src/st.c.o
-corewar.exe: CMakeFiles/corewar.dir/src/sti.c.o
-corewar.exe: CMakeFiles/corewar.dir/src/sub.c.o
-corewar.exe: CMakeFiles/corewar.dir/src/xor.c.o
-corewar.exe: CMakeFiles/corewar.dir/src/zjmp.c.o
 corewar.exe: CMakeFiles/corewar.dir/build.make
 corewar.exe: CMakeFiles/corewar.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Roman/Desktop/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Linking C executable corewar.exe"
