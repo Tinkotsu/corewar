@@ -6,7 +6,7 @@
 /*   By: ifran <ifran@student.21-school.ru>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/23 02:36:07 by ifran             #+#    #+#             */
-/*   Updated: 2020/09/23 12:28:52 by ifran            ###   ########.fr       */
+/*   Updated: 2020/09/23 12:42:53 by ifran            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,9 @@ static int		check_if_flag(char *argv, t_cw *cw)
 	if (argv[0] == '-')
 	{
 		if (!cw->d_flag && ft_strequ(&argv[1], "d"))
-			cw->d_flag = 2;
-		else if (!cw->d_flag && ft_strequ(&argv[1], "dump"))
 			cw->d_flag = 1;
+		else if (!cw->d_flag && ft_strequ(&argv[1], "dump"))
+			cw->d_flag = 2;
 		else if (ft_strequ(&argv[1], "n"))
 			++cw->n_flags;
 		else if (!cw->a_flag && ft_strequ(&argv[1], "a"))

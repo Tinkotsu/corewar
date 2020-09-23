@@ -6,7 +6,7 @@
 /*   By: ifran <ifran@student.21-school.ru>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/23 02:57:48 by ifran             #+#    #+#             */
-/*   Updated: 2020/09/23 03:04:08 by ifran            ###   ########.fr       */
+/*   Updated: 2020/09/23 12:46:07 by ifran            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,5 +90,6 @@ void					delete_carriages(int to_delete, t_cw *cw);
 void					endgame(t_cw *cw);
 int						validate_op(t_cw *cw, t_carriage *car);
 void					error(char *message);
+void					error_usage(void);
 
 #endif
