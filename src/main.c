@@ -12,10 +12,6 @@
 
 #include "corewar.h"
 
-/*
-** print usage when error
-*/
-
 int	main(int argc, char **argv)
 {
 	t_cw cw;
