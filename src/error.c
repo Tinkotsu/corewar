@@ -6,14 +6,14 @@
 /*   By: ifran <ifran@student.21-school.ru>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/23 02:36:31 by ifran             #+#    #+#             */
-/*   Updated: 2020/09/23 02:36:32 by ifran            ###   ########.fr       */
+/*   Updated: 2020/09/23 03:24:20 by ifran            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "corewar.h"
 
-void error(char *message)
+void	error(char *message)
 {
-    ft_putendl_fd(message, 2);
-    exit(-1);
+	ft_putendl_fd(message, 2);
+	exit(-1);
 }
