@@ -77,9 +77,40 @@
       <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/zjmp_neg_overflow_fail.s" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/zjmp_overflow.s" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/corewar.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/corewar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/game.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/op.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/op.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/add.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/add.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aff.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/aff.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/and.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/and.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carriage.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/carriage.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/champ_op.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/champ_op.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/check_pos.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/check_pos.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corewar_init.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/corewar_init.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/display_arena.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/display_arena.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/endgame.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/endgame.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/error.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/error.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fork.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/fork.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/game.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game_init.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/game_init.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/get_args.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/get_args.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/int_ops.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/int_ops.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ld.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/ld.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ldi.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/ldi.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lfork.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lfork.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/live.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/live.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lld.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lld.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lldi.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/lldi.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/op.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/op.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ops_array.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/ops_array.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/or.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/or.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parse_players.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/parse_players.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/players_init.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/players_init.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/st.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/st.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sti.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/sti.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sub.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/sub.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xor.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/xor.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zjmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/zjmp.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,11 +143,6 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="corewar" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test_process_1.cor -dump 20" REDIRECT_INPUT="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="corewar" TARGET_NAME="corewar" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="corewar" RUN_TARGET_NAME="corewar">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -163,7 +189,10 @@
       <workItem from="1600807036573" duration="42000" />
       <workItem from="1600807080427" duration="1838000" />
       <workItem from="1600809446395" duration="2733000" />
-      <workItem from="1600813743015" duration="748000" />
+      <workItem from="1600813743015" duration="775000" />
+      <workItem from="1600816028968" duration="300000" />
+      <workItem from="1600817199310" duration="531000" />
+      <workItem from="1600818896821" duration="273000" />
     </task>
     <servers />
   </component>
@@ -261,13 +290,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/game.c</url>
-          <line>84</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/st.c</url>
-          <line>12</line>
+          <line>24</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>

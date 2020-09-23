@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   game.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ifran <ifran@student.21-school.ru>         +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/09/23 02:36:49 by ifran             #+#    #+#             */
+/*   Updated: 2020/09/23 03:04:34 by ifran            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "game.h"
 
 static void     check(t_cw *cw)
@@ -33,7 +45,7 @@ static void     get_op_code(char *arena, t_carriage *car)
     car->op_i = arena[car->position];
     if (car->op_i >= 1 && car->op_i <= 0x10)
     {
-        car->op = &op_tab[car->op_i - 1];
+        car->op = &g_op_tab[car->op_i - 1];
         car->cycles_till_op = car->op->cycles;
     }
     else
@@ -44,11 +56,8 @@ static void     execute_op(t_cw *cw, t_carriage *car)
 {
     ++car->step;
     if (car->op && validate_op(cw, car))
-        champ_ops[car->op_i - 1](car, cw);
+        g_champ_ops[car->op_i - 1](car, cw);
     car->position = check_pos(car->position + car->step);
-    int x;
-    if (cw->game_cycles > 950)
-        x = 1;
     car->step = 0;
     car->op = NULL;
  }
@@ -92,6 +101,4 @@ void            game(t_cw *cw)
         ++loop_iter;
         ++cw->game_cycles;
     }
-    //ft_putnbr(cw->game_cycles);
-    //ft_putchar('\n');
 }

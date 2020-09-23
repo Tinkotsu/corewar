@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   game_init.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ifran <ifran@student.21-school.ru>         +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/09/23 02:36:44 by ifran             #+#    #+#             */
+/*   Updated: 2020/09/23 02:36:44 by ifran            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "corewar.h"
 
 static void         create_arena(t_cw *cw)
@@ -62,6 +74,5 @@ void                game_init(t_cw *cw)
 {
     create_arena(cw);
     carriages_init(cw);
-    //display_arena(cw->arena, 32);
     champs_introduction(cw);
 }
