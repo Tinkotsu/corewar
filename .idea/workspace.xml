@@ -30,6 +30,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ce6c016-7128-4a4f-b426-f138cdae9480" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/42-corewar" beforeDir="false" afterPath="$PROJECT_DIR$/42-corewar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/42-corewar/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/42-corewar/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/add.s" beforeDir="false" />
@@ -75,7 +76,24 @@
       <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/zjmp_neg_overflow.s" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/zjmp_neg_overflow_fail.s" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/42-corewar/tests/vm/overflow/zjmp_overflow.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/add.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aff.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/and.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fork.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ld.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ldi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lfork.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/live.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lld.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lldi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ops_array.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/or.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/st.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sti.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sub.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xor.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zjmp.c" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +175,8 @@
       <workItem from="1600813743015" duration="775000" />
       <workItem from="1600816028968" duration="300000" />
       <workItem from="1600817199310" duration="531000" />
-      <workItem from="1600818896821" duration="512000" />
+      <workItem from="1600818896821" duration="801000" />
+      <workItem from="1600851434974" duration="4000" />
     </task>
     <servers />
   </component>

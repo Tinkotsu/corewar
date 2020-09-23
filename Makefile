@@ -1,55 +1,60 @@
 LIBFT	=	libft/libft.a
 
 NAME	=	corewar
-HEAD	=	corewar.h
+HEAD_CW	=	corewar.h
 HEAD_GAME =	game.h
 HEAD_OP	=	op.h
 
 INC_DIR	=	./includes/
 LIB_DIR	=	./libft/includes/
 SRC_DIR	=	./src/
+CHAMP_OPS_DIR = ./champ_ops/
 OBJ_DIR	=	./objs/
 
-SRC		=   carriage.c	\
-		    champ_op.c	\
-		    corewar_init.c  \
-		    display_arena.c \
-		    endgame.c	    \
-		    error.c	    \
-		    game.c	    \
-		    game_init.c	    \
-		    int_ops.c	    \
-		    main.c	    \
-		    op.c	    \
-		    parse_players.c \
-		    players_init.c  \
-		    add.c \
-		    aff.c \
-		    and.c \
-		    check_pos.c \
-		    fork.c  \
-		    get_args.c \
-		    ld.c \
-		    ldi.c \
-		    lfork.c \
-		    live.c \
-		    lld.c \
-		    lldi.c \
-		    ops_array.c \
-		    or.c \
-		    st.c \
-		    sti.c \
-		    sub.c \
-		    xor.c \
-		    zjmp.c
+SRC		=   carriage.c				\
+		    champ_op.c				\
+		    corewar_init.c			\
+		    display_arena.c			\
+		    endgame.c				\
+		    error.c					\
+		    game.c					\
+		    game_init.c				\
+		    int_ops.c				\
+		    main.c					\
+		    op.c					\
+		    parse_players.c			\
+		    players_init.c			\
+		    check_pos.c				\
+		    get_args.c				\
+		    champ_ops/fork.c 		\
+		    champ_ops/add.c			\
+		    champ_ops/aff.c			\
+		    champ_ops/and.c			\
+		    champ_ops/ld.c			\
+		    champ_ops/ldi.c			\
+		    champ_ops/lfork.c		\
+		    champ_ops/live.c		\
+		    champ_ops/lld.c			\
+		    champ_ops/lldi.c		\
+		    champ_ops/ops_array.c	\
+		    champ_ops/or.c			\
+		    champ_ops/st.c			\
+		    champ_ops/sti.c			\
+		    champ_ops/sub.c			\
+		    champ_ops/xor.c			\
+		    champ_ops/zjmp.c
 
 
-HEADER	=	$(addprefix $(INC_DIR), $(HEAD))
+HEADER_CW	=	$(addprefix $(INC_DIR), $(HEAD_CW))
+HEADER_OP	=	$(addprefix $(INC_DIR), $(HEAD_OP))
+HEADER_GAME	=	$(addprefix $(INC_DIR), $(HEAD_GAME))
+
+
 
 OBJ		=	$(addprefix $(OBJ_DIR), $(SRC:.c=.o))
 
 COMP_LIB = make -C libft/
-CC		= gcc -g
+CC		= gcc
 FLAGS	= -Wall -Wextra -Werror
 CC_LIB	= -L ./libft -lft
 
@@ -60,6 +65,7 @@ $(NAME): $(OBJ_DIR) $(OBJ) $(LIBFT) $(HEADER)
 
 $(OBJ_DIR):
 	@mkdir -p $(OBJ_DIR)
+	@mkdir -p $(OBJ_DIR)$(CHAMP_OPS_DIR)
 
 $(LIBFT):
 	$(COMP_LIB)
@@ -67,7 +73,10 @@ $(LIBFT):
 lib:
 	$(COMP_LIB)
 
-$(OBJ_DIR)%.o: $(SRC_DIR)%.c  $(HEADER)
+$(OBJ_DIR)%.o: $(SRC_DIR)%.c $(HEADER_CW) $(HEADER_OP)
+	$(CC) -I $(INC_DIR) -I $(LIB_DIR) $(FLAGS) -c $< -o $@
+
+$(OBJ_DIR)%.o: $(SRC_DIR)$(CHAMP_OPS_DIR).c $(HEADER_GAME)
 	$(CC) -I $(INC_DIR) -I $(LIB_DIR) $(FLAGS) -c $< -o $@
 
 clean:
