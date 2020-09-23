@@ -28,7 +28,6 @@ static void     get_hex(int n, int *len, char *buff, int i)
 static void		print_hex(char *buff, int len, int width)
 {
     int i;
-    char c;
 
     i = 0;
 	while (i + len < width)
