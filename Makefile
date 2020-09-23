@@ -7,6 +7,7 @@ HEAD_OP	=	op.h
 
 INC_DIR	=	./includes/
 LIB_DIR	=	./libft/
+LIB_INC_DIR = ./includes
 SRC_DIR	=	./src/
 CHAMP_OPS_DIR = ./champ_ops/
 OBJ_DIR	=	./objs/
@@ -49,7 +50,7 @@ HEADER_CW	=	$(addprefix $(INC_DIR), $(HEAD_CW))
 HEADER_OP	=	$(addprefix $(INC_DIR), $(HEAD_OP))
 HEADER_GAME	=	$(addprefix $(INC_DIR), $(HEAD_GAME))
 
-LIB_INC = $(addprefix $(LIB_DIR), $(INC_DIR))
+LIB_INC = $(addprefix $(LIB_DIR), $(LIB_INC_DIR))
 
 OBJ		=	$(addprefix $(OBJ_DIR), $(SRC:.c=.o))
 
