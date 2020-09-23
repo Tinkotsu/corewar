@@ -77,7 +77,7 @@ lib:
 $(OBJ_DIR)%.o: $(SRC_DIR)%.c $(HEADER_CW) $(HEADER_OP)
 	$(CC) -I $(INC_DIR) -I $(LIB_INC) $(FLAGS) -c $< -o $@
 
-$(OBJ_DIR)%.o: $(SRC_DIR)$(CHAMP_OPS_DIR).c $(HEADER_GAME)
+$(OBJ_DIR)$(CHAMP_OPS_DIR)%.o: $(SRC_DIR)$(CHAMP_OPS_DIR).c $(HEADER_GAME)
 	$(CC) -I $(INC_DIR) -I $(LIB_INC) $(FLAGS) -c $< -o $@
 
 clean:
