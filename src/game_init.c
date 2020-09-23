@@ -74,6 +74,5 @@ void				game_init(t_cw *cw)
 {
 	create_arena(cw);
 	carriages_init(cw);
-	display_arena(cw->arena, 32);
 	champs_introduction(cw);
 }
