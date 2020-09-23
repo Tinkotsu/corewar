@@ -6,7 +6,7 @@ HEAD_GAME =	game.h
 HEAD_OP	=	op.h
 
 INC_DIR	=	./includes/
-LIB_DIR	=	./libft/includes/
+LIB_DIR	=	./libft/
 SRC_DIR	=	./src/
 CHAMP_OPS_DIR = ./champ_ops/
 OBJ_DIR	=	./objs/
@@ -49,11 +49,11 @@ HEADER_CW	=	$(addprefix $(INC_DIR), $(HEAD_CW))
 HEADER_OP	=	$(addprefix $(INC_DIR), $(HEAD_OP))
 HEADER_GAME	=	$(addprefix $(INC_DIR), $(HEAD_GAME))
 
-
+LIB_INC = $(addprefix $(LIB_DIR), $(INC_DIR))
 
 OBJ		=	$(addprefix $(OBJ_DIR), $(SRC:.c=.o))
 
-COMP_LIB = make -C libft/
+COMP_LIB = make -C $(LIB_DIR)
 CC		= gcc
 FLAGS	= -Wall -Wextra -Werror
 CC_LIB	= -L ./libft -lft
@@ -74,10 +74,10 @@ lib:
 	$(COMP_LIB)
 
 $(OBJ_DIR)%.o: $(SRC_DIR)%.c $(HEADER_CW) $(HEADER_OP)
-	$(CC) -I $(INC_DIR) -I $(LIB_DIR) $(FLAGS) -c $< -o $@
+	$(CC) -I $(INC_DIR) -I $(LIB_INC) $(FLAGS) -c $< -o $@
 
 $(OBJ_DIR)%.o: $(SRC_DIR)$(CHAMP_OPS_DIR).c $(HEADER_GAME)
-	$(CC) -I $(INC_DIR) -I $(LIB_DIR) $(FLAGS) -c $< -o $@
+	$(CC) -I $(INC_DIR) -I $(LIB_INC) $(FLAGS) -c $< -o $@
 
 clean:
 	@/bin/rm -rf $(OBJ_DIR)
