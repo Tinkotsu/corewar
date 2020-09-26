@@ -61,7 +61,7 @@ CC_LIB	= -L $(LIB_DIR) -lft
 
 all: lib $(NAME)
 
-$(NAME): $(OBJ_DIR) $(OBJ) $(LIBFT) $(HEADER)
+$(NAME): $(OBJ_DIR) $(OBJ)
 	$(CC) $(addprefix -I, $(INC_DIR)) $(OBJ) $(FLAGS) -o $(NAME) $(CC_LIB)
 
 $(OBJ_DIR):
