@@ -63,6 +63,7 @@ all: lib $(NAME)
 
 $(NAME): $(OBJ_DIR) $(OBJ)
 	$(CC) $(addprefix -I, $(INC_DIR)) $(OBJ) $(FLAGS) -o $(NAME) $(CC_LIB)
+	@echo "\033[32mVM COMPILED\033[0m"
 
 $(OBJ_DIR):
 	@mkdir -p $(OBJ_DIR)
