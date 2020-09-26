@@ -23,12 +23,12 @@ clean:
 	make clean -C $(DISASM_DIR)
 
 fclean:
-	maek fclean -C libft/
+	make fclean -C libft/
 	make fclean -C $(ASM_DIR)
 	make fclean -C $(COREWAR_DIR)
 	make fclean -C $(DISASM_DIR)
 
 re: fclean all
 
-.PHONY: all asm corewar disasm clean fclean re
+.PHONY: all asm corewar disasm lib clean fclean re
 
