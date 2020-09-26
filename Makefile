@@ -2,16 +2,19 @@ COREWAR_DIR = ./corewar/
 ASM_DIR = ./asm/
 DISASM_DIR = ./disasm/
 
-all: asm corewar disasm
+all: lib asm corewar disasm
 
-asm:
-	make -C $(ASM_DIR)
+asm: lib
+	make asm -C $(ASM_DIR)
 
-corewar:
-	make -C $(COREWAR_DIR)
+corewar: lib
+	make corewar -C $(COREWAR_DIR)
 
-disasm:
-	make -C $(DISASM_DIR)
+disasm: lib
+	make disasm -C $(DISASM_DIR)
+
+lib:
+	make -C libft/
 
 clean:
 	make clean -C $(ASM_DIR)
@@ -25,5 +28,5 @@ fclean:
 
 re: fclean all
 
-.PHONY: all clean fclean re
+.PHONY: all asm corewar disasm clean fclean re
 
