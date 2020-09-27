@@ -76,7 +76,8 @@ void	init_array(t_champ *champ)
 	j = 0;
 	i = 0;
 	champ->l_size = 0;
-	champ->labels = malloc(sizeof(t_label) * 250);
+	if (!(champ->labels = malloc(sizeof(t_label) * 250)))
+		free_all(*champ, "Error: memory didn't allocated\n");
 	while (i != 250)
 	{
 		champ->labels[i].names = NULL;

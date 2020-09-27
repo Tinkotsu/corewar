@@ -25,7 +25,7 @@ OBJ_DIR = obj/
 
 OBJS = $(addprefix $(OBJ_DIR), $(SRCS:.c=.o))
 
-HEADER = -I includes/ -I ../libft/includes/
+HEADER = -I includes/ -I $(LIB)includes/
 
 ASM_HEADERS_LIST = \
 		    asm.h\

@@ -97,22 +97,21 @@ void	is_file_valid(char *name, t_champ *champ)
 	char	buff;
 
 	len = ft_strlen(name);
-	if (len > 2 && name[len - 2] == '.' && name[len - 1] == 's')
+	fd = 0;
+	if (len > 2 && name[len - 2] == '.' && name[len - 1] == 's' &&
+	(fd = open(name, O_RDONLY)))
 	{
-		fd = open(name, O_RDONLY);
-		if (fd > 0)
-		{
-			is_header_valid(fd, champ);
-			is_body_valid(fd, champ);
-		}
+		is_header_valid(fd, champ);
+		is_body_valid(fd, champ);
 	}
 	else
-		exit(0);
+		free_all(*champ, "Error: invalid file\n");
 	close(fd);
-	fd = open(name, O_RDONLY);
+	if (!(fd = open(name, O_RDONLY)))
+		free_all(*champ, "Error: invalid file\n");
 	lseek(fd, -1L, 2);
 	read(fd, &buff, 1);
 	if (buff != '\n' && !champ->is_end_comment)
-		free_all(*champ, "Error: no new line at the end\n");
+		free_all(*champ, "Error: not found file or no new line at the end\n");
 	close(fd);
 }

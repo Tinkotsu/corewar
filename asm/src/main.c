@@ -46,7 +46,8 @@ int		main(int argc, char **argv)
 
 	main_validation(argc, &champ, argv);
 	file_name = change_extension(argv[1], ".s", ".cor");
-	fd = open(file_name, O_CREAT | O_WRONLY | O_TRUNC, 0777);
+	if (!(fd = open(file_name, O_CREAT | O_WRONLY | O_TRUNC, 0777)))
+		free_all(champ, "Error: invalid file\n");
 	to_bin_code(&champ, fd);
 	write(1, "Writing output program to ", 26);
 	write(1, file_name, ft_strlen(file_name));

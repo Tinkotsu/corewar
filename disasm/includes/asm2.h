@@ -25,27 +25,27 @@
 # define DIR_CODE				2
 # define IND_CODE				3
 
-# define MAX_ARGS_NUMBER			4
-# define MAX_PLAYERS				4
+# define MAX_ARGS_NUMBER		4
+# define MAX_PLAYERS			4
 # define MEM_SIZE				(4 * 1024)
 # define IDX_MOD				(MEM_SIZE / 8)
-# define CHAMP_MAX_SIZE				(MEM_SIZE / 6)
+# define CHAMP_MAX_SIZE			(MEM_SIZE / 6)
 
-# define COMMENT_CHAR				'#'
-# define ALT_COMMENT				';'
+# define COMMENT_CHAR			'#'
+# define ALT_COMMENT			';'
 # define LABEL_CHAR				':'
-# define DIRECT_CHAR				'%'
-# define SEPARATOR_CHAR				','
+# define DIRECT_CHAR			'%'
+# define SEPARATOR_CHAR			','
 
-# define LABEL_CHARS				"abcdefghijklmnopqrstuvwxyz_0123456789"
+# define LABEL_CHARS			"abcdefghijklmnopqrstuvwxyz_0123456789"
 
-# define NAME_CMD_STRING			".name"
-# define COMMENT_CMD_STRING			".comment"
+# define NAME_CMD_STRING		".name"
+# define COMMENT_CMD_STRING		".comment"
 
 # define REG_NUMBER				16
 
-# define CYCLE_TO_DIE				1536
-# define CYCLE_DELTA				50
+# define CYCLE_TO_DIE			1536
+# define CYCLE_DELTA			50
 # define NBR_LIVE				21
 # define MAX_CHECKS				10
 
@@ -56,88 +56,92 @@ typedef char					t_arg_type;
 # define T_IND					4
 # define T_LAB					8
 
-# define PROG_NAME_LENGTH			128
-# define COMMENT_LENGTH				2048
-# define COREWAR_EXEC_MAGIC			0xea83f3
+# define PROG_NAME_LENGTH		128
+# define COMMENT_LENGTH			2048
+# define COREWAR_EXEC_MAGIC		0xea83f3
 
-typedef struct		s_l
+typedef struct					s_l
 {
-    char		name[256];
-    struct s_l		*next;
-}			t_l;
+	char						name[256];
+	struct s_l					*next;
+}								t_l;
 
 typedef struct					s_label
 {
-	int		    			is_label;
-	t_l 					*names;
-	t_l					*start;
-	int					range_1;
-	int					range_2;
-	int					range_3;
-	char					cmd_name[6];
-	int					cmd_code;
-	int	    				cmd_type;
-	int					arg_1;
-	int					arg_2;
-	int					arg_3;
-	char					l_name_1[256];
-	char					l_name_2[256];
-	char					l_name_3[256];
-	int		    			type_1;
-	int			    		type_2;
-	int					type_3;
-	int					arg_now;
-}						t_label;
+	int							is_label;
+	t_l							*names;
+	t_l							*start;
+	int							range_1;
+	int							range_2;
+	int							range_3;
+	char						cmd_name[6];
+	int							cmd_code;
+	int							cmd_type;
+	int							arg_1;
+	int							arg_2;
+	int							arg_3;
+	char						l_name_1[256];
+	char						l_name_2[256];
+	char						l_name_3[256];
+	int							type_1;
+	int							type_2;
+	int							type_3;
+	int							arg_now;
+}								t_label;
 
 typedef struct					s_champ
 {
-	char					name[PROG_NAME_LENGTH + 1];
-	char					comment[COMMENT_LENGTH + 1];
-	int					code_size;
+	char						name[PROG_NAME_LENGTH + 1];
+	char						comment[COMMENT_LENGTH + 1];
+	int							code_size;
 	unsigned char				*exec_code;
-	int					ind_wr;
-	int					is_end_comment;
-	int					new_com;
-	int					l_size;
-	t_label					*labels;
-	int					len;
-	int					fd;
-}						t_champ;
+	int							ind_wr;
+	int							is_end_comment;
+
+	int							new_com;
+	int							l_size;
+	t_label						*labels;
+
+	int							len;
+	int							fd;
+}								t_champ;
 
 typedef struct					s_tw
 {
-	int					comma;
-	int					count_arg;
-}						t_tw;
+	int							comma;
+	int							count_arg;
+}								t_tw;
 
 typedef struct					s_dis
 {
-    char					*cmd_name;
-    unsigned int				arg_type;
-    unsigned char				c;
-    unsigned int				value;
-    unsigned int				arg1;
-    unsigned int				arg2;
-    unsigned int				arg3;
-    unsigned int				dir_size;
-}						t_dis;
+	char						*cmd_name;
+	unsigned int				arg_type;
+	unsigned char				c;
+	unsigned int				value;
+	unsigned int				arg1;
+	unsigned int				arg2;
+	unsigned int				arg3;
+	unsigned int				dir_size;
+}								t_dis;
 
-char        *ft_itoa_1(int n);
-void        write_arg(int wr_fd, t_dis *dis, int rd_fd, int arg);
-void        check_arg_type(t_dis *dis, int rd_fd);
-char        *find_cmd(t_dis *dis);
-void        write_head_elem(char *elem, int cons, int wr_fd, int rd_fd);
-void        disasm_header(int wr_fd, int rd_fd);
-void        disasm_cmd(int wr_fd, int rd_fd);
+char							*ft_itoa_1(int n);
+void							write_arg(int wr_fd, t_dis *dis, \
+int rd_fd, int arg);
+void							check_arg_type(t_dis *dis, int rd_fd);
+char							*find_cmd(t_dis *dis);
+void							write_head_elem(char *elem, int cons, \
+int wr_fd, int rd_fd);
+void							disasm_header(int wr_fd, int rd_fd);
+void							disasm_cmd(int wr_fd, int rd_fd);
 
-void							if_is_label(t_champ *champ, int count_arg,\
-char *line, int *i);
-void							recording_label(t_champ *champ, int *i,\
-int count_arg, char *line);
+void							if_is_label(t_champ *champ, \
+int count_arg, char *line, int *i);
+void							recording_label(t_champ *champ, \
+int *i, int count_arg, char *line);
 int								skip_everything(char *line);
 void							free_all(t_champ champ, char *str);
-int								switch_args(char *line, int count_arg,\
-t_champ *champ);
+int								switch_args(char *line, \
+int count_arg, t_champ *champ);
 void							increase_array(t_champ *champ);
 char							*check_name_com(char *line,\
 t_champ *champ);

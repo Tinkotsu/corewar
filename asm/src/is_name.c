@@ -12,15 +12,18 @@
 
 #include "asm.h"
 
+void	free_no_name(char **line, t_champ *champ)
+{
+	free(*line);
+	free_all(*champ, "Error: no name\n");
+}
+
 void	while_is_name(char **line, int *i, t_champ *champ, int *j)
 {
 	int ans;
 
 	if ((*line)[(*i)++] != '"')
-	{
-		free(*line);
-		free_all(*champ, "Error: no name\n");
-	}
+		free_no_name(line, champ);
 	while ((*line)[*i] != '"')
 	{
 		if (*j >= PROG_NAME_LENGTH)
@@ -39,6 +42,7 @@ void	while_is_name(char **line, int *i, t_champ *champ, int *j)
 		}
 		champ->name[(*j)++] = (*line)[(*i)++];
 	}
+	champ->name[*j] = '\0';
 }
 
 int		is_name(char **line, int fd, t_champ *champ, int name)

@@ -35,12 +35,11 @@ OBJ_DIR = obj/
 
 OBJS = $(addprefix $(OBJ_DIR), $(SRCS:.c=.o))
 
-HEADER = -I includes/ -I ../libft/includes
+HEADER = -I includes/ -I $(LIB)includes/
 
 ASM_HEADERS_LIST = \
-		    op.h\
 		    asm.h\
-		    asm_op.h\
+		    asm2.h
 
 ASM_HEADERS = $(addprefix ./includes/, $(ASM_HEADERS_LIST))
 
@@ -57,7 +56,7 @@ $(OBJ_DIR):
 	@mkdir -p obj
 
 $(OBJ_DIR)%.o: $(SRC_DIR)%.c
-	gcc $(CFLAGS) $(HEADER) -c $< -o $@
+	gcc $(CFLAGS) $(ASN_HEADERS_LIST) $(HEADER) -c $< -o $@
 
 clean:
 	@rm -rf $(OBJ_DIR)

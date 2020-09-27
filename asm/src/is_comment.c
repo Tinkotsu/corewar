@@ -88,6 +88,7 @@ int		init_main_com(int *len_const, int *i, char **line, t_champ *champ)
 	while ((*line)[*i] != '"' && (*line)[*i] != '\0' &&\
 	(*line)[*i] != COMMENT_CHAR && (*line)[*i] != ALT_COMMENT)
 		(*i)++;
+	i = 0;
 	return (1);
 }
 
@@ -114,6 +115,7 @@ int		is_main_comment(char **line, int fd, t_champ *champ, int mc)
 			break ;
 		champ->comment[j++] = (*line)[i++];
 	}
+	champ->comment[j] = '\0';
 	skip_spaces(i + 1, *line, champ);
 	return (1);
 }

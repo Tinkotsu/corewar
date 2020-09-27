@@ -17,7 +17,8 @@ void	if_in_is_label(t_champ *champ, t_l *new, char *line, int i)
 	champ->labels[champ->l_size].is_label = 1;
 	if (champ->labels[champ->l_size].names == NULL)
 	{
-		new = malloc(sizeof(t_l));
+		if (!(new = malloc(sizeof(t_l))))
+			free_all(*champ, "Error: memory didn't allocated\n");
 		ft_strncpy(new->name, &line[champ->len], i - champ->len);
 		new->name[i - champ->len] = '\0';
 		new->next = NULL;
@@ -26,7 +27,8 @@ void	if_in_is_label(t_champ *champ, t_l *new, char *line, int i)
 	}
 	else
 	{
-		new = malloc(sizeof(t_l));
+		if (!(new = malloc(sizeof(t_l))))
+			free_all(*champ, "Error: memory didn't allocated\n");
 		ft_strncpy(new->name, &line[champ->len], i - champ->len);
 		new->name[i - champ->len] = '\0';
 		new->next = NULL;

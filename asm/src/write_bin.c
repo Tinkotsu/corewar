@@ -25,7 +25,7 @@ void	write_bin_head(t_champ *champ)
 	champ->ind_wr = PROG_NAME_LENGTH + 8;
 	write_4_byte(champ, (unsigned int)champ->code_size);
 	i = 0;
-	while (champ->comment[i])
+	while (i < COMMENT_LENGTH && champ->comment[i])
 	{
 		champ->exec_code[champ->ind_wr++] = champ->comment[i++];
 	}
@@ -79,7 +79,8 @@ void	to_bin_code(t_champ *champ, int fd)
 	i = 0;
 	champ->code_size = count_code_size(champ);
 	exec_size = 16 + PROG_NAME_LENGTH + COMMENT_LENGTH + champ->code_size;
-	champ->exec_code = malloc(sizeof(char) * (exec_size));
+	if (!(champ->exec_code = malloc(sizeof(char) * (exec_size))))
+		free_all(*champ, "Error: memory didn't allocated\n");
 	zero_exec(champ, exec_size);
 	champ->ind_wr = 0;
 	write_bin_head(champ);
