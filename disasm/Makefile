@@ -45,7 +45,7 @@ lib:
 $(OBJ_DIR):
 	@mkdir -p obj
 
-$(OBJ_DIR)%.o: $(SRC_DIR)%.c
+$(OBJ_DIR)%.o: $(SRC_DIR)%.c $(ASM_HEADERS)
 	gcc $(CFLAGS) $(HEADER) -c $< -o $@
 
 clean:
