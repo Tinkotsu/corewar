@@ -79,7 +79,7 @@ int		init_main_com(int *len_const, int *i, char **line, t_champ *champ)
 		(*i)++;
 	if (ft_strncmp(COMMENT_CMD_STRING, &(*line)[*i], *len_const))
 		return (0);
-	*i = *len_const;
+	*i += *len_const;
 	if (champ->len == 1)
 	{
 		free(*line);
