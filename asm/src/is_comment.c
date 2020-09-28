@@ -86,9 +86,9 @@ int		init_main_com(int *len_const, int *i, char **line, t_champ *champ)
 		free_all(*champ, "Error: two or more main comments\n");
 	}
 	while ((*line)[*i] != '"' && (*line)[*i] != '\0' &&\
-	(*line)[*i] != COMMENT_CHAR && (*line)[*i] != ALT_COMMENT)
+	(*line)[*i] != COMMENT_CHAR && (*line)[*i] != ALT_COMMENT &&\
+	((*line)[*i] == ' ' || (*line)[*i] == '\t'))
 		(*i)++;
-	i = 0;
 	return (1);
 }
 
@@ -105,7 +105,7 @@ int		is_main_comment(char **line, int fd, t_champ *champ, int mc)
 	if ((*line)[i++] != '"')
 	{
 		free(*line);
-		free_all(*champ, "Error: no name or comment\n");
+		free_all(*champ, "Error: no main comment\n");
 	}
 	champ->fd = fd;
 	while ((*line)[i] != '"')
