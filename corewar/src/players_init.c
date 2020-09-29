@@ -6,7 +6,7 @@
 /*   By: ifran <ifran@student.21-school.ru>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/23 02:38:26 by ifran             #+#    #+#             */
-/*   Updated: 2020/09/23 03:47:48 by ifran            ###   ########.fr       */
+/*   Updated: 2020/09/29 12:04:10 by ifran            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,13 +72,13 @@ void			manage_remaining(int players_left, char **argv, t_cw *cw)
 	{
 		if ((*argv)[0] == '-')
 		{
-            if ((*argv)[1] == 'n')
-                argv += 3;
-            else if ((*argv)[1] == 'a')
-                argv += 1;
-            else
-                argv += 2;
-        }
+			if ((*argv)[1] == 'n')
+				argv += 3;
+			else if ((*argv)[1] == 'a')
+				argv += 1;
+			else
+				argv += 2;
+		}
 		else
 		{
 			while (is_duplicate(id, cw))
