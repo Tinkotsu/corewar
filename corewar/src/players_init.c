@@ -70,8 +70,15 @@ void			manage_remaining(int players_left, char **argv, t_cw *cw)
 	id = 1;
 	while (players_left)
 	{
-		if (*argv[0] == '-')
-			argv += 2;
+		if ((*argv)[0] == '-')
+		{
+            if ((*argv)[1] == 'n')
+                argv += 3;
+            else if ((*argv)[1] == 'a')
+                argv += 1;
+            else
+                argv += 2;
+        }
 		else
 		{
 			while (is_duplicate(id, cw))
